@@ -29,3 +29,5 @@ In this task, you configure the AWS CLI by providing the configuration parameter
 Task 3: Creating an EC2 instance by using the AWS CLI
 
 In this task, you observe and run a shell script, which was provided to you, to create an EC2 LAMP instance by using AWS CLI commands. The script intentionally contains issues. Your challenge is to find the issues and resolve them. As you resolve each issue, you can run the script again to check that the issue was resolved.
+Issue #1
+The terminal output displays the following message: "An error occurred (InvalidAMIID.NotFound) when calling the RunInstances operation: The image id '[ami-xxxxxxxxxx]' does not exist".
