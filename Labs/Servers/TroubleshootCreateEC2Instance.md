@@ -11,3 +11,4 @@ The following diagram shows the architecture that you will create in this activi
 
 <img width="1568" height="768" alt="Architecture" src="https://github.com/user-attachments/assets/a8b97001-8317-4078-86bd-32c5a4f92a4e" />
 
+Task 1: Connecting to the CLI Host instance
