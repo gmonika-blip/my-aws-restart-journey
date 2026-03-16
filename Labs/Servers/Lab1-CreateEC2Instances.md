@@ -8,7 +8,7 @@ After completing this lab, you should be able to do the following:
 --Launch an EC2 instance by using the AWS CLI.
 
 
-[Architecture image](https://github.com/gmonika-blip/my-aws-restart-journey/blob/a8cbaaefd662c19034639e1e459f00959fdcd84d/Labs/Servers/Lab1Architecture.png)
+[Click for Architecture image](https://github.com/gmonika-blip/my-aws-restart-journey/blob/a8cbaaefd662c19034639e1e459f00959fdcd84d/Labs/Servers/Lab1Architecture.png)
 
 
 
