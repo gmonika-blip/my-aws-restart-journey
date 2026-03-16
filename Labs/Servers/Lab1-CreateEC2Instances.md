@@ -12,6 +12,8 @@ After completing this lab, you should be able to do the following:
 ![Architecture](Lab1Architecture.png)
 
 
+
+
 Task 1: Launching an EC2 Instance by using the AWS Management Console
 
     Step 1: Choose name and tags
