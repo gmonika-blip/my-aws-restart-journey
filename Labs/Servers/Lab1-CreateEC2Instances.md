@@ -35,6 +35,7 @@ Task 2: Logging in to the bastion host
 
 Task 3: Launching an EC2 instance using the AWS CLI
  
+     
      Step 1: Retrieve the AMI to use
      
      Step 2: Retrieve the subnet to use
