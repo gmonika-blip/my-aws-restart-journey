@@ -31,6 +31,8 @@ Task 1: Launching an EC2 Instance by using the AWS Management Console
 
     Step 8: Launch an EC2 instance
 
+    [Click here for Task1 result](
+
 Task 2: Logging in to the bastion host
 
 Task 3: Launching an EC2 instance using the AWS CLI
