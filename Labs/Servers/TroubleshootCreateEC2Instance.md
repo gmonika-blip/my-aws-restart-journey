@@ -18,4 +18,5 @@ Task 1: Connecting to the CLI Host instance
 Now that you are connected to the CLI Host instance, you can configure and use the AWS CLI to call AWS services.
 
 Task 2: Configuring the AWS CLI
+
 In this task, you configure the AWS CLI by providing the configuration parameters that were made available to you when the lab was provisioned. After configuration, you run CLI commands to interact with AWS services.
