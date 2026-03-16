@@ -16,3 +16,6 @@ The following diagram shows the architecture that you will create in this activi
 Task 1: Connecting to the CLI Host instance
 <img width="1141" height="369" alt="Screenshot 2026-03-16 at 15 03 29" src="https://github.com/user-attachments/assets/431c4da6-217b-48df-b2ea-af8d11ffd4e4" />
 Now that you are connected to the CLI Host instance, you can configure and use the AWS CLI to call AWS services.
+
+Task 2: Configuring the AWS CLI
+In this task, you configure the AWS CLI by providing the configuration parameters that were made available to you when the lab was provisioned. After configuration, you run CLI commands to interact with AWS services.
