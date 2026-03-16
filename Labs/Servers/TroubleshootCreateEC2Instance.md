@@ -20,4 +20,6 @@ Now that you are connected to the CLI Host instance, you can configure and use t
 Task 2: Configuring the AWS CLI
 
 In this task, you configure the AWS CLI by providing the configuration parameters that were made available to you when the lab was provisioned. After configuration, you run CLI commands to interact with AWS services.
-<img width="1141" height="369" alt="Screenshot 2026-03-16 at 15 03 29" src="https://github.com/user-attachments/assets/8114388d-45be-4eb7-89c6-451478e970c2" />
+
+<img width="1129" height="355" alt="Screenshot 2026-03-16 at 15 09 38" src="https://github.com/user-attachments/assets/6fbcdff7-0be5-4a2b-8a6d-15d97c40e90d" />
+
