@@ -11,7 +11,7 @@ After completing this lab, you should be able to do the following:
 
 ![Architecture](Lab1Architecture.png)
 
-[Architect]https://github.com/gmonika-blip/my-aws-restart-journey/blob/a8cbaaefd662c19034639e1e459f00959fdcd84d/Labs/Servers/Lab1Architecture.png
+[Architect] (https://github.com/gmonika-blip/my-aws-restart-journey/blob/a8cbaaefd662c19034639e1e459f00959fdcd84d/Labs/Servers/Lab1Architecture.png)
 
 
 Task 1: Launching an EC2 Instance by using the AWS Management Console
