@@ -59,3 +59,4 @@ Task 3: Launching an EC2 instance using the AWS CLI
      
      Step 7: Test the web server
 
+   [Click here for Task3 result](https://github.com/gmonika-blip/my-aws-restart-journey/blob/9eea4ada209f4259b09eda4cd858dfb64e7419d3/Labs/Servers/Lab1Task3.png))
