@@ -13,3 +13,17 @@ After completing this lab, you should be able to do the following:
 
 
 Task 1: Launching an EC2 Instance by using the AWS Management Console
+
+    Step 1: Choose name and tags
+    
+    Step 2: Choose an AMI
+
+    Step 3: Choose an instance type
+
+    Step 4: Configure a key pair
+
+    Step 5: Configure the network settings
+
+    Step 6: Add storage
+
+    Step 7: Configure advanced details
