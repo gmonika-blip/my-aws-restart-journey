@@ -31,7 +31,7 @@ Task 1: Launching an EC2 Instance by using the AWS Management Console
 
     Step 8: Launch an EC2 instance
 
-    [Click for Task1 result]()
+    [Click for Task1 result](https://github.com/gmonika-blip/my-aws-restart-journey/blob/678f3fb1b812126f4e6e0ff8649300ca928a0829/Labs/Servers/Lab1Task1launchInstance.png)
 
 Task 2: Logging in to the bastion host
 
