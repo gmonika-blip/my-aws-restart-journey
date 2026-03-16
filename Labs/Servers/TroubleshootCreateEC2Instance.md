@@ -23,3 +23,7 @@ In this task, you configure the AWS CLI by providing the configuration parameter
 
 <img width="1129" height="355" alt="Screenshot 2026-03-16 at 15 09 38" src="https://github.com/user-attachments/assets/6fbcdff7-0be5-4a2b-8a6d-15d97c40e90d" />
 
+
+Task 3: Creating an EC2 instance by using the AWS CLI
+
+In this task, you observe and run a shell script, which was provided to you, to create an EC2 LAMP instance by using AWS CLI commands. The script intentionally contains issues. Your challenge is to find the issues and resolve them. As you resolve each issue, you can run the script again to check that the issue was resolved.
