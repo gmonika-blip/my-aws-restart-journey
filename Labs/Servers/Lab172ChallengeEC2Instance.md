@@ -18,3 +18,4 @@ To complete my objectives, I executed the following steps:
    [EC2 instance's system log image](https://github.com/gmonika-blip/my-aws-restart-journey/blob/c6760596240e569b76f78093122170a5e78dfd41/Labs/Servers/Lab172Challenge-httpdServiceInstalled.png)
 
 8. To test my web server, I used EC2 Instance connect to connect to my EC2 Instance and stored my HTML code as projects.html. I placed this file in the /var/www/html directory of my EC2 instance.
+9. I opened a web browser and used the public IPv4 address of the instance to access my webpage.
