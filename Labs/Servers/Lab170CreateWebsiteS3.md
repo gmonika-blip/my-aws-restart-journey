@@ -23,4 +23,4 @@ My steps for this lab:
        When I logged in as this IAM user, I could see the bucket, gmonika1, that I had created using AWS CLI. [Click Bucket Created image](https://github.com/gmonika-blip/my-aws-restart-journey/blob/2ac5fae7def9b1b7b6aa9abe316824b0a28c8ccf/Labs/Servers/Lab170CreateBucket.png)
 
 6. On the AWS console, adjusted the S# bucket permissions.
-7. Uploaded the files to Amazon S3 using the AWS CLI. [Click](https://github.com/gmonika-blip/my-aws-restart-journey/blob/c478ed566d758fc07db948b7519cb108b2f878c6/Labs/Servers/Lab170UploadFilestoS3usingCLI.png)
+7. Uploaded the files to Amazon S3 using the AWS CLI. [Click Screenshot](https://github.com/gmonika-blip/my-aws-restart-journey/blob/c478ed566d758fc07db948b7519cb108b2f878c6/Labs/Servers/Lab170UploadFilestoS3usingCLI.png)
