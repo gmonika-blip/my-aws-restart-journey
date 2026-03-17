@@ -24,6 +24,7 @@ My steps for this lab:
 
 6. On the AWS console, adjusted the S# bucket permissions.
 7. Uploaded the files to Amazon S3 using the AWS CLI. [Click Screenshot](https://github.com/gmonika-blip/my-aws-restart-journey/blob/c478ed566d758fc07db948b7519cb108b2f878c6/Labs/Servers/Lab170UploadFilestoS3usingCLI.png)
+   
     After choosing gmonika1 bucket on the AWS management Console, I clicked on the Bucket website endpoint URL.  This         displayed my static website.  
 
 
