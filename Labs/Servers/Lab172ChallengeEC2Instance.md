@@ -13,4 +13,5 @@ To complete my objectives, I executed the following steps:
 4. Use a General Purpose SSD (gp2) volume type for the root volume.
 5. In the user data, install and start the httpd service as your web server. Give write permission to users to the web server's document root directory (/var/www/html).
 6. Connect to the instance  by using Secure Shell (SSH).
+7. Checked the Ec2 Instance's system log to see if the httpd service was successfully installed.
 EC2 instance's system log showing that the httpd service was successfully installed.
