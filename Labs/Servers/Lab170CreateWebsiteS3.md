@@ -27,5 +27,7 @@ My steps for this lab:
    
     After choosing gmonika1 bucket on the AWS management Console, I clicked on the Bucket website endpoint URL.  This         displayed my static website.  [My staic website image](https://github.com/gmonika-blip/my-aws-restart-journey/blob/2ca8acee7c3fa116fe63503769f54437cac025fd/Labs/Servers/Lab170StaticWebsiteImage.png)
 
+8. Created a batch file to make updating the static website repeatable.
+
 
    
