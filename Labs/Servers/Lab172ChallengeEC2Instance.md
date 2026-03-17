@@ -14,4 +14,5 @@ To complete my objectives, I executed the following steps:
 5. In the user data, install and start the httpd service as your web server. Give write permission to users to the web server's document root directory (/var/www/html).
 6. Connect to the instance  by using Secure Shell (SSH).
 7. Checked the EC2 Instance's system log to see if the httpd service was successfully installed.
+
    [EC2 instance's system log image](https://github.com/gmonika-blip/my-aws-restart-journey/blob/c6760596240e569b76f78093122170a5e78dfd41/Labs/Servers/Lab172Challenge-httpdServiceInstalled.png)
