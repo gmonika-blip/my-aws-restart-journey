@@ -11,3 +11,15 @@ In this lab, I practiced using AWs Command Line Interface (AWS CLI) commands fro
 -- Create a batch file that can be used to update the static website when you change any of the website files locally.
 
 [Click Architecture image](https://github.com/gmonika-blip/my-aws-restart-journey/blob/310538ea29948e223db591af9716d3f24eb2a33f/Labs/Servers/Lab170ArchitectureImage.png)
+
+My steps for this lab:
+
+1. I accessed the AWS Management Console
+2. Connected to an Amazon Linux EC2 instance using SSM.
+3. Configured the AWS CLI
+      Configured the AWS Access Key ID, AWS Secret Access Key, Default region name and the default output format.
+4.  Created an S3 bucket using the AWS CLI. I named this bucket gmonika1.
+5.  Created a new IAM user that has full access to Amazon S3.
+       When I logged in as this IAM user, I could see the bucket, gmonika1, that I had created using AWS CLI.
+
+       
