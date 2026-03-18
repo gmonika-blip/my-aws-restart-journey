@@ -6,4 +6,4 @@ In the challenge section of this lab, I was challenged to sync the contents of a
 
 Lab Environment: Consists of a virtual private cloud (VPC) with a public subnet. Amazon Elastic Compute Cloud (Amazon EC2) instances named "Command Host" and "Processor" have already been created in this VPC for me as part of this lab.
 The "Command Host" instance will be used to administer AWS resources including the "Processor" instance.
-[Lab Environment Architecture](https://github.com/gmonika-blip/my-aws-restart-journey/blob/ba1854fcfcd86c4817de39f4e94fd448d834eefd/Labs/Storage%20and%20Archiving/Lab183Enironment.png)
+[Lab Environment Architecture Diagram](https://github.com/gmonika-blip/my-aws-restart-journey/blob/ba1854fcfcd86c4817de39f4e94fd448d834eefd/Labs/Storage%20and%20Archiving/Lab183Enironment.png)
