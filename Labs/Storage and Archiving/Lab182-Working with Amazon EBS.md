@@ -11,4 +11,5 @@ Main objectives:
 --Create a snapshot of an EBS volume.
 
 --Create an EBS volume from a snapshot.
-[Diagram](https://github.com/gmonika-blip/my-aws-restart-journey/blob/3fbb31d4055e40be3b0ff257b57da41ff41eec3a/Labs/Storage%20and%20Archiving/DiagramLab182.png)
+
+[View Diagram](https://github.com/gmonika-blip/my-aws-restart-journey/blob/3fbb31d4055e40be3b0ff257b57da41ff41eec3a/Labs/Storage%20and%20Archiving/DiagramLab182.png)
