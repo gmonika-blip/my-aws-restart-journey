@@ -10,6 +10,7 @@ The "Command Host" instance will be used to administer AWS resources including t
 [Lab Environment Architecture Diagram](https://github.com/gmonika-blip/my-aws-restart-journey/blob/ba1854fcfcd86c4817de39f4e94fd448d834eefd/Labs/Storage%20and%20Archiving/Lab183Enironment.png)
 
 Objectives of the Lab
+
 --Create and maintain snapshots for Amazon EC2 instances.
 
 --Use Amazon S3 sync to copy files from an EBS volume to an S3 bucket.
