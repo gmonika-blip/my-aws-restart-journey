@@ -145,8 +145,9 @@
   <li><b>Enable Static Website Hosting</b></li>
   <li><b>Upload Website Files:</b> Upload <code>index.html</code> and image assets.</li>
 
+  <br>
   <p align="center">
-  <img src="uploadFilesImages.png" width="900" alt="UploadFilesImage">
+  <img src="UploadFilesImages.png" width="900" alt="UploadFilesImage">
 </p>
 
   <li><b>Add Bucket Policy:</b> Make your bucket content publicly available.</li>
