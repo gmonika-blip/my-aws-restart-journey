@@ -29,9 +29,9 @@ Objectives:
 
 Lab Overview
 
-In this AWS SimuLearn assignment, you review a real-world scenario, helping a fictional customer design a solution on AWS.
+In this AWS SimuLearn assignment, I reviewed a real-world scenario, helping a fictional customer design a solution on AWS.
 
-After the design is completed, you build the proposed solution through structured, step-by-step guidance in a lab within a live AWS Management Console environment.
+After the design is completed, I built the proposed solution through structured, step-by-step guidance in a lab within a live AWS Management Console environment.
 
 
 Simulated business scenario
