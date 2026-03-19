@@ -16,6 +16,8 @@ Objectives:
 
 
 
+
+
 Lab Overview
 
 In this AWS SimuLearn assignment, you review a real-world scenario, helping a fictional customer design a solution on AWS.
