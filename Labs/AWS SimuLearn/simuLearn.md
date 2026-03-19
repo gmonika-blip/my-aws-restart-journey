@@ -7,9 +7,13 @@ After each solution-building conversation, you build and validate the solution i
 Objectives: 
 
 --Evaluate different storage options available on AWS.
+
 --Analyze the key features and benefits of Amazon EFS.
+
 --Apply Amazon EFS solutions to specific business scenarios.
+
 --Configure Amazon EFS endpoints for centralized storage access.
+
 
 
 Simulated business scenario
