@@ -93,7 +93,13 @@
 <!-- ================= Solution Project ================= -->
 <h2>💡 Solution Project</h2>
 
+
 <h3>Elegant Frames Gallery Website (AWS Project)</h3>
+
+
+<p align="center">
+  <img src="group-picture.png" width="900" alt="Elegant Frames Gallery Website Preview">
+</p>
 
 <p>
   <b>Project Goal:</b> To build a simple static website for Elegant Frames Gallery using the AWS sandbox lab environment.
