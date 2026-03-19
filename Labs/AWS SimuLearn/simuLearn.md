@@ -14,6 +14,7 @@ Objectives:
 
 --Configure Amazon EFS endpoints for centralized storage access.
 
+<img width="585" height="266" alt="AWSCofirmNotificatioLab185" src="https://github.com/user-attachments/assets/156726da-5c5b-4c7a-8fba-defb66f99f82" />
 
 
 
