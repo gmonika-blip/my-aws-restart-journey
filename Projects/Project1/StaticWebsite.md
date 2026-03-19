@@ -150,6 +150,11 @@
   <img src="UploadFilesImages.png" width="900" alt="UploadFilesImage">
 </p>
 
+  <br>
+  <p align="center">
+  <img src="SucceededUpload.png" width="900" alt="SucceededUploadImage">
+</p>
+<br>
   <li><b>Add Bucket Policy:</b> Make your bucket content publicly available.</li>
   <li><b>Test the Website Endpoint:</b>
     <ul>
@@ -179,8 +184,6 @@
 <p>
   By using AWS, Elegant Frame can improve its online presence, provide a better customer experience, 
   and scale efficiently for wholesale and retail markets.
-</p>
-<p>
   Static hosting on Amazon S3 ensures fast loading times and handles traffic growth automatically. 
   The website is user-friendly, allowing users to update products and images without technical expertise. 
   It is also future-ready for user logins, databases, or B2B customer portals.
