@@ -104,7 +104,6 @@
 <p>
   <b>Project Goal:</b> To build a simple static website for Elegant Frames Gallery using the AWS sandbox lab environment.
 </p>
-
 <p>
   This project demonstrates how to build and deploy a static website using AWS. 
   The website includes features such as <b>Home, Brand, Catalogues, Contacts, and Shop</b>.
