@@ -23,4 +23,9 @@ In this AWS SimuLearn assignment, you review a real-world scenario, helping a fi
 After the design is completed, you build the proposed solution through structured, step-by-step guidance in a lab within a live AWS Management Console environment.
 
 
+Simulated business scenario
+
+The pet modeling agency wants a way to share files across its branch offices without managing physical storage infrastructure.
+
+
 
