@@ -15,6 +15,7 @@ Objectives:
 --Configure Amazon EFS endpoints for centralized storage access.
 
 
+<img width="816" height="620" alt="AWS-SimuLearnFileSystemsCertificate" src="https://github.com/user-attachments/assets/02a969ab-393d-42b9-b1a7-c7cd8cfd8066" />
 
 
 
