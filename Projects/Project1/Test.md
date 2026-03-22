@@ -113,7 +113,10 @@ We built and deployed a **static website** for Elegant Frame Gallery using AWS. 
    - Unique bucket name  
    - Choose region  
    - **Disable Block Public Access** (for static hosting)
+<br>
 4. **Enable static website hosting** in bucket properties.
+<br>
+
 5. **Upload all website files** (HTML, CSS, images) to the bucket.
    <p align="center">
   <img src="Screenshots/UploadFilesImages.png" width="900" alt="Elegant Frames Gallery Website Preview">
