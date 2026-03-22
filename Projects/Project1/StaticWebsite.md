@@ -116,7 +116,7 @@
 </p>
 
 <p align="center">
-  <img src="ProjectArchitectureImage.png" width="900" alt="ProjectArchitectureImage">
+  <img src="/Screenshots/ProjectArchitectureImage.png" width="900" alt="ProjectArchitectureImage">
 </p>
 
 <hr>
