@@ -110,11 +110,17 @@ We built and deployed a **static website** for Elegant Frame Gallery using AWS. 
 <br>
    
 2. **Log in to AWS Console** and open Amazon S3.
-3. **Create an S3 bucket**  
+3. <br>
+<p align="center">
+  <img src="Screenshots/ProjectArchitectureImage.png" width="900" alt="Elegant Frames Gallery Website Preview">
+</p>
+<br>
+
+4. **Create an S3 bucket**  
    - Unique bucket name  
    - Choose region  
    - **Disable Block Public Access** (for static hosting)
-4. **Enable static website hosting** in bucket properties.
+5. **Enable static website hosting** in bucket properties.
 6. **Upload all website files** (HTML, CSS, images) to the bucket.
 7. **Add a bucket policy** to make content publicly readable.
 8. **Test the website endpoint** – access via the S3 website URL.
