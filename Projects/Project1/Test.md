@@ -12,6 +12,11 @@
 </p>
 
 ---
+<p align="center">
+  <img src="Screenshots/group-picture.png" width="900" alt="Elegant Frames Gallery Website Preview">
+</p>
+
+
 
 ## 📋 Table of Contents
 - [Company Overview](#company-overview)
