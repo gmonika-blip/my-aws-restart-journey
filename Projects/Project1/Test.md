@@ -120,10 +120,10 @@ We built and deployed a **static website** for Elegant Frame Gallery using AWS. 
   </p>
   <br>
   <p align="center">
-  <img src="Screenshots/UploadFilesImages.png" width="900" alt="Elegant Frames Gallery Website Preview">
+  <img src="Screenshots/SucceededUpload.png" width="900" alt="Elegant Frames Gallery Website Preview">
   </p>
   <br>
-
+   
 6. **Add a bucket policy** to make content publicly readable.
 7. **Test the website endpoint** – access via the S3 website URL.
 8. **Verify** that the site loads correctly.
