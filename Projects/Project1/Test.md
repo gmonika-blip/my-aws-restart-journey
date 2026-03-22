@@ -91,13 +91,6 @@ We built and deployed a **static website** for Elegant Frame Gallery using AWS. 
 
 *Future enhancements may add DynamoDB, Lambda, Cognito, etc.*
 
-
-<br>
-<p align="center">
-  <img src="Screenshots/ProjectArchitectureImage.png" width="900" alt="Elegant Frames Gallery Website Preview">
-</p>
-<br>
-
 ---
 
 ## 📝 Project Steps
