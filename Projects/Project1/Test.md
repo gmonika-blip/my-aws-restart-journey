@@ -90,10 +90,11 @@ We built and deployed a **static website** for Elegant Frame Gallery using AWS. 
 | **AWS Certificate Manager** | Provides free SSL certificates for HTTPS |
 
 *Future enhancements may add DynamoDB, Lambda, Cognito, etc.*
-
+<br>
 <p align="center">
-  <img src="Screenshots/group-picture.png" width="900" alt="Elegant Frames Gallery Website Preview">
+  <img src="Screenshots/ProjectArchitectureImage.png" width="900" alt="Elegant Frames Gallery Website Preview">
 </p>
+<br>
 ---
 
 ## 📝 Project Steps
