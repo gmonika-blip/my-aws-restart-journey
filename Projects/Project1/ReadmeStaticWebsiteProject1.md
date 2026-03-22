@@ -31,6 +31,16 @@
 - [Conclusion](#conclusion)
 - [Repository Contents](#repository-contents)
 
+---](#company-overview)
+- [Current Challenges](#current-challenges)
+- [Why AWS?](#why-aws)
+- [Our Solution: Static Website](#our-solution-static-website)
+- [Architecture & AWS Services](#architecture--aws-services)
+- [Project Steps](#project-steps)
+- [Website Enhancement Ideas](#website-enhancement-ideas)
+- [Conclusion](#conclusion)
+- [Repository Contents](#repository-contents)
+
 ---
 
 ## 🏢 Company Overview
