@@ -114,6 +114,7 @@ We built and deployed a **static website** for Elegant Frame Gallery using AWS. 
    - Choose region  
    - **Disable Block Public Access** (for static hosting)
 <br>
+
 4. **Enable static website hosting** in bucket properties.
 <br>
 
