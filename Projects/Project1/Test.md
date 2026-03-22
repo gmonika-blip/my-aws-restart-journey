@@ -127,6 +127,7 @@ We built and deployed a **static website** for Elegant Frame Gallery using AWS. 
   <img src="Screenshots/SucceededUpload.png" width="900" alt="Elegant Frames Gallery Website Preview">
   </p>
   <br>
+   <br>
    
 6. **Add a bucket policy** to make content publicly readable.
    <p align="center">
