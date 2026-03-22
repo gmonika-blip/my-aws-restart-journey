@@ -110,7 +110,7 @@ We built and deployed a **static website** for Elegant Frame Gallery using AWS. 
 <br>
    
 2. **Log in to AWS Console** and open Amazon S3.
-3. <br>
+ <br>
 <p align="center">
   <img src="Screenshots/ProjectArchitectureImage.png" width="900" alt="Elegant Frames Gallery Website Preview">
 </p>
