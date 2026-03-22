@@ -176,7 +176,7 @@ By migrating to AWS, Elegant Frame Gallery now enjoys:
 - `index.html` – Main website page
 - `css/` – Stylesheets
 - `images/` – Product and gallery images
-- `README.md` – This documentation (HTML format)
+- `ReadmeStaticWebsiteProject1.md` – This documentation (HTML format)
 
 ---
 
