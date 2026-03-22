@@ -136,7 +136,12 @@ We built and deployed a **static website** for Elegant Frame Gallery using AWS. 
   <br>
   
 7. **Test the website endpoint** – access via the S3 website URL.
-8. **Verify** that the site loads correctly.
+  <p align="center">
+  <img src="Screenshots/FinalWebsite1.png" width="900" alt="Elegant Frames Gallery Website Preview">
+  </p>
+  <br>
+  
+9. **Verify** that the site loads correctly.
 
 ---
 
