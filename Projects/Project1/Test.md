@@ -103,8 +103,9 @@ We built and deployed a **static website** for Elegant Frame Gallery using AWS. 
 ## 📝 Project Steps
 
 1. **Create website files** – `index.html`, CSS, and image assets.
-2.  <p align="center">
-  <img src="Screenshots/group-picture.png" width="900" alt="Elegant Frames Gallery Website Preview">
+2. 
+3.  <p align="center">
+  <img src="Screenshots/screencapture-Users-palam-aws-project.png" width="900" alt="Elegant Frames Gallery Website Preview">
 </p>
 <br>
    
