@@ -44,15 +44,6 @@ After the design is completed, I built the proposed solution through structured,
 
 
 
-Lab Overview
-
-In this AWS SimuLearn assignment, I reviewed a real-world scenario, helping a fictional customer design a solution on AWS.
-
-After the design is completed, I built the proposed solution through structured, step-by-step guidance in a lab within a live AWS Management Console environment.
-
-
-Simulated business scenario
-
 The pet modeling agency wants a way to share files across its branch offices without managing physical storage infrastructure.
 
 
