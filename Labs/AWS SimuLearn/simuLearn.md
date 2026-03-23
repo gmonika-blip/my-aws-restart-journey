@@ -20,6 +20,11 @@ Objectives:
 
 **Lab Assignment:** 
 
+In this AWS SimuLearn assignment, I reviewed a real-world scenario, helping a fictional customer design a solution on AWS.
+Simulated business scenario: A pet modeling agency wants a way to share files across its branch offices without managing physical storage infrastructure.
+After the design is completed, I built the proposed solution through structured, step-by-step guidance in a lab within a live AWS Management Console environment.
+
+
 <br>
 <img width="647" height="360" alt="SimuLearnAWS-Assignment" src="https://github.com/user-attachments/assets/a0f3c111-db0e-4b5c-a449-bdd2364f7ff8" />
 <br>
