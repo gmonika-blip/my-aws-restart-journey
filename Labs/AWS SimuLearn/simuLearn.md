@@ -18,7 +18,7 @@ Objectives:
 --Configure Amazon EFS endpoints for centralized storage access.
 
 
-Lab Assignment: 
+**Lab Assignment: 
 
 <br>
 <img width="647" height="360" alt="SimuLearnAWS-Assignment" src="https://github.com/user-attachments/assets/a0f3c111-db0e-4b5c-a449-bdd2364f7ff8" />
