@@ -24,6 +24,7 @@ Lab Assignment:
 <img width="647" height="360" alt="SimuLearnAWS-Assignment" src="https://github.com/user-attachments/assets/a0f3c111-db0e-4b5c-a449-bdd2364f7ff8" />
 <br>
 
+<img width="485" height="319" alt="SimuLearnAWS-AssignmentCompleted" src="https://github.com/user-attachments/assets/714c157a-9551-4eee-b6d4-8f1884f56bab" />
 
 
 
