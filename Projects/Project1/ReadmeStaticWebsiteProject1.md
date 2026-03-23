@@ -20,7 +20,7 @@
 
 
 
-## 📋 Table of Contents
+## Table of Contents
 - [Company Overview](#company-overview)
 - [Current Challenges](#current-challenges)
 - [Why AWS?](#why-aws)
@@ -33,7 +33,7 @@
 
 ---
 
-## 🏢 Company Overview
+## Company Overview
 
 **Elegant Frame Gallery** is a Swiss-based company specializing in high-quality photo frames for retail and commercial customers. They offer a wide range of stylish frames for homes, offices, galleries, and commercial spaces.
 
@@ -44,7 +44,7 @@
 
 ---
 
-## ⚠️ Current Challenges
+## Current Challenges
 
 | Challenge | Description |
 |-----------|-------------|
@@ -57,7 +57,7 @@
 
 ---
 
-## ☁️ Why AWS?
+## Why AWS?
 
 Amazon Web Services provides the perfect solution for Elegant Frame:
 
@@ -69,7 +69,7 @@ Amazon Web Services provides the perfect solution for Elegant Frame:
 
 ---
 
-## 🖥️ Our Solution: Static Website
+## Our Solution: Static Website
 
 We built and deployed a **static website** for Elegant Frame Gallery using AWS. The site includes:
 - Home, Brand, Catalogues, Contacts, and Shop pages
@@ -81,7 +81,7 @@ We built and deployed a **static website** for Elegant Frame Gallery using AWS. 
 
 ---
 
-## 🏗️ Architecture & AWS Services
+## Architecture & AWS Services
 
 | Service | Purpose |
 |---------|---------|
@@ -94,7 +94,7 @@ We built and deployed a **static website** for Elegant Frame Gallery using AWS. 
 
 ---
 
-## 📝 Project Steps
+## Project Steps
 
 1. **Create website files** – `index.html`, CSS, and image assets.
  
@@ -158,20 +158,20 @@ The current static site is a solid foundation. Future improvements can include:
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 
 By migrating to AWS, Elegant Frame Gallery now enjoys:
 
-- ⚡ **Fast & scalable website** – S3 + CloudFront ensure quick loads and handle traffic spikes
-- 🌍 **Always available** – Global delivery with high reliability
-- 🛠️ **Simple to manage** – Staff can update products/images without technical expertise
-- 🔒 **Secure by design** – HTTPS, IAM policies protect data
-💰 **Cost‑effective** – Pay only for what you use
-- 🚀 **Future‑ready** – Easy to add logins, databases, or B2B portals later
+- **Fast & scalable website** – S3 + CloudFront ensure quick loads and handle traffic spikes
+- **Always available** – Global delivery with high reliability
+- **Simple to manage** – Staff can update products/images without technical expertise
+- **Secure by design** – HTTPS, IAM policies protect data
+- **Cost‑effective** – Pay only for what you use
+- **Future‑ready** – Easy to add logins, databases, or B2B portals later
 
 ---
 
-## 📁 Repository Contents
+## Repository Contents
 
 - `index.html` – Main website page
 - `css/` – Stylesheets
