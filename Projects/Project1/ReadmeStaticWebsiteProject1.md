@@ -146,7 +146,7 @@ We built and deployed a **static website** for Elegant Frame Gallery using AWS. 
 
 ---
 
-## 💡 Website Enhancement Ideas
+## Website Enhancement Ideas
 
 The current static site is a solid foundation. Future improvements can include:
 
