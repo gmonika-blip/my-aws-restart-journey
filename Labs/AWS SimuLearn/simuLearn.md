@@ -39,12 +39,3 @@ After the design is completed, I built the proposed solution through structured,
 
 
 
-
-
-
-
-
-The pet modeling agency wants a way to share files across its branch offices without managing physical storage infrastructure.
-
-
-
