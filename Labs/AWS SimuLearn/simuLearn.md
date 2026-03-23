@@ -1,5 +1,5 @@
 
-AWS SimuLearn: File Systems in the Cloud
+Lab - AWS SimuLearn: File Systems in the Cloud
 
 AWS SimuLearn is powered by generative AI to help develop your soft skills, such as communication and problem-solving, in life-like conversations with AI-generated customers. An AI quiz agent evaluates your conversation responses, and an AI helper agent, Dr. Newton, is available when you get stuck.
 After each solution-building conversation, you build and validate the solution in a live AWS Console environment, gaining practical skills with real-world application for career advancement.
@@ -8,7 +8,6 @@ After each solution-building conversation, you build and validate the solution i
 
 
 Objectives: 
-
 --Evaluate different storage options available on AWS.
 
 --Analyze the key features and benefits of Amazon EFS.
