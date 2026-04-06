@@ -25,3 +25,7 @@ Simulated business scenario: A bank wants to establish a network architecture th
 
 <img width="933" height="599" alt="SimuLearnNetworkingAssignment" src="https://github.com/user-attachments/assets/651c5816-c5fb-476e-9689-b0c70456ca1e" />
 
+<br>
+
+
+
