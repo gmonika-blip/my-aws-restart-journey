@@ -6,7 +6,7 @@ After each solution-building conversation, you build and validate the solution i
 [Click for SimuLearn Lab Overview Image](https://github.com/gmonika-blip/my-aws-restart-journey/blob/1d67109f689bfb1bb5eb1237af51b48cc47dd149/Labs/AWS%20SimuLearn/SimuLearnAWS-Overview.png)
 
 
-Objectives
+Objectives:
 
 --Analyze key components of VPCs, subnets, internet gateways, and route tables.
 
