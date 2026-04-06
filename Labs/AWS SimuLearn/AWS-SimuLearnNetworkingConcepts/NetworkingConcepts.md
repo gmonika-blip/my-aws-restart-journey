@@ -20,6 +20,8 @@ Objectives:
 
 In this AWS SimuLearn assignment, I reviewed a real-world scenario, helping a fictional customer design a solution on AWS. 
 Simulated business scenario: A bank wants to establish a network architecture that securely controls communication between its internal resources and the internet. After the design is completed, I built the proposed solution through structured, step-by-step guidance in a lab within a live AWS Management Console environment.
+
 <br>
+
 <img width="933" height="599" alt="SimuLearnNetworkingAssignment" src="https://github.com/user-attachments/assets/651c5816-c5fb-476e-9689-b0c70456ca1e" />
 
