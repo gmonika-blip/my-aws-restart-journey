@@ -18,4 +18,5 @@ Objectives:
 
 **Lab Assignment:**
 
-In this AWS SimuLearn assignment, I reviewed a real-world scenario, helping a fictional customer design a solution on AWS. Simulated business scenario: A bank wants to establish a network architecture that securely controls communication between its internal resources and the internet. After the design is completed, I built the proposed solution through structured, step-by-step guidance in a lab within a live AWS Management Console environment.
+In this AWS SimuLearn assignment, I reviewed a real-world scenario, helping a fictional customer design a solution on AWS. 
+Simulated business scenario: A bank wants to establish a network architecture that securely controls communication between its internal resources and the internet. After the design is completed, I built the proposed solution through structured, step-by-step guidance in a lab within a live AWS Management Console environment.
