@@ -7,7 +7,11 @@ After each solution-building conversation, you build and validate the solution i
 
 
 Objectives
+
 --Analyze key components of VPCs, subnets, internet gateways, and route tables.
+
 --Evaluate the advantages of VPC implementations.
+
 --Apply CIDR block notation and IP addressing concepts.
+
 --Configure VPC traffic routing by using gateways, NACLs, and security groups.
