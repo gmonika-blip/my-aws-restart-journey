@@ -26,6 +26,11 @@ Simulated business scenario: A bank wants to establish a network architecture th
 <img width="933" height="599" alt="SimuLearnNetworkingAssignment" src="https://github.com/user-attachments/assets/651c5816-c5fb-476e-9689-b0c70456ca1e" />
 
 <br>
-Certifications and Badges/AWS-SimuLearnNetworkingConcepts.md
+
+
+<img width="673" height="523" alt="AWS-SimuLearnNetworkingConceptsCerificate" src="https://github.com/gmonika-blip/my-aws-restart-journey/blob/3fcf937f63b82320e9ecce63cfbbc4dd2d73741b/Certifications%20and%20Badges/AWS-SimuLearnNetworkingConcepts.md" />
+
+
+
 
 
