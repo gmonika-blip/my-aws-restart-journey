@@ -15,3 +15,5 @@ Objectives:
 --Apply CIDR block notation and IP addressing concepts.
 
 --Configure VPC traffic routing by using gateways, NACLs, and security groups.
+
+In this AWS SimuLearn assignment, I reviewed a real-world scenario, helping a fictional customer design a solution on AWS.
