@@ -39,6 +39,8 @@ As Cloud Practitioners, our goal is to design a scalable AWS architecture that m
 
 ![3D E-Commerce Platform Architecture](./3DArchitectureDiagram.png)
 
+<br>
+
 ### Flow 1: Static & 3D Content Delivery
 ```
 User → Route 53 → CloudFront → S3
