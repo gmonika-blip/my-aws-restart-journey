@@ -36,7 +36,8 @@ As Cloud Practitioners, our goal is to design a scalable AWS architecture that m
 
 ## Architecture Overview
 
-![3D E-Commerce Platform Architecture](Projects/3D E-Commerce Project/3DArchitectureDiagram.png)
+
+![3D E-Commerce Platform Architecture](./3DArchitectureDiagram.png)
 
 ### Flow 1: Static & 3D Content Delivery
 ```
