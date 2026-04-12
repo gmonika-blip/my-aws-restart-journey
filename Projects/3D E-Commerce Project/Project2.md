@@ -212,7 +212,7 @@ Lambda → ElastiCache → DynamoDB / RDS
 
 This architecture achieves:
 
-- Serverless-first scalability and cost efficiency  
+- Serverless-fast scalability and cost efficiency  
 - Hybrid database strategy for performance and consistency  
 - High-performance 3D delivery using CDN and caching  
 - Strong security at every layer  
