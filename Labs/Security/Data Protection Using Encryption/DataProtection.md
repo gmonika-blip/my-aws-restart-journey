@@ -189,7 +189,7 @@ When data has been transformed into ciphertext, the plaintext becomes inaccessib
 
 **Step 7: Decrypt the secret1.txt.encrypted file**
 
-To decrypt the file, run the following command:
+To decrypt the file, I executed the following command:
 
 ```
     aws-encryption-cli --decrypt \
@@ -211,7 +211,7 @@ Executed the following command:
    cat secret1.txt.encrypted.decrypted
 ```
 
-After successful decryption, I could see the original plaintext contents of the secret1.txt as shown in this screenshot.
+After successful decryption, I could see the original plaintext contents of the secret1.txt as shown in this [Screenshot](https://github.com/gmonika-blip/my-aws-restart-journey/blob/da44719161aaf5dbad6cba1bc1bbcfc205d1b990/Labs/Security/Data%20Protection%20Using%20Encryption/Decrypt-theEncryptedFile-Lab278.png) .
 
 
 
