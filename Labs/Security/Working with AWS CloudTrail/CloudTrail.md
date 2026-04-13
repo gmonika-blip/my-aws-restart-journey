@@ -62,6 +62,8 @@ In this task, I created a CloudTrail trail in my AWS account. I noticed that soo
    I looked into the inbound rules for the security group for the Cafe Web Server Instance.
    In addition to the two inbound rules created by me earlier, there was one more inbound rule created by someone   that allowed Secure   Shell (SSH) access from anywhere (0.0.0.0/0).
 
+   Who added this security hole? I searched the CloudTrail logs to find out.
+
    
 
 
