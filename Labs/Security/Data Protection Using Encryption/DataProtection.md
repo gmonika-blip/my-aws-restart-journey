@@ -137,6 +137,10 @@ In this task, I created a text file with mock sensitive data in it. I used encry
       keyArn=(KMS ARN)
    ```
    In the text editor, I replaced (KMS ARN) with the AWS KMS ARN that I copied in task 1.
+   
+   Now, when I run this command, it saves the ARN of the AWS KMS key in the $keyArn variable. When we encrypt by using an AWS KMS key, we can identify it by using a key ID, key ARN, alias name, or alias ARN.
+
+   
 
 
 
