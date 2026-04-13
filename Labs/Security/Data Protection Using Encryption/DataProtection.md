@@ -6,7 +6,7 @@ Encryption ensures privacy by keeping the information hidden from people who the
 
 **Lab Overview**
 
-In this lab, you will connect to a file server that is hosted on an Amazon Elastic Compute Cloud (Amazon EC2) instance. You will configure the AWS Encryption command line interface (CLI) on the instance. You will create an encryption key by using the AWS Key Management Service (AWS KMS). The key will be used to encrypt and decrypt data. Next, you will create multiple text files that are unencrypted by default. You will then use the AWS KMS key to encrypt the files and view them while they are encrypted. You will finish the lab by decrypting the same files and viewing the contents.
+In this lab, I connected to a file server that is hosted on an Amazon Elastic Compute Cloud (Amazon EC2) instance. I configured the AWS Encryption command line interface (CLI) on the instance. Then I created an encryption key by using the AWS Key Management Service (AWS KMS) to be used to encrypt and decrypt data. Next, I created multiple text files that are unencrypted by default. I used the AWS KMS key to encrypt the files and view them while they are encrypted. Then I decrypted the same files and viewed the contents.
 
  
 
