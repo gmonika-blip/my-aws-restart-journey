@@ -180,7 +180,7 @@ The command succeeded, the value of $? returned as  0. If the command had failed
    cat secret1.txt.encrypted
 ```
 
-https://github.com/gmonika-blip/my-aws-restart-journey/blob/9746ad93ad7f282974de25ce855fe68c28baab4c/Labs/Security/Data%20Protection%20Using%20Encryption/EncryptionAlgorithm-Lab278.png
+[!image](https://github.com/gmonika-blip/my-aws-restart-journey/blob/9746ad93ad7f282974de25ce855fe68c28baab4c/Labs/Security/Data%20Protection%20Using%20Encryption/EncryptionAlgorithm-Lab278.png)
 
 
 The encryption and decryption process takes data in plaintext, which is readable and understandable, and manipulates its form to create ciphertext, which is what you can see in this scrrenshot that I tool after running this command.
