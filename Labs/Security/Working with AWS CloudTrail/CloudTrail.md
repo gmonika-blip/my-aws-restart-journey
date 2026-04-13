@@ -50,9 +50,11 @@ In this task, I created a CloudTrail trail in my AWS account. I noticed that soo
       
       AWS KMS alias - mg-KMS
 
+ Reviewed and Verified the trail created on the Trails page.
+
 **Step 2:**
 
-   Reviewed and Verified the trail created on the Trails page.
+   
 
 
 
