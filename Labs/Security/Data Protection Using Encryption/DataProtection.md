@@ -203,6 +203,16 @@ To decrypt the file, run the following command:
                      --output ~/output/
 ```
 
+**Step 8: View the contents of the decrypted file**
+
+Executed the following command:
+
+```
+   cat secret1.txt.encrypted.decrypted
+```
+
+After successful decryption, I could see the original plaintext contents of the secret1.txt as shown in this screenshot.
+
 
 
 
