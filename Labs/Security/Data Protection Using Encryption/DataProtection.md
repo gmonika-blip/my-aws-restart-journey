@@ -82,7 +82,32 @@ In this task,I created a symmetric AWS KMS key and gave ownership of that key to
 
 
 **Task 2: Configure the File Server instance**
-To use the AWS KMS key, I will configure AWS credentials on the File Server EC2 instance. After that, I will install the AWS Encryption CLI (aws-encryption-cli), which I can use to run encrypt and decrypt commands.
+
+In this task, I configured AWS credentials to allow access to the KMS key and installed the AWS Encryption CLI (`aws-encryption-cli`) to perform encryption and decryption operations.
+**Steps followed:**
+
+
+### Step 1: Configure AWS Credentials
+
+To use your AWS KMS key, you must configure AWS credentials on the EC2 instance.
+
+This allows the instance to:
+- Authenticate with AWS
+- Access AWS Key Management Service (KMS)
+- Use the KMS key you created earlier
+
+> ⚠️ Ensure the instance has the correct permissions (e.g., IAM role or configured credentials).
+
+---
+
+### Step 2: Install AWS Encryption CLI
+
+Install the AWS Encryption CLI tool, which will be used to encrypt and decrypt data.
+
+Example installation:
+
+```bash
+python3 -m pip install --user aws-encryption-sdk-cli
 
 
 
