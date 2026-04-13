@@ -198,10 +198,10 @@ Lambda → ElastiCache → DynamoDB / RDS
   - NoSQL / JSON (DynamoDB)
     
 - **Cache Invalidation**
-  - Requires careful management to ensure users don't see stale data.
+  - Requires careful management to ensure users don't see stale data
  
 - **Infrastructure Complexity**
-  - Multiple security layers (WAF, VPC, IAM) increase setup time but are necessary for production safety.
+  - Multiple security layers (WAF, VPC, IAM) increase setup time but are necessary for production safety
 
 
 
