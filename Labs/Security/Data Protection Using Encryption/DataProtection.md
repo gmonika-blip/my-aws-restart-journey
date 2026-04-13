@@ -1,5 +1,5 @@
 
-**Data Protection Using Encryption**
+            **Data Protection Using Encryption**
  
 Cryptography is the conversion of communicated information into secret code that keeps the information confidential and private. Functions include authentication, data integrity, and nonrepudiation. The central function of cryptography is encryption, which transforms data into an unreadable form.
 
@@ -14,6 +14,9 @@ In this lab, you will connect to a file server that is hosted on an Amazon Elast
 **Objectives**
 
 --Create an AWS KMS encryption key
+
 --Install the AWS Encryption CLI
+
 --Encrypt plaintext
+
 --Decrypt ciphertext
