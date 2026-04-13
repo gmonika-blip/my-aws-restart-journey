@@ -68,6 +68,9 @@ In this task, I created a CloudTrail trail in my AWS account. I noticed that soo
 
 **Task 4:** Analyzed the CloudTrail logs by using Athena
 
+**Challenge:** Identify the hacker
+
+**Task 5:** Analyzing the hack further and improving security
 
    
 
