@@ -39,8 +39,6 @@ Steps followed:
 1. In the AWS Console, enter **KMS** in the search bar.
 2. Select **Key Management Service**.
 
----
-
 ## Step 2: Create a Key
 1. Choose **Create a key**.
 2. For **Key type**, select:
