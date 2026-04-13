@@ -119,7 +119,26 @@ In this task, you configured the AWS credentials file, which provides the abilit
 
 
 **Task 3: Encrypt and decrypt data**
+
 In this task, I created a text file with mock sensitive data in it. I used encryption to secure the file contents. Then, I decrypted the data and viewed the file contents.
+
+**Steps followed:**
+
+1. Create text file
+     <Bash>
+      touch secret1.txt secret2.txt secret3.txt
+      echo 'TOP SECRET 1!!!' > secret1.txt
+   
+To view the contents of the secret1.txt file, run the following command:
+
+cat secret1.txt
+To create a directory to output the encrypted file, run the following command:
+
+mkdir output
+Copy and paste the following command to a text editor:
+
+keyArn=(KMS ARN)
+
 
 
 
