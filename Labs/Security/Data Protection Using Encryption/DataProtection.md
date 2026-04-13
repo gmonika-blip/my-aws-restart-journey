@@ -213,6 +213,8 @@ Executed the following command:
 
 After successful decryption, I could see the original plaintext contents of the secret1.txt as shown in this [Screenshot](https://github.com/gmonika-blip/my-aws-restart-journey/blob/da44719161aaf5dbad6cba1bc1bbcfc205d1b990/Labs/Security/Data%20Protection%20Using%20Encryption/Decrypt-theEncryptedFile-Lab278.png) .
 
+[Click for Decryption Algorithm Diagram](https://github.com/gmonika-blip/my-aws-restart-journey/blob/1f539ce3341bda5417801a0b2672a254a04ae19c/Labs/Security/Data%20Protection%20Using%20Encryption/DecryptionAlgorithm-Lab278.png)
+
 
 
 
