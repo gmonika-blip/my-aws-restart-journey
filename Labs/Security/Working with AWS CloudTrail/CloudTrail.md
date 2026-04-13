@@ -55,10 +55,12 @@ In this task, I created a CloudTrail trail in my AWS account. I noticed that soo
 **Step 2:**
 
    Observed the hacked website by refreshing the Cafe website page.
-   
-    Noticed that the website has been hacked. Who put that image there? The image certainly did not look correct.
+   Noticed that the website has been hacked. Who put that image there? The image certainly did not look correct.
    
    It is good that CloudTral was enabled before this incident. CloudTrail can give us valuable information about        whatusers have been doing in your account.
+
+   I looked into the inbound rules for the security group for the Cafe Web Server Instance.
+   In addition to the two inbound rules created by me earlier, there was one more inbound rule created by someone   that allowed Secure   Shell (SSH) access from anywhere (0.0.0.0/0).
 
    
 
