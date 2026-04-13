@@ -47,17 +47,12 @@ With AWS KMS, we can create and manage cryptographic keys and control their use 
 > Symmetric encryption uses the same key to encrypt and decrypt data, making it fast and efficient.  
 > Asymmetric encryption uses a public key to encrypt data and a private key to decrypt it.
 
-
-
 **Step 3: Add Labels**
 Configure the following:
-
 - **Alias:** `MyKMSKey`  
 - **Description:** `Key used to encrypt and decrypt data files.`  
 
 Click **Next**.
-
-
 
 **Step 4: Define Key Administrative Permissions**
 1. In the **Key administrators** section:
@@ -65,21 +60,15 @@ Click **Next**.
    - Select the checkbox
 2. Click **Next**
 
-
-
 **Step 5: Define Key Usage Permissions**
 1. In the **This account** section:
    - Search for `voclabs`
    - Select the checkbox
 2. Click **Next**
 
-
-
 **Step 6: Review and Create**
 1. Review all settings.
 2. Click **Finish**.
-
-
 
 **Step 7: Copy the Key ARN**
 1. Select the key **MyKMSKey** from the list.
@@ -87,59 +76,5 @@ Click **Next**.
 3. Save it in a text editor.
 
 > ⚠️ You will need this ARN later for encryption and decryption commands.
-# AWS Key creation Guide
-
-## Step 1: Open AWS KMS
-1. In the AWS Console, enter **KMS** in the search bar.
-2. Select **Key Management Service**.
-
-## Step 2: Create a Key
-1. Choose **Create a key**.
-2. For **Key type**, select:
-   - **Symmetric**
-3. Click **Next**.
-
-> **Note:**  
-> Symmetric encryption uses the same key to encrypt and decrypt data, making it fast and efficient.  
-> Asymmetric encryption uses a public key to encrypt data and a private key to decrypt it.
 
 
-
-## Step 3: Add Labels
-Configure the following:
-
-- **Alias:** `MyKMSKey`  
-- **Description:** `Key used to encrypt and decrypt data files.`  
-
-Click **Next**.
-
-
-
-## Step 4: Define Key Administrative Permissions
-1. In the **Key administrators** section:
-   - Search for `voclabs`
-   - Select the checkbox
-2. Click **Next**
-
-
-
-## Step 5: Define Key Usage Permissions
-1. In the **This account** section:
-   - Search for `voclabs`
-   - Select the checkbox
-2. Click **Next**
-
-
-
-## Step 6: Review and Create
-1. Review all settings.
-2. Click **Finish**.
-
-
-
-## Step 7: Copy the Key ARN
-1. Select the key **MyKMSKey** from the list.
-2. Copy the **ARN (Amazon Resource Name)**.
-3. Save it in a text editor.
-
-> ⚠️ You will need this ARN later for encryption and decryption commands.
