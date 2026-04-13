@@ -38,23 +38,23 @@ The activity starts with an Amazon Elastic Compute Cloud (Amazon EC2) instance n
 
 In this task, I created a CloudTrail trail in my AWS account. I noticed that soon after creating the trail, the Café website was hacked.
 
-**Step1:**
+**Step 1:**
 
   Created a CloudTrail log within AWS Console using the following configuration:
   
-      Trail name -*monitor* 
+      Trail name - monitor
       
-      Selected -  *Create a new S3 bucket*
+      Selected - Create a new S3 bucket
       
-      Trail log bucket and folder- *monitoring2345* 
+      Trail log bucket and folder - monitoring2345
       
-      AWS KMS alias - *mg-KMS*
+      AWS KMS alias - mg-KMS
+
+**Step 2:**
+
+   Reviewed and Verified the trail created on the Trails page.
 
 
-On the Choose log events page, choose Next
 
-On the Review and create page, choose Create trail
-
-Verify that you see your trail on the Trails page.
 
  
