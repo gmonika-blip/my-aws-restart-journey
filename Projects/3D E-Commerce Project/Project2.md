@@ -202,7 +202,7 @@ Lambda → ElastiCache → DynamoDB / RDS
 
 
 - **Infrastructure Complexity**
-  Multiple security layers (WAF, VPC, IAM) increase setup time but are necessary for production safety.
+   Multiple security layers (WAF, VPC, IAM) increase setup time but are necessary for production safety.
 
 
 ---
