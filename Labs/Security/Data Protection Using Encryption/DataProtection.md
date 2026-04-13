@@ -107,9 +107,9 @@ Install the AWS Encryption CLI tool, which will be used to encrypt and decrypt d
 
 Example installation:
 
-> bash
-> 
->python3 -m pip install --user aws-encryption-sdk-cli
+```bash
+python3 --version
+```
 
 <br>
 
