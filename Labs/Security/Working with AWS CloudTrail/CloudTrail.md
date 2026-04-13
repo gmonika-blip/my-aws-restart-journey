@@ -41,12 +41,15 @@ In this task, I created a CloudTrail trail in my AWS account. I noticed that soo
 **Step1:**
 
   Created a CloudTrail log within AWS Console using the following configuration:
+  
       Trail name - *monitor* 
-Important: Verify that you set the Trail name to monitor, or this activity will not work as intended.
-Select Create a new S3 bucket.
-For Trail log bucket and folder, enter  monitoring#### (the #### characters are four random digits).
-For AWS KMS alias, enter your initials followed by -KMS (for example, kc-KMS).
-Choose Next
+      
+      Selected -  *Create a new S3 bucket*
+      
+      Trail log bucket and folder- *monitoring2345* 
+      
+      AWS KMS alias - *mg-KMS*
+
 
 On the Choose log events page, choose Next
 
