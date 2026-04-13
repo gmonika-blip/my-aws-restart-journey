@@ -1,5 +1,4 @@
-
-            **Data Protection Using Encryption**
+**Data Protection Using Encryption**
  
 Cryptography is the conversion of communicated information into secret code that keeps the information confidential and private. Functions include authentication, data integrity, and nonrepudiation. The central function of cryptography is encryption, which transforms data into an unreadable form.
 
