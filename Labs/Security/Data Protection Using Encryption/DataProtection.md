@@ -218,7 +218,20 @@ After successful decryption, I could see the original plaintext contents of the 
 **Summary of Task 3**
 In this task, I learnt how to encrypt plaintext data into ciphertext by running the --encrypt command. I then successfully decrypted the ciphertext back into the original, readable plaintext data.
 
+**Conclusion**
 
+I successfully
+
+   -- Created an AWS KMS encryption key
+   
+   -- Installed the AWS Encryption CLI
+   
+   -- Encrypted plaintext
+   
+   -- Decrypted ciphertext
+
+
+   
 
 
 
