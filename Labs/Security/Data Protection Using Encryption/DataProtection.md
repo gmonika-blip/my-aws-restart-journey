@@ -140,7 +140,31 @@ In this task, I created a text file with mock sensitive data in it. I used encry
    
    Now, when I run this command, it saves the ARN of the AWS KMS key in the $keyArn variable. When we encrypt by using an AWS KMS key, we can identify it by using a key ID, key ARN, alias name, or alias ARN.
 
-   
+**Step 4: To encrypt the secret1.txt file, run the following command**  
+
+   ```
+     aws-encryption-cli --encrypt \
+                     --input secret1.txt \
+                     --wrapping-keys key=$keyArn \
+                     --metadata-output ~/metadata \
+                     --encryption-context purpose=test \
+                     --commitment-policy require-encrypt-require-decrypt \
+                     --output ~/output/
+    ```
+
+The following information describes what this command does:
+
+The first line encrypts the file contents. The command uses the --encrypt parameter to specify the operation and the --input parameter to indicate the file to encrypt.
+
+The --wrapping-keys parameter, and its required key attribute, tell the command to use the AWS KMS key that is represented by the key ARN.
+
+The --metadata-output parameter is used to specify a text file for the metadata about the encryption operation.
+
+As a best practice, the command uses the --encryption-context parameter to specify an encryption context.
+The –commitment-policy parameter is used to specify that the key commitment security feature should be used to encrypt and decrypt.
+
+The value of the --output parameter, ~/output/., tells the command to write the output file to the output directory.
+
 
 
 
