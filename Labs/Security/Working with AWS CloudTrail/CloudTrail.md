@@ -1,3 +1,6 @@
+***Activity : Working with AWS cloudTrail***
+
+
 **Scenario:**
 
 Martha and Frank are concerned because their Cafe website was hacked. They want to discover who did it and to make sure that it does not happen again.
