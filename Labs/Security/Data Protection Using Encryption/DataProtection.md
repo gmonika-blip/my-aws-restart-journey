@@ -181,6 +181,11 @@ The command succeeded, the value of $? returned as  0. If the command had failed
 ```
 
 
+The encryption and decryption process takes data in plaintext, which is readable and understandable, and manipulates its form to create ciphertext, which is what you can see in this scrrenshot that I tool after running this command.
+
+When data has been transformed into ciphertext, the plaintext becomes inaccessible until it's decrypted.
+
+
 
 
 
