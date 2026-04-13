@@ -1,4 +1,4 @@
-***Activity : Working with AWS cloudTrail***
+***Activity : Working with AWS CloudTrail***
 
 
 **Scenario:**
