@@ -111,6 +111,7 @@ Example installation:
 python3 -m pip install --user aws-encryption-sdk-cli
 
 <br>
+
 **Summary of Task 2**
 In this task, you configured the AWS credentials file, which provides the ability to use the AWS KMS key that you created earlier. You then installed the AWS Encryption CLI, so that you can run encryption commands.
 
