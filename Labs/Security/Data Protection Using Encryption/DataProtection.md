@@ -173,6 +173,15 @@ The value of the **--output parameter**, ~/output/, tells the command to write t
 
 The command succeeded, the value of $? returned as  0. If the command had failed, the value would have been nonzero.
 
+**Step6: To view the contents of the newly encrypted file, I used the following command:**
+
+```
+   cd output
+   cat secret1.txt.encrypted
+```
+
+
+
 
 
 
