@@ -2,7 +2,7 @@
 
 Martha and Frank are concerned because their Cafe website was hacked. They want to discover who did it and to make sure that it does not happen again.
 
-[Architecture Setup](https://github.com/gmonika-blip/my-aws-restart-journey/blob/4cbcbacb13cd427ceebae6bcd988aace320af7b9/Labs/Security/Working%20with%20AWS%20CloudTrail/ArchitectureSetup-Lab187.png)
+[Architecture Setup Image](https://github.com/gmonika-blip/my-aws-restart-journey/blob/4cbcbacb13cd427ceebae6bcd988aace320af7b9/Labs/Security/Working%20with%20AWS%20CloudTrail/ArchitectureSetup-Lab187.png)
 
 
 **Lab Objectives**
