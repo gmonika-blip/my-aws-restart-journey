@@ -118,5 +118,8 @@ Example installation:
 In this task, you configured the AWS credentials file, which provides the ability to use the AWS KMS key that you created earlier. You then installed the AWS Encryption CLI, so that you can run encryption commands.
 
 
+**Task 3: Encrypt and decrypt data**
+In this task, I created a text file with mock sensitive data in it. I used encryption to secure the file contents. Then, I decrypted the data and viewed the file contents.
+
 
 
