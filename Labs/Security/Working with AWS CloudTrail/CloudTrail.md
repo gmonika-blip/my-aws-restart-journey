@@ -54,6 +54,8 @@ In this task, I created a CloudTrail trail in my AWS account. I noticed that soo
 
 **Step 2:**
 
+   Observe the hacked website
+
    
 
 
