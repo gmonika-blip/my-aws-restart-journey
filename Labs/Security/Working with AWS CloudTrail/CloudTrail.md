@@ -64,6 +64,11 @@ In this task, I created a CloudTrail trail in my AWS account. I noticed that soo
 
    Who added this security rule?  I searched the CloudTrail logs to find out.
 
+**Task 3:** Analyzed the CloudTrail logs by using grep
+
+**Task 4:** Analyzed the CloudTrail logs by using Athena
+
+
    
 
 
