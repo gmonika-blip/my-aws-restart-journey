@@ -105,12 +105,6 @@ This allows the instance to:
 
 Install the AWS Encryption CLI tool, which will be used to encrypt and decrypt data.
 
-Example installation:
-
-```bash
-python3 --version
-```
-
 <br>
 
 **Summary of Task 2**
@@ -125,9 +119,10 @@ In this task, I created a text file with mock sensitive data in it. I used encry
 **Steps followed:**
 
 1. Create text file
-     <Bash>
+     ```
       touch secret1.txt secret2.txt secret3.txt
       echo 'TOP SECRET 1!!!' > secret1.txt
+     ```
    
 To view the contents of the secret1.txt file, run the following command:
 
