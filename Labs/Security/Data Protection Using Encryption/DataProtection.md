@@ -19,3 +19,10 @@ In this lab, I connected to a file server that is hosted on an Amazon Elastic Co
 --Encrypt plaintext
 
 --Decrypt ciphertext
+
+
+**Lab environment**
+
+The lab environment has one preconfigured EC2 instance named File Server. An AWS Identity and Access Management (IAM) role is attached, which allows to connect to the instance by using the AWS Systems Manager Session Manager.
+
+All backend components, such as EC2 instances, IAM roles, and some AWS services, have been built into the lab already.
