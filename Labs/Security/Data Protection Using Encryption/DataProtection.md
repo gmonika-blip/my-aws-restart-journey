@@ -215,6 +215,11 @@ After successful decryption, I could see the original plaintext contents of the 
 
 [Click for Decryption Algorithm Diagram](https://github.com/gmonika-blip/my-aws-restart-journey/blob/1f539ce3341bda5417801a0b2672a254a04ae19c/Labs/Security/Data%20Protection%20Using%20Encryption/DecryptionAlgorithm-Lab278.png)
 
+**Summary of Task 3**
+In this task, I learnt how to encrypt plaintext data into ciphertext by running the --encrypt command. I then successfully decrypted the ciphertext back into the original, readable plaintext data.
+
+
+
 
 
 
