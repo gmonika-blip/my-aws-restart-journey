@@ -196,8 +196,9 @@ Lambda → ElastiCache → DynamoDB / RDS
   Developers must understand:
   - SQL (RDS)  
   - NoSQL / JSON (DynamoDB)
-  - 
+    
 * **Cache Invalidation**: Requires careful management to ensure users don't see stale data.
+* 
 * **Infrastructure Complexity**: Multiple security layers (WAF, VPC, IAM) increase setup time but are necessary for production safety.
 
 
