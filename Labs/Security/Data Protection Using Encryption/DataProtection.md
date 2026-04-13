@@ -33,7 +33,7 @@ In this task, I created an AWS KMS key that will be used later in the lab to enc
 With AWS KMS, we can create and manage cryptographic keys and control their use across a wide range of AWS services and in your applications. 
 Steps followed:
 
-# AWS KMS Key Creation Guide
+# AWS Key creation Guide
 
 ## Step 1: Open AWS KMS
 1. In the AWS Console, enter **KMS** in the search bar.
