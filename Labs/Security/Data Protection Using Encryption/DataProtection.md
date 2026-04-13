@@ -150,7 +150,7 @@ In this task, I created a text file with mock sensitive data in it. I used encry
                      --encryption-context purpose=test \
                      --commitment-policy require-encrypt-require-decrypt \
                      --output ~/output/
-    ```
+```
 
 The following information describes what this command does:
 
