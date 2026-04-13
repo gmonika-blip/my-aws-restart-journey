@@ -79,7 +79,11 @@ Click **Next**.
 >
 > **Summary of Task 1**
 In this task,I created a symmetric AWS KMS key and gave ownership of that key to the voclabs IAM role that was pre-created for this lab.
->
-> 
+
+
+**Task 2: Configure the File Server instance**
+To use the AWS KMS key, I will configure AWS credentials on the File Server EC2 instance. After that, I will install the AWS Encryption CLI (aws-encryption-cli), which I can use to run encrypt and decrypt commands.
+
+
 
 
