@@ -165,7 +165,7 @@ The **–commitment-policy** parameter is used to specify that the key commitmen
 
 The value of the **--output parameter**, ~/output/, tells the command to write the output file to the output directory.
 
-**Step5: To determine whether the command succeeded, I used the following command:**
+**Step 5: To determine whether the command succeeded, I used the following command:**
 
 ```
   echo $?
@@ -173,7 +173,7 @@ The value of the **--output parameter**, ~/output/, tells the command to write t
 
 The command succeeded, the value of $? returned as  0. If the command had failed, the value would have been nonzero.
 
-**Step6: To view the contents of the newly encrypted file, I used the following command:**
+**Step 6: To view the contents of the newly encrypted file, I used the following command:**
 
 ```
    cd output
@@ -183,9 +183,25 @@ The command succeeded, the value of $? returned as  0. If the command had failed
 [Click for Encryption Algorithm Diagram](https://github.com/gmonika-blip/my-aws-restart-journey/blob/9746ad93ad7f282974de25ce855fe68c28baab4c/Labs/Security/Data%20Protection%20Using%20Encryption/EncryptionAlgorithm-Lab278.png)
 
 
-The encryption and decryption process takes data in plaintext, which is readable and understandable, and manipulates its form to create ciphertext, which is what you can see in this [Screenshot](https://github.com/gmonika-blip/my-aws-restart-journey/blob/5a325815ba5bc50537b1907246978d629a35a1af/Labs/Security/Data%20Protection%20Using%20Encryption/EncrytedFile-Lab278.png)  that I tool after running this command.
+The encryption and decryption process takes data in plaintext, which is readable and understandable, and manipulates its form to create ciphertext, which is what you can see in this [Screenshot](https://github.com/gmonika-blip/my-aws-restart-journey/blob/5a325815ba5bc50537b1907246978d629a35a1af/Labs/Security/Data%20Protection%20Using%20Encryption/EncrytedFile-Lab278.png)  that I took after running this command.
 
 When data has been transformed into ciphertext, the plaintext becomes inaccessible until it's decrypted.
+
+**Step 7: Decrypt the secret1.txt.encrypted file**
+
+To decrypt the file, run the following command:
+
+```
+    aws-encryption-cli --decrypt \
+                     --input secret1.txt.encrypted \
+                     --wrapping-keys key=$keyArn \
+                     --commitment-policy require-encrypt-require-decrypt \
+                     --encryption-context purpose=test \
+                     --metadata-output ~/metadata \
+                     --max-encrypted-data-keys 1 \
+                     --buffer \
+                     --output ~/output/
+```
 
 
 
