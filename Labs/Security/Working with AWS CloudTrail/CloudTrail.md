@@ -42,7 +42,7 @@ In this task, I created a CloudTrail trail in my AWS account. I noticed that soo
 
   Created a CloudTrail log within AWS Console using the following configuration:
   
-      Trail name - *monitor* 
+      Trail name -*monitor* 
       
       Selected -  *Create a new S3 bucket*
       
