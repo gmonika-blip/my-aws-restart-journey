@@ -76,5 +76,10 @@ Click **Next**.
 3. Save it in a text editor.
 
 > ⚠️ You will need this ARN later for encryption and decryption commands.
+>
+> **Summary of Task 1**
+In this task,I created a symmetric AWS KMS key and gave ownership of that key to the voclabs IAM role that was pre-created for this lab.
+>
+> 
 
 
