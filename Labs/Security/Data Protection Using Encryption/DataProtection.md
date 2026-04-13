@@ -118,21 +118,22 @@ In this task, I created a text file with mock sensitive data in it. I used encry
 
 **Steps followed:**
 
-1. Create text file
+**Step 1: Create text file**
      ```
       touch secret1.txt secret2.txt secret3.txt
       echo 'TOP SECRET 1!!!' > secret1.txt
      ```
    
-To view the contents of the secret1.txt file, run the following command:
 
-cat secret1.txt
-To create a directory to output the encrypted file, run the following command:
-
-mkdir output
-Copy and paste the following command to a text editor:
-
-keyArn=(KMS ARN)
+**Step 2: Create a directory to output the encrypted file**
+    ```mkdir output
+    ```
+    
+**Step 3: Copy and paste the following command to a text editor**
+   ```
+      keyArn=(KMS ARN)
+   ```
+   In the text editor, I replaced (KMS ARN) with the AWS KMS ARN that I copied in task 1.
 
 
 
