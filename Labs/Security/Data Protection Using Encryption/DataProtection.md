@@ -26,3 +26,9 @@ In this lab, I connected to a file server that is hosted on an Amazon Elastic Co
 The lab environment has one preconfigured EC2 instance named File Server. An AWS Identity and Access Management (IAM) role is attached, which allows to connect to the instance by using the AWS Systems Manager Session Manager.
 
 All backend components, such as EC2 instances, IAM roles, and some AWS services, have been built into the lab already.
+
+**Task 1: Create an AWS KMS key**
+
+In this task, I created an AWS KMS key that will be used later in the lab to encrypt and decrypt data.
+
+With AWS KMS, you can create and manage cryptographic keys and control their use across a wide range of AWS services and in your applications. AWS KMS is a secure and resilient service that uses hardware security modules (HSMs) that have been validated under the Federal Information Processing Standard (FIPS) Publication 140-2, or are in the process of being validated, to protect your keys.
