@@ -119,6 +119,7 @@ In this task, I created a text file with mock sensitive data in it. I used encry
 **Steps followed:**
 
 **Step 1: Create text file**
+     
      ```
       touch secret1.txt secret2.txt secret3.txt
       echo 'TOP SECRET 1!!!' > secret1.txt
@@ -126,10 +127,12 @@ In this task, I created a text file with mock sensitive data in it. I used encry
    
 
 **Step 2: Create a directory to output the encrypted file**
+    
     ```mkdir output
     ```
     
 **Step 3: Copy and paste the following command to a text editor**
+   
    ```
       keyArn=(KMS ARN)
    ```
