@@ -198,13 +198,12 @@ Lambda → ElastiCache → DynamoDB / RDS
   - NoSQL / JSON (DynamoDB)  
 
 - **Cache management**  
-  Requires proper invalidation strategies to avoid stale data  
+  Requires careful management to ensure users don't see stale data
 
-- **Cost vs. performance balance**  
-  Requires continuous monitoring and tuning  
 
-- **Security complexity**  
-  Multiple layers increase complexity but are necessary  
+- **Infrastructure Complexity**
+  Multiple security layers (WAF, VPC, IAM) increase setup time but are necessary for production safety.
+
 
 ---
 
