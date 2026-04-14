@@ -71,6 +71,9 @@ In this task, I created a CloudTrail trail in my AWS account. I noticed that soo
 
 **Step 1:** Connected to the Café Web Server host EC2 instance by using SSH
 
+       For Mac/Linux Users:  
+          * Download and save the labsuser.pem file
+
 **Task 4:** Analyzed the CloudTrail logs by using Athena
 
 **Challenge:** Identify the hacker
