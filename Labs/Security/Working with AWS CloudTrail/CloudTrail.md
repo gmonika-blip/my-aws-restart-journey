@@ -71,8 +71,12 @@ In this task, I created a CloudTrail trail in my AWS account. I noticed that soo
 
 **Step 1:** Connected to the Café Web Server host EC2 instance by using SSH
 
-       For Mac/Linux Users:  
-          * Download and save the labsuser.pem file
+      - For Mac/Linux Users:  
+           -  Downloaded and saved the labsuser.pem file
+           -  Changed the permissions on the key to be read only using the following command:
+
+            chmod 400 labsuser.pem
+
 
 **Task 4:** Analyzed the CloudTrail logs by using Athena
 
