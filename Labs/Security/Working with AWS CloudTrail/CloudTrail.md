@@ -113,11 +113,11 @@ Used the following command to extract the logs:
 
 I executed the ls command again and noticed that all files were now extracted.
 
-**Step 3:** Analyzed the logs by using grep
+**Step 3:** Analyzed the logs by using **grep**
 
 The grep utility in Linux is used to search for text patterns inside files or command output. It’s one of the most useful command-line tools for filtering and finding information quickly.
 
-I executed the following command
+I executed the following command:
 ```
    for i in $(ls); do echo $i && cat $i | python -m json.tool | grep sourceIPAddress ; done
 ```
@@ -126,10 +126,12 @@ During each iteration of the for loop, it echoes the file name and then prints t
 Only the lines of JSON that contain the sourceIPAddress tag are printed.
 I noticed that there were several log entries in the trail where the sourceIPAddress was the Café Web Server instance.
 
-Run a similarly structured command but where the command returns the eventName of every captured event:
 
-for i in $(ls); do echo $i && cat $i | python -m json.tool | grep eventName ; done
-The command you ran follows the same logic as the command you ran before, but this time, it filters log entries for the eventName.
+Then, I also executed a similarly structured command but where the command returns the eventName of every captured event:
+```
+   for i in $(ls); do echo $i && cat $i | python -m json.tool | grep eventName ; done
+```
+
 **Task 4:** Analyzed the CloudTrail logs by using Athena
 
 **Challenge:** Identify the hacker
