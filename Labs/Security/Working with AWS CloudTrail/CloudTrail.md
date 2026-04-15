@@ -132,6 +132,44 @@ Then, I also executed a similarly structured command but where the command retur
    for i in $(ls); do echo $i && cat $i | python -m json.tool | grep eventName ; done
 ```
 
+The results of the previous two command contained different details. Many describe and list actions were recorded, and they looked relatively harmless. However, I noticed that occasional update actions were also recorded. 
+
+**Step 4:** Analyzed the logs using AWS CLI CloudTrail commands
+
+Executed the following commands:
+```
+   aws cloudtrail lookup-events --lookup-attributes AttributeKey=EventName,AttributeValue=ConsoleLogin
+```
+The results indicated that there were no console login events or that the only user who logged into the console is the same user that I was logged into the console as.
+
+
+Then I executed the following command to find any actions that were taken on security groups in the AWS account:
+```
+  aws cloudtrail lookup-events --lookup-attributes AttributeKey=ResourceType,AttributeValue=AWS::EC2::SecurityGroup --output text
+```
+I thought thta something in this result set might contain some information that would help me discover what happened, but there were too many results for me to easily identify the issue.
+
+I then narrowed the search results further so that I get only the results related to the security group that was used by the web server instance.
+So, I used the following commands to find the security group ID that was used by the Café Web Server instance, and then used echo to show the result to the terminal:
+```
+   region=$(curl http://169.254.169.254/latest/dynamic/instance-identity/document|grep region | cut -d '"' -f4)
+   sgId=$(aws ec2 describe-instances --filters "Name=tag:Name,Values='Cafe Web Server'" --query 'Reservations[*].Instances[*].SecurityGroups[*].     [GroupId]' --region $region --output text)
+
+   echo $sgId
+```
+I noticed that a single security group ID was found.
+
+
+Then , I used the security group ID that the previous command returned to further filter my  AWS CLI CloudTrail command results:
+```
+aws cloudtrail lookup-events --lookup-attributes AttributeKey=ResourceType,AttributeValue=AWS::EC2::SecurityGroup --region $region --output    text | grep $sgId
+```
+
+You could keep experimenting with different commands to filter the log results. However, you might wonder whether there is a better tool or solution for reading these logs. AWS has the AWS Partner Network (APN), where companies specialize in helping AWS customers with this challenge. See https://aws.amazon.com/cloudtrail/partners/ for a listing of APN Partner solutions.
+
+The APN Partner solutions suit the needs of many AWS customers. However, for the purposes of this activity, there is one additional approach to examining CloudTrail log files that you might use, and it uses another AWS service. In the next task, you explore CloudTrail logs by using Athena.
+
+ 
 **Task 4:** Analyzed the CloudTrail logs by using Athena
 
 **Challenge:** Identify the hacker
