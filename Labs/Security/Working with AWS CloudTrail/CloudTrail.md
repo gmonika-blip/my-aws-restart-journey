@@ -165,9 +165,7 @@ Then , I used the security group ID that the previous command returned to furthe
 aws cloudtrail lookup-events --lookup-attributes AttributeKey=ResourceType,AttributeValue=AWS::EC2::SecurityGroup --region $region --output    text | grep $sgId
 ```
 
-You could keep experimenting with different commands to filter the log results. However, you might wonder whether there is a better tool or solution for reading these logs. AWS has the AWS Partner Network (APN), where companies specialize in helping AWS customers with this challenge. See https://aws.amazon.com/cloudtrail/partners/ for a listing of APN Partner solutions.
-
-The APN Partner solutions suit the needs of many AWS customers. However, for the purposes of this activity, there is one additional approach to examining CloudTrail log files that you might use, and it uses another AWS service. In the next task, you explore CloudTrail logs by using Athena.
+I could have kept experimenting with different commands to filter the log results. However, I also wondered whether there was a better tool or solution for reading these logs.
 
  
 **Task 4:** Analyzed the CloudTrail logs by using Athena
