@@ -9,7 +9,7 @@ Martha and Frank are concerned because their Cafe website was hacked. They want 
 <img width="808" height="470" alt="ArchitectureSetup-Lab187" src="https://github.com/user-attachments/assets/51da8f2c-a326-45cc-b16b-e96c7af98b68" />
 
 <br>
-
+<br>
 
 The activity starts with an Amazon Elastic Compute Cloud (Amazon EC2) instance named Café Web Server, which runs a web application that hosts the Café website.
 
