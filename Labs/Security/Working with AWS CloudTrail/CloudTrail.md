@@ -4,9 +4,10 @@
 **Scenario:**
 
 Martha and Frank are concerned because their Cafe website was hacked. They want to discover who did it and to make sure that it does not happen again.
-[Architecture Setup for this Activity](https://github.com/gmonika-blip/my-aws-restart-journey/blob/4cbcbacb13cd427ceebae6bcd988aace320af7b9/Labs/Security/Working%20with%20AWS%20CloudTrail/ArchitectureSetup-Lab187.png)
+
 <br>
 <img width="808" height="470" alt="ArchitectureSetup-Lab187" src="https://github.com/user-attachments/assets/51da8f2c-a326-45cc-b16b-e96c7af98b68" />
+
 <br>
 
 
