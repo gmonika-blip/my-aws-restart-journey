@@ -78,9 +78,9 @@ In this task, I created a CloudTrail trail in my AWS account. I noticed that soo
       - For Mac/Linux Users:  
            -  Downloaded and saved the labsuser.pem file
            -  Changed the permissions on the key to be read only
-           -  Use SSH command to connect
+           -  Used SSH command to connect
            
-                 ssh → starts the SSH client
+                  ssh → starts the SSH client
                  -i labsuser.pem → specifies your private key file
                  ec2-user → default username for many Amazon Linux instances
                  <public-ip> → replace with your EC2 instance’s public IP address
