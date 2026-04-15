@@ -21,6 +21,10 @@ In this AWS SimuLearn assignment, I reviewed a real-world scenario and helped a 
 
 Simulated business scenario: The stock exchange wants to restrict support engineers' system access to only those actions required for their specific roles, enhancing overall security controls.  After the design is completed, I built the proposed solution through structured, step-by-step guidance in a lab within a live AWS Management Console environment.
 
+<br>
 
 <img width="1267" height="676" alt="AssignmentDone" src="https://github.com/user-attachments/assets/67b6badf-2716-431c-a158-4ebbb149393d" />
+
+<br>
+
 
