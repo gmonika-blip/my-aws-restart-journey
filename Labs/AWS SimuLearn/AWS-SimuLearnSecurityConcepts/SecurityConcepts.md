@@ -27,4 +27,7 @@ Simulated business scenario: The stock exchange wants to restrict support engine
 
 <br>
 
+<img width="1044" height="805" alt="AWS-SimuLearnSecurityConceptsCertificate" src="https://github.com/user-attachments/assets/6cdd98d6-3765-4222-905c-fa784ea58972" />
+
+
 
