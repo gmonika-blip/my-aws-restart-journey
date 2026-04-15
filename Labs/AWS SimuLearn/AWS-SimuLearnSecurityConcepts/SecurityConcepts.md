@@ -13,3 +13,8 @@ After each solution-building conversation, you build and validate the solution i
 - Explain the AWS Shared Responsibility Model and compliance programs
   
 - Implement IAM best practices for secure access management
+
+
+**Lab Assignment:**
+
+In this AWS SimuLearn assignment, I reviewed a real-world scenario and helped a fictional customer design a solution on AWS. 
