@@ -88,6 +88,8 @@ In this task, I created a CloudTrail trail in my AWS account. I noticed that soo
             chmod 400 labsuser.pem
             ssh -i labsuser.pem ec2-user@<public-ip>
 ```
+     When prompted, typed yes to allow a first connection to this remote SSH server.
+     Because I was using a key pair for authentication, I was not prompted for a password.
 
 **Task 4:** Analyzed the CloudTrail logs by using Athena
 
