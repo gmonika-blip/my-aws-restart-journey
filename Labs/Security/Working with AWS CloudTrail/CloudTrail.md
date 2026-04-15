@@ -91,6 +91,30 @@ In this task, I created a CloudTrail trail in my AWS account. I noticed that soo
      When prompted, typed yes to allow a first connection to this remote SSH server.
      Since I was using a key pair for authentication, I was not prompted for a password.
 
+**Step 2:** Downloaded and extracted the CloudTrail logs
+
+After terminal is connected via SSH to the Café Web Server EC2 instance, I created a local directory (ctraillogs) on the web server to download the CloudTrail log files to. After changing the directory to the new directory, I listed the buckets to recall the bucket name. Then, I copied/downloaded all the CloudTrail logs in the bucket into the newly created directory.
+
+```
+    mkdir ctraillogs
+    cd ctraillogs
+    aws s3 ls
+    aws s3 cp s3://<monitoring####>/ . --recursive
+
+If the command is successful, you should see that a few log files are downloaded.
+
+Important: If there was no output in the command line when you ran the last command, it likely means that not enough time has passed since you created the CloudWatch trail. CloudWatch posts logs to Amazon Simple Storage Service (Amazon S3) every 5 minutes. You might need to wait and try running the command again. Do not proceed to the next step until you have downloaded at least one log file.
+
+Use the cd and ls commands repeatedly (or enter cd and then press Tab multiple times) as necessary to change the directory to the subdirectory where the logs were downloaded. When you run ls, all of the downloaded log files should display. They will be located in an AWSLogs/<account-num>/CloudTrail/<Region>/<yyyy>/<mm>/<dd> subdirectory.
+
+Notice that the log files end in json.gz, which indicates that they are compressed as GNU zip files.
+
+Run the following command to extract the logs:
+
+gunzip *.gz
+Run ls again. Notice that all files are now extracted.
+
+
 **Task 4:** Analyzed the CloudTrail logs by using Athena
 
 **Challenge:** Identify the hacker
