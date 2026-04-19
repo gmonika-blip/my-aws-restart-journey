@@ -16,6 +16,6 @@ Cloud9 environments can run on Amazon EC2 instances or on custom Linux servers, 
 
 ## Python Practice Labs in AWS Cloud9 Environment
 
-### Lab 1:   Writing your first Python Hello-World program
+### 1:   Writing your first Python Hello-World program
 Python file name: hello-world.py
 
