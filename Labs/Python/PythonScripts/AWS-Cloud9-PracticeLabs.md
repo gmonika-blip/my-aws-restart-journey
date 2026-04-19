@@ -1,4 +1,6 @@
-# AWS Cloud9
+# Python Practice Labs
+
+## Accessing AWS Cloud9
 
 **AWS Cloud9** is a cloud-based integrated development environment (IDE) from Amazon Web Services that enables users to write, run, and debug code directly in a web browser. It includes a code editor, debugger, built-in terminal, and supports multiple programming languages while integrating easily with other AWS services. 
 
@@ -11,6 +13,6 @@ Cloud9 environments can run on Amazon EC2 instances or on custom Linux servers, 
 <img width="1762" height="293" alt="AWS-Cloud9Environment" src="https://github.com/user-attachments/assets/f182c774-5738-4586-8c24-d3a1337edbc6" />
 
 
-## Python Practice Labs using AWS Cloud9
+## Python Practice Labs in AWS Cloud9 Environment
 
 ### Lab 1 
