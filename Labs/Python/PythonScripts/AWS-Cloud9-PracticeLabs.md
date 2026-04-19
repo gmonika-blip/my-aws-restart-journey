@@ -8,3 +8,6 @@ Cloud9 environments can run on Amazon EC2 instances or on custom Linux servers, 
 
 <img width="1076" height="511" alt="AWS-Cloud9Access" src="https://github.com/user-attachments/assets/c39103ba-b2db-4d9f-84dd-a53a5d5b5047" />
 
+<img width="1762" height="293" alt="AWS-Cloud9Environment" src="https://github.com/user-attachments/assets/f182c774-5738-4586-8c24-d3a1337edbc6" />
+
+
