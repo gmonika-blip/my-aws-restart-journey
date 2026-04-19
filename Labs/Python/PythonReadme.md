@@ -5,3 +5,5 @@
 A major advantage of Cloud9 is real-time collaboration, allowing multiple users to work on the same project simultaneously, making it ideal for team-based development. Since it is cloud-based, developers can access their projects from anywhere with an internet connection, and it also provides a smooth experience for building and debugging serverless applications with support for both local and remote execution.
 
 Cloud9 environments can run on Amazon EC2 instances or on custom Linux servers, and can be easily created through the AWS Management Console or CLI, often automatically provisioning the required infrastructure.
+
+
