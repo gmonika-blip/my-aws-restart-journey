@@ -7,3 +7,4 @@ A major advantage of Cloud9 is real-time collaboration, allowing multiple users 
 Cloud9 environments can run on Amazon EC2 instances or on custom Linux servers, and can be easily created through the AWS Management Console or CLI, often automatically provisioning the required infrastructure.
 
 ![AWS Cloud9 Environment](./images/AWS-Cloud9Access.png)
+(Labs/Python/images/AWS-Cloud9Access.png)
