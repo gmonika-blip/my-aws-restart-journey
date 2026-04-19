@@ -19,5 +19,5 @@ Cloud9 environments can run on Amazon EC2 instances or on custom Linux servers, 
 ### 1:   Writing your first Python Hello-World program
 Python file name: hello-world.py
 
-[HelloWorld Screenshot](https://github.com/gmonika-blip/my-aws-restart-journey/blob/e37d859d1a999378c0e238b02ef4d51263834e7c/Labs/Python/images/HelloWorldLab.png)
+![HelloWorld Screenshot](https://github.com/gmonika-blip/my-aws-restart-journey/blob/e37d859d1a999378c0e238b02ef4d51263834e7c/Labs/Python/images/HelloWorldLab.png)
 
