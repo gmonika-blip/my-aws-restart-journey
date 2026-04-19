@@ -21,3 +21,8 @@ Python file name: `hello-world.py`
 
 ![HelloWorld Screenshot](https://github.com/gmonika-blip/my-aws-restart-journey/blob/e37d859d1a999378c0e238b02ef4d51263834e7c/Labs/Python/images/HelloWorldLab.png)
 
+### 2: Working with Numeric Data Types
+Python file name: `numeric-data.py`
+
+
+
