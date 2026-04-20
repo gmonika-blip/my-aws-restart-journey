@@ -2,21 +2,13 @@
 Introduction to Amazon Aurora
  
 
-Lab Overview:
-This lab introduces you to Amazon Aurora and provides you with a basic understanding of how to use Aurora. You will follow the steps to create an Aurora instance and then connect to it.
+## Lab Overview
 
- 
+This lab introduced me to Amazon Aurora and provided a basic understanding of how to use it.
 
-Topics covered
-After completing this lab, you will be able to:
+### Objectives
 
-Create an Aurora instance
-
-Connect to a pre-created Amazon Elastic Compute Cloud (Amazon EC2) instance
-
-Configure the Amazon EC2 instance to connect to Aurora
-
-Query the Aurora instance
-
- 
-
+- Created an Amazon Aurora instance  
+- Connected to a pre-created Amazon EC2 instance  
+- Configured the EC2 instance to connect to Aurora  
+- Queried the Aurora database instance  
