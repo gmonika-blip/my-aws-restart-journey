@@ -250,7 +250,7 @@ Using a different browser tab, I went back to the AWS Management Console and in 
 
 ### Task 4: Create a table and insert and query records
 
-In this task, I learnt how to create a table in a database, load data, and run a query.
+In this task, I learnt how to create a table in a database, load data, and run a query using SQL.
 
 1. To list the available databases, executed the following command:
 
@@ -276,7 +276,15 @@ In this task, I learnt how to create a table in a database, load data, and run a
 MySQL [(none)]>
 ```
 
+2. To switch to the `world` database, I executed the following command.
 
+```
+USE world;
+```
+
+3. Used `Create` Command to create a table named `country` in the database
+   
+4. Used `Insert` Command to insert new records into the `country` table.
 
    
 
