@@ -193,7 +193,8 @@ FROM cloudtrail_logs_monitoring2345
 LIMIT 5
 ```
 
-This query returned five rows of data. Look at the result set (scroll to the right in the Results panel to see additional column data).
+This query returned five rows of data.  The columns **useridentity, eventtime, eventsource, eventname, and requestparameters** contained the most valuable information to help me find the origin of the hack.
+The **useridentity** column had many details that made it more difficult to read though. So I decided to return only the user name for that column.  
 
 
 
