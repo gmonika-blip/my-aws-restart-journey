@@ -273,7 +273,7 @@ The root, sync, shutdown, and halt users are all standard OS users in Amazon Lin
 
 1. Analyzed SSH settings on the instance.
 
-`I removed the OS user who hacked into the instance, but how did they manage to connect to the EC2 instance by using SSH in the first place? The admin has been careful about who has access to the key pair file.` 
+`The OS user who hacked into the instance had been removed, but how did they manage to connect to the EC2 instance by using SSH in the first place? The admin has been careful about who has access to the key pair file.` 
 
  Checked the SSH settings on this instance using the following command:
 
@@ -281,7 +281,7 @@ The root, sync, shutdown, and halt users are all standard OS users in Amazon Lin
   sudo ls -l /etc/ssh/sshd_config
 ```
 
-noticed the last modified timestamp for the file. This file was modified the same day! That was concerning.
+Noticed the last modified timestamp for the file. This file was modified the same day! That was concerning.
 
 I then executed the following command to edit the SSH configuration file in the VI editor:
 
@@ -290,7 +290,7 @@ I then executed the following command to edit the SSH configuration file in the 
 ```
 
 Analyzed the details of this file. 
-I noticed, on line 61, password authentication is enabled. This is definitely not a security best practice! That means that anyone who knows (or can correctly guess) the username and password combination of an OS user can remotely access this instance without using an SSH key pair. This setting needed to be corrected.
+Noticed, on line 61, password authentication is enabled. This is definitely not a security best practice! That means that anyone who knows (or can correctly guess) the username and password combination of an OS user can remotely access this instance without using an SSH key pair. This setting needed to be corrected.
 
 ```
    Enter edit mode
@@ -308,7 +308,7 @@ Then, I ran the following command to restart the SSH service so that the changes
    sudo service sshd restart
 ```
 
-Finally, in the EC2 console, returned to the Web Server security group settings.
+2. In the EC2 console, returned to the Web Server security group settings.
 
 With the Web Server security group selected, navigated to the Inbound tab, and chose Edit.
 
