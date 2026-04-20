@@ -15,6 +15,10 @@ Amazon EC2's simple web service interface allows developers to obtain and config
   --Full control: Configure OS, networking, and security
   
   --Reliable: Build fault-tolerant and resilient applications
+
+ ## Lab Overview
+  
+    This lab provides you with a basic overview of launching, resizing, managing, and monitoring an Amazon EC2 instance.
   
 
 
