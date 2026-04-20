@@ -242,9 +242,9 @@ Using a different browser tab, I went back to the AWS Management Console and in 
    ![Connect to Aurora through Linux](https://github.com/gmonika-blip/my-aws-restart-journey/blob/52f16355aa2df85e24a389f0edd25f19fba5428f/Labs/Database/images/LinuxInstancetoAurora.png)
    
 
-### Result 
+ ### Result 
 
-I successfully configured the Amazon EC2 Linux instance to connect to Aurora.
+ I successfully configured the Amazon EC2 Linux instance to connect to Aurora.
 
 ---
    
