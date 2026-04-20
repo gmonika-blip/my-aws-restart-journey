@@ -150,7 +150,7 @@ Once configured my instance settings in Amazon EC2, I was ready to launch it.
 1. In the right pane, chose **Launch instance**.
 2. Selected **View all instances**.
 
-### Instance Launch Status
+## Instance Launch Status
 
 After launching, the instance went through the following states:
 
@@ -161,19 +161,19 @@ After launching, the instance went through the following states:
 
 The instance is automatically assigned a **public DNS name**, which can be used to access it over the internet.
 
-### Viewing Instance Details
+## Viewing Instance Details
 
 1. Selected the checkbox next to your **Web Server** instance.
 2. The **Details** tab displayed detailed information about the instance.
 
-### Reviewed Instance Information
+## Reviewed Instance Information
 
 Checked the following tabs:
 - **Details**
 - **Security**
 - **Networking**
 
-### Final Status Check
+## Final Status Check
 
 Waited until my instance showed the following:
 
