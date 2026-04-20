@@ -216,35 +216,14 @@ Complete!
 
 Using a different browser tab, I went back to the AWS Management Console and in the search bar, searched for and chose RDS.
 
-1. In the left navigation menu, I chose Databases.
-2. Waited for aurora-instance-1 to display  Available.
-3. Chose Aurora.
-4. Chose the Connectivity & security tab, and in the Endpoints section, copy the Endpoint name for the Writer instance to your text editor.
+1. In the left navigation menu, I chose `Databases`.
+2. Waited for aurora-instance-1 to display  `Available`.
+3. Chose `Aurora`.
+4. Chose the Connectivity & security tab, and in the Endpoints section, copy the Endpoint name for the `Writer instance` to your text editor.
  The endpoint should look similar to the following: ```aurora.cluster-cabcdefghijklm.us-west-2.rds.amazonaws.com```.
 
 > An endpoint is represented as an Aurora specific URL that contains a host address and a port. The following types of endpoints are available from an Aurora DB cluster.
->`Cluster endpoint:
-    A cluster endpoint for an Aurora DB cluster connects to the current primary DB instance for that DB cluster. This endpoint is the only one that can perform write operations such as DDL statements. Because       of this, the cluster endpoint is the one that you connect to when you first set up a cluster or when your cluster contains only a single DB instance.
 
-   Each Aurora DB cluster has one cluster endpoint and one primary DB instance.
-
-   You use the cluster endpoint for all write operations on the DB cluster, including inserts, updates, deletes, and DDL changes. You can also use the cluster endpoint for read operations, such as queries.
-
-  The cluster endpoint provides failover support for read/write connections to the DB cluster. If the current primary DB instance of a DB cluster fails, Aurora automatically fails over to a new primary DB    instance. During a failover, the DB cluster continues to serve connection requests to the cluster endpoint from the new primary DB instance, with minimal interruption of service.
-
-The following example illustrates a cluster endpoint for an Aurora MySQL DB cluster.
-
-*mydbcluster.cluster-123456789012.us-west-2.rds.amazonaws.com:3306*`
-Reader endpoint:
-A reader endpoint for an Aurora DB cluster connects to one of the available Aurora replicas for that DB cluster. Each Aurora DB cluster has one reader endpoint. If there is more than one Aurora replica, the reader endpoint directs each connection request to one of the Aurora replicas.
-
-The reader endpoint provides load-balancing support for read-only connections to the DB cluster. Use the reader endpoint for read operations, such as queries. You can't use the reader endpoint for write operations.
-
-The DB cluster distributes connection requests to the reader endpoint among the available Aurora replicas. If the DB cluster contains only a primary DB instance, the reader endpoint serves connection requests from the primary DB instance. If one or more Aurora replicas are created for that DB cluster, subsequent connections to the reader endpoint are load balanced among the replicas.
-
-The following example represents a reader endpoint for an Aurora MySQL DB cluster.
-
-mydbcluster.cluster-ro-123456789012.us-west-2.rds.amazonaws.com:3306
 
 
 
