@@ -123,7 +123,7 @@ When an instance in Amazon EC2 is launched, deveopers can pass **User data** to 
 #### Added User Data Script
 
 1. Located the **User data** text box.
-2. Performed Copy and paste for the following script:
+2. Performed Copy and Paste for the following script:
 
 ```bash
 #!/bin/bash
