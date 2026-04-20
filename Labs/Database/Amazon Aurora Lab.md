@@ -286,6 +286,9 @@ USE world;
    
 4. Used `Insert` Command to insert new records into the `country` table in the `world` database.
 
+The following screenshot shows the use of the Create and Insert command:
+
+
    
 
   
