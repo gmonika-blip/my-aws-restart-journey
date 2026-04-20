@@ -33,7 +33,7 @@ This lab introduced me to Amazon Aurora and provided a basic understanding of ho
 
 In this task, I created an Amazon Aurora database (DB) instance and configured it for a basic lab environment.
 
-### Step 1: Navigate to RDS
+### Step 1: Navigated to RDS
 
 1. At the top of the AWS Management Console, I searched for and selected **RDS**.  
    > This service is used to create and manage relational databases in AWS.
@@ -46,7 +46,8 @@ In this task, I created an Amazon Aurora database (DB) instance and configured i
 
 ---
 
-### Database Configuration
+### Step 2: Database Configuration 
+I configured the database with the following options.
 
 - **Database creation method:** Standard create  
   > Provides full control over configuration options instead of using quick defaults.
