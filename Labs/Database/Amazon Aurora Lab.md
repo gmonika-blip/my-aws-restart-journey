@@ -308,6 +308,15 @@ The following screenshot shows the output of the query:
 
 ---
 
+### Conclusion
+
+Created an Aurora instance.
+
+Connected to a pre-created Amazon EC2 instance.
+
+Configured the Amazon EC2 instance to connect to Aurora.
+
+Queried the Aurora instance.
 
 
    
