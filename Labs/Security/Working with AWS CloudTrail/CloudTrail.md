@@ -373,6 +373,7 @@ I decided to remove the chaos AWS Identity and Access Management (IAM) user from
 
    Now the chaos user was not able to cause any trouble in the AWS account anymore.
 
+---
 
 # Conclusion
 
