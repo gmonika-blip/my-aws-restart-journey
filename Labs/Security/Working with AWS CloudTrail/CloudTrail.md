@@ -204,7 +204,7 @@ FROM cloudtrail_logs_monitoring####
 LIMIT 30
 ```
 
-
+![Image](https://github.com/gmonika-blip/my-aws-restart-journey/blob/dc96b142a59f967f724800f21a5d97eb56e75ed1/Labs/Security/Working%20with%20AWS%20CloudTrail/AthenaQuery.png)
 
 
 **Challenge:** Identify the hacker
