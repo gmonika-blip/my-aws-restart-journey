@@ -286,7 +286,7 @@ USE world;
    
 4. Used `Insert` Command to insert new records into the `country` table in the `world` database.
 
-The following screenshot shows the use of the Create and Insert command:
+The following screenshot shows the use of the `Create` and `Insert` commands:
 
 ![Create and Insert SQL commands](https://github.com/gmonika-blip/my-aws-restart-journey/blob/43963c96fdcb0bcfe94b7445fdf1369b1cc52fb0/Labs/Database/images/CreateInsertSQL.png)
 
