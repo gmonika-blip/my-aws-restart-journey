@@ -168,7 +168,7 @@ The instance is automatically assigned a **public DNS name**, which can be used 
 
 #### Reviewed Instance Information
 
-Checked the following tabs:
+Reviewed information under the following tabs:
 - **Details**
 - **Security**
 - **Networking**
