@@ -181,7 +181,11 @@ I successfully connected to the Amazon EC2 instance named Command Host.
 
 In this task, I used the yum package manager to install the MariaDB client and then configured the Amazon EC2 Linux instance to connect to the Aurora database.
 
+**Step 1:** Executed the following command to install MariaDB client.
 
+```
+sudo yum install mariadb -y
+```
 
 
 
