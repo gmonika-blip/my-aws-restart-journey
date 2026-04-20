@@ -236,6 +236,9 @@ The following message was displayed:
 
 > **Hello From Your Web Server!**
 
+The following screenshot shows 
+![Hello From Web server Screenshot](https://github.com/gmonika-blip/my-aws-restart-journey/blob/35bf47341880620c3f2a51c07c10a45dc8d52d0c/Labs/Compute/images/SG-Modify-HelloFromWebServer.png)
+
 ### Result
 
 I successfully modified the security group to allow HTTP traffic into my Amazon EC2 instance.
