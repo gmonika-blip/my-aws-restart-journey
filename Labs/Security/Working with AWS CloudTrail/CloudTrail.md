@@ -273,26 +273,32 @@ The root, sync, shutdown, and halt users are all standard OS users in Amazon Lin
 
 1. Analyzed SSH settings on the instance.
 
-  I removed the OS user who hacked into the instance, but how did they manage to connect to the EC2 instance by using SSH in the first place?
+`I removed the OS user who hacked into the instance, but how did they manage to connect to the EC2 instance by using SSH in the first place? The admin has been careful about who has access to the key pair file.` 
 
-  The admin has been careful about who has access to the key pair file. 
+I checked the SSH settings on this instance using the following command:
 
-However, maybe you should check the SSH settings on this instance.
+```
+  sudo ls -l /etc/ssh/sshd_config
+```
 
-sudo ls -l /etc/ssh/sshd_config
-Notice the last modified timestamp for the file. This file was modified today! That is concerning.
+I noticed the last modified timestamp for the file. This file was modified the same day! That was concerning.
 
-Run the following command to edit the SSH configuration file in the VI editor:
+I then executed the following command to edit the SSH configuration file in the VI editor:
 
-sudo vi /etc/ssh/sshd_config
-Analyze the details of this file. Enter :set number to see the line numbers in this file.
-Notice on line 61 that password authentication is enabled. That is definitely not a security best practice! That means that anyone who knows (or can correctly guess) the username and password combination of an OS user can remotely access this instance without using an SSH key pair. This setting needs to be corrected.
-Move your cursor (using the arrow up or down keys) to the PasswordAuthentication yes line and comment it out.
-Tip: Enter a on your keyboard to enter edit mode in VI, and add a # character at the start of the line.
+```
+   sudo vi /etc/ssh/sshd_config
+```
 
-Next, move your cursor to the #PasswordAuthentication no line (line 63) by using the arrow keys and uncomment this line (remove the # character).
+Analyzed the details of this file. 
+I noticed, on line 61, password authentication is enabled. This is definitely not a security best practice! That means that anyone who knows (or can correctly guess) the username and password combination of an OS user can remotely access this instance without using an SSH key pair. This setting needed to be corrected.
+
+>Enter edit mode
+>Moved my cursor (using the arrow up or down keys) to the PasswordAuthentication yes line and commented it out.
+Next, moved my cursor to the #PasswordAuthentication line (line 63) by using the arrow keys and uncommented this line (remove the # character).
+
 Choose the Esc key on your keyboard to exit edit mode.
 Save the changes, and exit the VI editor using the :wq command.
+
 Run the following command to restart the SSH service so that the changes go into effect:
 
 sudo service sshd restart
