@@ -186,6 +186,30 @@ In this task, I used the yum package manager to install the MariaDB client and t
 ```
 sudo yum install mariadb -y
 ```
+The expected output is:
+```sql
+******************************
+**** This is OUTPUT ONLY. ****
+******************************
+
+Install  1 Package
+
+Total download size: 8.8 M
+Installed size: 49 M
+Downloading packages:
+mariadb-5.5.68-1.amzn2.0.1.x86_64.rpm                    |  8.8 MB  00:00:00
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+    Installing : 1:mariadb-5.5.68-1.amzn2.0.1.86_64       1/1
+    Verifying  : 1:mariadb-5.5.68-1.amzn2.0.1.x86_64      1/1
+
+Installed:
+mariadb.x86_64 1:5.5.68-1.amzn2.0.1
+
+Complete!   
+```
 
 
 
