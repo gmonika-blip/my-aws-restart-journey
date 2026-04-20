@@ -181,6 +181,55 @@ Waited until my instance showed the following:
 - **Status Checks:** `2/2 checks passed`
 
 > 🔄 Refreshed the page if necessary until both conditions were met.
+>
+> ## Task 3: Updated Security Group and Accessed the Web Server
+
+When I launched the Amazon EC2 instance, I provided a script that installed a web server and created a simple web page. In this task, I accessed content from the web server.
+
+1. I selected the instance by checking the box and opened the **Details** tab.
+2. I copied the **Public IPv4 address** of the instance to my clipboard.
+3. I opened a new tab in my web browser, pasted the IP address, and pressed **Enter**.
+
+### Question: Was I able to access the web server? Why not?
+
+I was not able to access the web server because the security group did not permit inbound traffic on **port 80 (HTTP)**. This demonstrated how a security group acts as a firewall to control inbound and outbound traffic for an instance.
+
+---
+
+### Updating the Security Group
+
+To fix this issue, I updated the security group to allow HTTP traffic.
+
+1. I returned to the **EC2 Management Console** tab.
+2. In the left navigation pane, I selected **Security Groups** under **Network & Security**.
+3. I selected **Web Server security group**.
+4. I opened the **Inbound rules** tab.
+
+At this point, the security group had no inbound rules.
+
+5. I selected **Edit inbound rules**.
+6. I selected **Add rule** and configured it as follows:
+   - **Type:** HTTP  
+   - **Source:** Anywhere-IPv4  
+
+7. I selected **Save rules**.
+
+---
+
+### Verifying Access
+
+1. I returned to the browser tab containing the web server.
+2. I refreshed the page.
+
+The following message was displayed:
+
+> **Hello From Your Web Server!**
+
+---
+
+### Result
+
+I successfully modified the security group to allow HTTP traffic into my Amazon EC2 instance.
 
 
   
