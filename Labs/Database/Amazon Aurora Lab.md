@@ -224,11 +224,12 @@ Using a different browser tab, I went back to the AWS Management Console and in 
 
 > An endpoint is represented as an Aurora specific URL that contains a host address and a port.
 
-5. Logged into the database
+5. Used the following command to log into the database, replaced <endpoint_goes_here> with the endpoint that I had  copied to my text editor.
 
-   Used the following command, replaced <endpoint_goes_here> with the endpoint that I had  copied to my text editor.
+   ```
+     mysql -u admin --password='admin123' -h <endpoint_goes_here> ```
 
-  ```mysql -u admin --password='admin123' -h <endpoint_goes_here> ```
+   
 
   
 
