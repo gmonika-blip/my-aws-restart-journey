@@ -167,8 +167,17 @@ aws cloudtrail lookup-events --lookup-attributes AttributeKey=ResourceType,Attri
 
 I could have kept experimenting with different commands to filter the log results. However, I also wondered whether there was a better tool or solution for reading these logs.
 
- 
+---
+
 **Task 4:** Analyzed the CloudTrail logs by using Athena
+
+The advantage of using Athena is that I could now run SQL queries over the log data.
+
+**Step 1:** In the left panel of the Athena Query Editor, selected + beside the cloudtrail_logs_monitoring#### table.
+
+`I noticed how each standard child element that existed in a CloudTrail log record in JSON format had a corresponding column name in this database. The useridentity database column was a struct type, because it contained more than a single name-value pair. Similarly, the resources database column was an array.`
+
+
 
 **Challenge:** Identify the hacker
 
