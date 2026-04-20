@@ -190,7 +190,7 @@ The following screenshot shows my Amazon EC2 instance sucesssfully launched and 
 
 ### Result
 
-I was able to successfully lauch my first EC2 instance
+I was able to successfully lauch my first Amazon EC2 instance.
 
 ---
 
