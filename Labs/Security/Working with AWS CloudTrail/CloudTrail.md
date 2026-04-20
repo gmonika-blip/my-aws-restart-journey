@@ -198,6 +198,13 @@ The **useridentity** column had many details that made it more difficult to read
 
 **Step 3:** Executed a new query that selected only the relevant columns. This time, I limited the results to 30 rows.
 
+```
+SELECT useridentity.userName, eventtime, eventsource, eventname, requestparameters
+FROM cloudtrail_logs_monitoring####
+LIMIT 30
+```
+
+
 
 
 **Challenge:** Identify the hacker
