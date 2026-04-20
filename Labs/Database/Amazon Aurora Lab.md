@@ -254,13 +254,13 @@ In this task, I learnt how to create a table in a database, load data, and run a
 
 1. To list the available databases, executed the following command:
 
-   ```sql
+   ```
+     sql
      SHOW DATABASES;
   ```
 
  Expected output:
-
-  ```text
+ ```text
 ******************************
 **** This is OUTPUT ONLY. ****
 ******************************        
