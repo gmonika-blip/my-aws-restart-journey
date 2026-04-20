@@ -186,9 +186,9 @@ Waited until my instance showed the following:
 
 When I launched the Amazon EC2 instance, I provided a script that installed a web server and created a simple web page. In this task, I accessed content from the web server.
 
-1. I selected the instance by checking the box and opened the **Details** tab.
-2. I copied the **Public IPv4 address** of the instance to my clipboard.
-3. I opened a new tab in my web browser, pasted the IP address, and pressed **Enter**.
+1. Selected the instance by checking the box and opened the **Details** tab.
+2. Copied the **Public IPv4 address** of the instance to my clipboard.
+3. Opened a new tab in my web browser, pasted the IP address, and pressed **Enter**.
 
 ### Question: Was I able to access the web server? Why not?
 
@@ -200,35 +200,35 @@ I was not able to access the web server because the security group did not permi
 
 To fix this issue, I updated the security group to allow HTTP traffic.
 
-1. I returned to the **EC2 Management Console** tab.
-2. In the left navigation pane, I selected **Security Groups** under **Network & Security**.
-3. I selected **Web Server security group**.
-4. I opened the **Inbound rules** tab.
+1. Returned to the **EC2 Management Console** tab.
+2. In the left navigation pane, selected **Security Groups** under **Network & Security**.
+3. Selected **Web Server security group**.
+4. Opened the **Inbound rules** tab.
 
 At this point, the security group had no inbound rules.
 
-5. I selected **Edit inbound rules**.
-6. I selected **Add rule** and configured it as follows:
+5. Selected **Edit inbound rules**.
+6. Selected **Add rule** and configured it as follows:
    - **Type:** HTTP  
    - **Source:** Anywhere-IPv4  
 
-7. I selected **Save rules**.
+7. Selected **Save rules**.
 
 
 ### Verifying Access
 
-1. I returned to the browser tab containing the web server.
-2. I refreshed the page.
+1. Returned to the browser tab containing the web server.
+2. Refreshed the page.
 
 The following message was displayed:
 
 > **Hello From Your Web Server!**
 
----
-
 ### Result
 
 I successfully modified the security group to allow HTTP traffic into my Amazon EC2 instance.
+
+---
 
 ## Task 4: Resized the Instance (Instance Type and EBS Volume)
 
@@ -241,9 +241,9 @@ Before resizing the instance, I stopped it.
 > When I stopped an instance, it was shut down. There was no charge for a stopped instance, but storage charges for attached Amazon EBS volumes still applied.
 
 1. On the Amazon EC2 Management Console, I selected **Instances** from the left navigation pane.
-2. I ensured that **Web Server** was selected.
-3. I selected **Instance state** → **Stop instance**.
-4. I confirmed by selecting **Stop**.
+2. Ensured that **Web Server** was selected.
+3. Selected **Instance state** → **Stop instance**.
+4. Confirmed by selecting **Stop**.
 
 The instance performed a normal shutdown and then stopped running.
 
@@ -254,19 +254,52 @@ The instance performed a normal shutdown and then stopped running.
 
 After the instance had stopped, I changed its instance type.
 
-1. I opened the **Actions** menu.
-2. I selected **Instance settings** → **Change instance type**.
-3. I configured the following:
+1. Opened the **Actions** menu.
+2. Selected **Instance settings** → **Change instance type**.
+3. Configured the following:
    - **Instance Type:** `t3.small`
 
-4. I selected **Change instance type**.
+4. Selected **Change instance type**.
 
 > ⚠️ Note: In this lab, I may have been restricted from selecting other instance types.
+>
+> ### Resize the EBS Volume
 
+In the left navigation menu, I selected **Volumes** under **Elastic Block Store**.
+
+1. Selected the volume by checking the box.
+2. Opened the **Actions** menu and selected **Modify Volume**.
+
+The disk volume was originally **8 GiB**. I increased its size as follows:
+
+- **New size:** `10 GiB`  
+  > ⚠️ Note: In this lab, I may have been restricted from creating larger Amazon EBS volumes.
+
+3. Selected **Modify**.
+4. Confirmed the change by selecting **Modify** again to increase the volume size.
+
+
+
+### Starting the Resized Instance
+
+After resizing the volume, I started the instance again so it could use the updated resources.
+
+1. In the left navigation pane, I selected **Instances**.
+2. Selected the **Web Server** instance by checking the box.
+3. Navigated to **Instance state** → **Start instance**.
+
+---
 
 ### Result
 
-When I started the instance again, it ran as a **t3.small**, which provided twice as much memory as a `t3.micro` instance.
+I successfully resized my Amazon EC2 instance.
+
+- I changed the instance type from `t3.micro` to `t3.small`.
+- I increased the root EBS volume from **8 GiB** to **10 GiB**.
+
+> The instance was successfully resized with improved compute and storage capacity.
+
+
 
 
   
