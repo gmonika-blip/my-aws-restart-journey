@@ -357,7 +357,9 @@ After disabling termination protection, I was able to terminate the instance.
 2. Selected **Instance state** → **Terminate instance**.
 3. Confirmed by selecting **Terminate**.
 
+The following is a screenshot terminating my EC2 Instance:
 
+![Terminate EC2 Instance Screenshot](https://github.com/gmonika-blip/my-aws-restart-journey/blob/fe96450604ffacfd0685fa5fe456b3d00c6d985a/Labs/Compute/images/TerminateInstance.png)
 
 ### Result
 
