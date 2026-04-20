@@ -63,7 +63,7 @@ I configured the database with the following options.
 
 ---
 
-### Settings
+### Step 3: Settings Configuration
 
 - **DB cluster identifier:** `aurora`  
   > A unique name to identify the database cluster.
