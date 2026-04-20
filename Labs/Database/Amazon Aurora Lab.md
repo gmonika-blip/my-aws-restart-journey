@@ -146,8 +146,8 @@ I configured the database with the following options.
 >
 The following is a screenshot showing that the Aurora Database Instance was launched successfully:
 
-![Aurora Instance Launched screenshot](https://github.com/gmonika-blip/my-aws-restart-journey/blob/51d74439f356da2e27389ce77e4b797d30b75517/Labs/Database/images/AuroraInstance.png
 
+![Aurora Instance Launched screenshot](https://github.com/gmonika-blip/my-aws-restart-journey/blob/51d74439f356da2e27389ce77e4b797d30b75517/Labs/Database/images/AuroraInstance.png)
 
 
 ---
