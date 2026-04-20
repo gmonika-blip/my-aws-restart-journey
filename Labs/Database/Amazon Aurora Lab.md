@@ -254,28 +254,28 @@ In this task, I learnt how to create a table in a database, load data, and run a
 
 1. To list the available databases, executed the following command:
 
-   ```
+```
      SHOW DATABASES;
-  ```
-
- Expected output:
- ```
-   ******************************
-   **** This is OUTPUT ONLY. ****
-   ******************************        
-   +--------------------+
-   | Database           |
-   +--------------------+
-   | information_schema |
-   | mysql              |
-   | performance_schema |
-   | sys                |
-   | world              |
-   +--------------------+
-  5 rows in set (0.02 sec)    
-  MySQL [(none)]>
 ```
 
+  Expected Output:
+
+```
+******************************
+**** This is OUTPUT ONLY. ****
+******************************        
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
+| world              |
++--------------------+
+5 rows in set (0.02 sec)    
+MySQL [(none)]>
+```
 
 
 
