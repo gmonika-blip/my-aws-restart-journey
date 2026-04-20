@@ -179,11 +179,11 @@ The advantage of using Athena is that I could now run SQL queries over the log d
 
 **Step 2:** Set up query results location and then executed a simple query to get an idea of the data that is available in the logs.
 
--On the menu bar at the upper right of the page, chose `Settings` followed by `Manage`.
+On the menu bar at the upper right of the page, chose `Settings` followed by `Manage`.
 
--Set Location of query result to `s3://monitoring2345/results/` 
+-*Set Location of query result to `s3://monitoring2345/results/` 
 
--Chose Save.
+-*Chose Save.
 
 Select the Editor table and paste the following SQL query into the Query 1 panel. Replace #### with the numbers in your actual table, and choose Run.
 
