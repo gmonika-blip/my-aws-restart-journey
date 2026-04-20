@@ -331,7 +331,11 @@ Now that the hacker had no longer access to this instance, I could fix the issue
   ls -l
 ```
 
-It looks like the hacker created a backup of the original file.
+The following is a screenshot after i executed the above command:
+
+![Hacker Created Backup](https://github.com/gmonika-blip/my-aws-restart-journey/blob/4c9e3fd22613379f6c19e08c62f5994bdc491203/Labs/Security/Working%20with%20AWS%20CloudTrail/HackerCreatedBackup.png)
+
+It seemed the hacker created a backup of the original file.
 
 Run the following command to restore the original graphic on the website.
 
