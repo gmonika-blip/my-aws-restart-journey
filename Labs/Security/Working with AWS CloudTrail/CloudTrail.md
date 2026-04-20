@@ -303,7 +303,9 @@ Noticed, on line 61, password authentication is enabled. This is definitely not 
 
 ![Update SSH Security Screenshot](https://github.com/gmonika-blip/my-aws-restart-journey/blob/d6c7d0388ef1ac5194991269ac72b02de296cceb/Labs/Security/Working%20with%20AWS%20CloudTrail/UpdateSSHsecurity.png)
 
-Then, I ran the following command to restart the SSH service so that the changes could go into effect:
+<br>
+
+Then, I executed the following command to restart the SSH service so that the changes could go into effect:
 
 ```
    sudo service sshd restart
