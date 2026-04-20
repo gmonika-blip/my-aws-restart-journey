@@ -177,6 +177,21 @@ The advantage of using Athena is that I could now run SQL queries over the log d
 
 `I noticed how each standard child element that existed in a CloudTrail log record in JSON format had a corresponding column name in this database. The useridentity database column was a struct type, because it contained more than a single name-value pair. Similarly, the resources database column was an array.`
 
+**Step 2:** Set up query results location and then executed a simple query to get an idea of the data that is available in the logs.
+
+-On the menu bar at the upper right of the page, chose `Settings` followed by `Manage`.
+
+-Set Location of query result to `s3://monitoring2345/results/` 
+
+-Chose Save.
+
+Select the Editor table and paste the following SQL query into the Query 1 panel. Replace #### with the numbers in your actual table, and choose Run.
+
+SELECT *
+FROM cloudtrail_logs_monitoring####
+LIMIT 5
+This query returns five rows of data. Look at the result set (scroll to the right in the Results panel to see additional column data).
+
 
 
 **Challenge:** Identify the hacker
