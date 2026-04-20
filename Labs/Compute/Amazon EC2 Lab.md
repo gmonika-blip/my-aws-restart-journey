@@ -403,7 +403,17 @@ I successfully tested termination protection and then terminated my Amazon EC2 i
 ---
 
 
-  
+## Conclusion
+
+In this lab, I gained hands-on experience working with Amazon Elastic Compute Cloud (Amazon EC2) and developed a solid understanding of its core capabilities. I successfully launched and configured an EC2 instance, deployed a web server using a User Data script, and learned how security groups control access by acting as virtual firewalls.
+
+I also monitored the instance using Amazon CloudWatch, verified its health through status checks, and explored performance metrics. Additionally, I resized the instance by changing both its instance type and storage capacity, demonstrating how EC2 can scale based on workload requirements.
+
+Finally, I tested termination protection to understand how it prevents accidental deletion and safely terminated the instance after disabling the protection.
+
+Overall, this lab reinforced key cloud computing concepts such as scalability, security, monitoring, and cost-efficiency, while providing practical experience in managing compute resources in AWS.
+
+---
   
 
 
