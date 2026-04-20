@@ -196,6 +196,8 @@ LIMIT 5
 This query returned five rows of data.  The columns **useridentity, eventtime, eventsource, eventname, and requestparameters** contained the most valuable information to help me find the origin of the hack.
 The **useridentity** column had many details that made it more difficult to read though. So I decided to return only the user name for that column.  
 
+**Step 3:** Executed a new query that selected only the relevant columns. This time, I limited the results to 30 rows.
+
 
 
 **Challenge:** Identify the hacker
