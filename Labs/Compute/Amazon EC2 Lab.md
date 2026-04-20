@@ -223,15 +223,6 @@ Amazon EC2 automatically sends metrics to Amazon CloudWatch.
 - **Detailed monitoring (1-minute intervals)** could be enabled if needed.
 
 
-### Viewing Instance Screenshot
-
-1. From the **Actions** menu, I selected:
-   - **Monitor and troubleshoot** → **Get Instance Screenshot**
-
-This displayed what the EC2 instance console would look like if a physical screen were attached.
-
-
-
 ### Result
 
 I successfully monitored my instance, verified its health status, and reviewed performance metrics using Amazon CloudWatch.
