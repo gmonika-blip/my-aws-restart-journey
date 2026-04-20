@@ -181,8 +181,8 @@ Waited until my instance showed the following:
 - **Status Checks:** `2/2 checks passed`
 
 > 🔄 Refreshed the page if necessary until both conditions were met.
->
-> ## Task 3: Updated Security Group and Accessed the Web Server
+
+## Task 3: Updated Security Group and Accessed the Web Server
 
 When I launched the Amazon EC2 instance, I provided a script that installed a web server and created a simple web page. In this task, I accessed content from the web server.
 
@@ -194,7 +194,6 @@ When I launched the Amazon EC2 instance, I provided a script that installed a we
 
 I was not able to access the web server because the security group did not permit inbound traffic on **port 80 (HTTP)**. This demonstrated how a security group acts as a firewall to control inbound and outbound traffic for an instance.
 
----
 
 ### Updating the Security Group
 
@@ -214,7 +213,6 @@ At this point, the security group had no inbound rules.
 
 7. I selected **Save rules**.
 
----
 
 ### Verifying Access
 
