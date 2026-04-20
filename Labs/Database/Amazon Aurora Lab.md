@@ -222,7 +222,17 @@ Using a different browser tab, I went back to the AWS Management Console and in 
 4. Chose the Connectivity & security tab, and in the Endpoints section, copied the Endpoint name for the `Writer instance` to my text editor.
  The endpoint looked similar to the following: ```aurora.cluster-cabcdefghijklm.us-west-2.rds.amazonaws.com```.
 
-> An endpoint is represented as an Aurora specific URL that contains a host address and a port. The following types of endpoints are available from an Aurora DB cluster.
+> An endpoint is represented as an Aurora specific URL that contains a host address and a port.
+
+5. Logged into the database
+
+   Used the following command, replaced <endpoint_goes_here> with the endpoint that I had  copied to my text editor.
+
+  ```mysql -u admin --password='admin123' -h <endpoint_goes_here> ```
+
+  
+
+   
 
 
 
