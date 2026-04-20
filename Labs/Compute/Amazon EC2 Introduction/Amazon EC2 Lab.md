@@ -38,19 +38,19 @@ Amazon EC2's simple web service interface allows developers to obtain and config
 
 In this task, I launched an Amazon EC2 instance with termination protection. Termination protection helps prevent accidental deletion of your instance. I also used a **User Data script** to deploy a simple web server automatically.
 
-### Step 1: Open EC2 Dashboard
-1. In the **AWS Management Console**, go to **Services**.
-2. Select **EC2**.
-3. In the left navigation pane, choose **EC2 Dashboard**.
-4. Click **Launch instance**, then select **Launch instance** again.
+### Step 1: Opened EC2 Dashboard
+1. In the **AWS Management Console**, navigated to **Services**.
+2. Selected **EC2**.
+3. In the left navigation pane, chose **EC2 Dashboard**.
+4. Clicked **Launch instance**, then selected **Launch instance** again.
 
-### Step 2: Name Your EC2 Instance
-When you name your instance, AWS creates a key-value pair:
+### Step 2: Named My EC2 Instance
+AWS created a key-value pair:
 - **Key**: `Name`  
 - **Value**: Your chosen name  
 
 1. In the **Name and tags** section:
-   - Enter: `Web Server`
+   - Entered: `Web Server`
 
 ### Step 3: Choose an Amazon Machine Image (AMI)
 An **Amazon Machine Image (AMI)** provides the configuration required to launch your instance. It includes:
@@ -58,47 +58,47 @@ An **Amazon Machine Image (AMI)** provides the configuration required to launch 
 - Launch permissions for AWS accounts
 - Storage configuration (block device mapping)
 
-1. Locate the **Application and OS Images (Amazon Machine Image)** section.
-2. Under **AMI**, ensure that **Amazon Linux 2023** is selected (default setting).
-3. Keep the default selection.
+1. Located the **Application and OS Images (Amazon Machine Image)** section.
+2. Under **AMI**, ensured that **Amazon Linux 2023** is selected (default setting).
+3. Kept the default selection.
 
-> 💡 The **Quick Start** list contains commonly used AMIs. You can also use custom AMIs or select from the **AWS Marketplace**, an online store where you can buy or sell software that runs on AWS.
+> 💡 The **Quick Start** list contains commonly used AMIs. Developers can also use custom AMIs or select from the **AWS Marketplace**, an online store where they can buy or sell software that runs on AWS.
 
 
-### Step 4: Choosing an Instance Type
+### Step 4: Chose an Instance Type
 
 Amazon EC2 provides a wide selection of instance types optimized for different use cases. Instance types vary in CPU, memory, storage, and networking capacity, allowing you to choose the right configuration for your workload.
 
-1. Open the **Instance type** dropdown menu.
-2. Select **t3.micro**.
+1. Opened the **Instance type** dropdown menu.
+2. Selected **t3.micro**.
    - This instance type provides:
      - 2 virtual CPUs
      - 1 GiB of memory
 
-### Step 5: Configuring a Key Pair
+### Step 5: Configured a Key Pair
 
-Amazon EC2 uses public-key cryptography to securely handle login credentials. Normally, you would create a key pair, download a private key, and use it to connect to your instance.
+Amazon EC2 uses public-key cryptography to securely handle login credentials. Normally, I would create a key pair, download a private key, and use it to connect to your instance.
 
-However, in this lab, you will not need to log in to the instance.
+However, in this lab, I was not required to log in to the instance.
 
 1. In the **Key pair (login)** section:
-   - Select **Proceed without a key pair (Not recommended)**.
+   - Selected **Proceed without a key pair (Not recommended)**.
 
-### Step 5: Configuring Network Settings
+### Step 5: Configured Network Settings
 
-The VPC determines which Virtual Private Cloud (VPC) you want to launch the instance into. You can have multiple VPCs for different environments such as development, testing, and production.
+The VPC determines which Virtual Private Cloud (VPC) I chose to launch the instance into. Developers can have multiple VPCs for different environments such as development, testing, and production.
 
-1. In the **Network settings** pane, choose **Edit**.
-2. For **VPC (required)**, select **Lab VPC**.
+1. In the **Network settings** pane, I chose **Edit**.
+2. For **VPC (required)**, selected **Lab VPC**.
 
-#### Configure Security Group
-A security group acts as a virtual firewall that controls traffic for one or more instances. When you launch an instance, you associate one or more security groups with it. Rules added to a security group control inbound and outbound traffic, and changes are automatically applied to all associated instances.
+#### Configured Security Group
+A security group acts as a virtual firewall that controls traffic for one or more instances. When I launch an instance, I can associate one or more security groups with it. Rules added to a security group control inbound and outbound traffic, and changes are automatically applied to all associated instances.
 
-1. Still in **Network settings**, configure the security group as follows:
+1. Still in **Network settings**, configured the security group as follows:
    - **Security group name (required):** `Web Server security group`  
    - **Description:** `Security group for my web server`
 
-2. Under **Inbound security group rules**, select **Remove** to delete the SSH rule.
+2. Under **Inbound security group rules**, selected **Remove** to delete the SSH rule.
 
 > 🔒 In this lab, SSH access is not required. Removing it improves the security of the instance.
 
@@ -108,22 +108,22 @@ A security group acts as a virtual firewall that controls traffic for one or mor
 Amazon EC2 stores data using a network-attached virtual disk called **Amazon Elastic Block Store (Amazon EBS)**.
 
 1. By default, the instance is launched with an **8 GiB root volume** (boot volume).
-2. In the **Configure storage** section, keep the default settings unchanged.
+2. In the **Configure storage** section, kept the default settings unchanged.
 
 > 💡 The root volume contains the operating system and is required for the instance to boot.
 >
-### Step 7: Configuring Advanced Details
+### Step 7: Configured Advanced Details
 
-1. Expand the **Advanced details** pane.
-2. Find **Termination protection** and select the dropdown.
-3. Choose **Enable**.
+1. Expanded the **Advanced details** pane.
+2. Found **Termination protection** and selected the dropdown.
+3. Chose **Enable**.
 
-When you launch an instance in Amazon EC2, you can pass **User data** to automate configuration tasks and run scripts after the instance starts.
+When an instance in Amazon EC2 is launched, deveopers can pass **User data** to automate configuration tasks and run scripts after the instance starts.
 
-#### Add User Data Script
+#### Added User Data Script
 
-1. Locate the **User data** text box.
-2. Copy and paste the following script:
+1. Located the **User data** text box.
+2. Performed Copy and paste for the following script:
 
 ```bash
 #!/bin/bash
@@ -143,45 +143,44 @@ The script does the following:
 
 --Create a simple web page
 
-### Step 8: Launching an EC2 Instance
+### Step 8: Launched an EC2 Instance
 
-Now that you have configured your instance settings in Amazon EC2, you are ready to launch it.
+Once configured my instance settings in Amazon EC2, I was ready to launch it.
 
-1. In the right pane, choose **Launch instance**.
-2. Select **View all instances**.
+1. In the right pane, chose **Launch instance**.
+2. Selected **View all instances**.
 
 ### Instance Launch Status
 
-After launching, the instance will go through the following states:
+After launching, the instance went through the following states:
 
 - **Pending**: The instance is being created and launched.
 - **Running**: The instance has started booting and is active.
 
-> ⏳ There may be a short delay before the instance becomes fully accessible.
+> ⏳ There was a short delay before the instance became fully accessible.
 
 The instance is automatically assigned a **public DNS name**, which can be used to access it over the internet.
 
 ### Viewing Instance Details
 
-1. Select the checkbox next to your **Web Server** instance.
-2. The **Details** tab will display detailed information about the instance.
-3. To view more information, drag the window divider upward if needed.
+1. Selected the checkbox next to your **Web Server** instance.
+2. The **Details** tab displayed detailed information about the instance.
 
-### Review Instance Information
+### Reviewed Instance Information
 
-Check the following tabs:
+Checked the following tabs:
 - **Details**
 - **Security**
 - **Networking**
 
 ### Final Status Check
 
-Wait until your instance shows the following:
+Waited until my instance showed the following:
 
 - **Instance State:** `Running`
 - **Status Checks:** `2/2 checks passed`
 
-> 🔄 Refresh the page if necessary until both conditions are met.
+> 🔄 Refreshed the page if necessary until both conditions were met.
 
 
   
