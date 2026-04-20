@@ -181,16 +181,19 @@ The advantage of using Athena is that I could now run SQL queries over the log d
 
 On the menu bar at the upper right of the page, chose `Settings` followed by `Manage`.
 
--*Set Location of query result to `s3://monitoring2345/results/` 
+-Set Location of query result to `s3://monitoring2345/results/` 
 
--*Chose Save.
+-Chose Save.
 
-Select the Editor table and paste the following SQL query into the Query 1 panel. Replace #### with the numbers in your actual table, and choose Run.
+Selected the Editor table and typed the following SQL query into the Query 1 panel. Chose Run.
 
+```
 SELECT *
-FROM cloudtrail_logs_monitoring####
+FROM cloudtrail_logs_monitoring2345
 LIMIT 5
-This query returns five rows of data. Look at the result set (scroll to the right in the Results panel to see additional column data).
+```
+
+This query returned five rows of data. Look at the result set (scroll to the right in the Results panel to see additional column data).
 
 
 
