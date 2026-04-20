@@ -288,6 +288,10 @@ USE world;
 
 The following screenshot shows the use of the Create and Insert command:
 
+![Create and Insert SQL commands](https://github.com/gmonika-blip/my-aws-restart-journey/blob/43963c96fdcb0bcfe94b7445fdf1369b1cc52fb0/Labs/Database/images/CreateInsertSQL.png)
+
+
+
 
    
 
