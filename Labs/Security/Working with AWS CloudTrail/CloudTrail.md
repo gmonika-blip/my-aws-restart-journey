@@ -335,14 +335,19 @@ The following is a screenshot after i executed the above command:
 
 ![Hacker Created Backup](https://github.com/gmonika-blip/my-aws-restart-journey/blob/4c9e3fd22613379f6c19e08c62f5994bdc491203/Labs/Security/Working%20with%20AWS%20CloudTrail/HackerCreatedBackup.png)
 
+<br>
+
 It seemed the hacker created a backup of the original file.
 
-Run the following command to restore the original graphic on the website.
+2. Ran the following command to restore the original graphic on the website.
 
-sudo mv Coffee-and-Pastries.backup Coffee-and-Pastries.jpg
-To test the fix, reload the http://WebServerIP/cafe website in the browser.
+```
+   sudo mv Coffee-and-Pastries.backup Coffee-and-Pastries.jpg
+```
 
-Tip: You may need to press and hold the Shift key and choose the browser refresh button to see the change.
+To test the fix, reloaded the `http://WebServerIP/cafe` website in the browser.
+
+
 
 That looks better!
 
