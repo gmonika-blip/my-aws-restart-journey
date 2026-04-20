@@ -255,26 +255,25 @@ In this task, I learnt how to create a table in a database, load data, and run a
 1. To list the available databases, executed the following command:
 
    ```
-     sql
      SHOW DATABASES;
   ```
 
  Expected output:
- ```text
-******************************
-**** This is OUTPUT ONLY. ****
-******************************        
-+--------------------+
-| Database           |
-+--------------------+
-| information_schema |
-| mysql              |
-| performance_schema |
-| sys                |
-| world              |
-+--------------------+
-5 rows in set (0.02 sec)    
-MySQL [(none)]>
+ ```
+   ******************************
+   **** This is OUTPUT ONLY. ****
+   ******************************        
+   +--------------------+
+   | Database           |
+   +--------------------+
+   | information_schema |
+   | mysql              |
+   | performance_schema |
+   | sys                |
+   | world              |
+   +--------------------+
+  5 rows in set (0.02 sec)    
+  MySQL [(none)]>
 ```
 
 
