@@ -211,7 +211,8 @@ mariadb.x86_64 1:5.5.68-1.amzn2.0.1
 Complete!   
 ```
 
-**Step 2:** Using a different browser tab, I went back to the AWS Management Console and in the search bar, searched for and chose RDS.
+**Step 2:** 
+Using a different browser tab, I went back to the AWS Management Console and in the search bar, searched for and chose RDS.
 
 -In the left navigation menu, choose Databases.
 -Wait for aurora-instance-1 to display  Available.
