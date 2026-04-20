@@ -321,6 +321,27 @@ Saved the change.
 
 I managed to kick the hacker out of this instance and removed the login account that they used. I also updated the SSH settings so that only users who have the correct key pair and the same source IP address as I can connect to it.
 
+**Task 5.3:** Fix the website
+Now that the hacker had no longer access to this instance, I could fix the issue with the website by following these steps:
+
+1. Executed the following command to navigate to the directory where the website image files were held and reviewed the contents:
+
+```
+  cd /var/www/html/cafe/images/
+  ls -l
+```
+
+It looks like the hacker created a backup of the original file.
+
+Run the following command to restore the original graphic on the website.
+
+sudo mv Coffee-and-Pastries.backup Coffee-and-Pastries.jpg
+To test the fix, reload the http://WebServerIP/cafe website in the browser.
+
+Tip: You may need to press and hold the Shift key and choose the browser refresh button to see the change.
+
+That looks better!
+
    
 
 
