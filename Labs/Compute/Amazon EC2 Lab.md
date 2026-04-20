@@ -211,7 +211,7 @@ With instance status monitoring, I was able to determine whether Amazon EC2 dete
 
 ### Viewing Monitoring Metrics
 
-1.Selected the **Monitoring** tab.
+1. Selected the **Monitoring** tab.
 
 This tab displayed metrics from Amazon CloudWatch for the instance. Since the instance was recently launched, only a limited number of metrics were available.
 
