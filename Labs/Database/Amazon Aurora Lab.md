@@ -282,16 +282,20 @@ MySQL [(none)]>
 USE world;
 ```
 
-3. Used `Create` Command to create a table named `country` in the `world` database
+3. Used `Create` statement to create a table named `country` in the `world` database
    
-4. Used `Insert` Command to insert new records into the `country` table in the `world` database.
+4. Used `Insert` statement to insert new records into the `country` table in the `world` database.
 
 The following screenshot shows the use of the `Create` and `Insert` commands:
 
 ![Create and Insert SQL commands](https://github.com/gmonika-blip/my-aws-restart-journey/blob/43963c96fdcb0bcfe94b7445fdf1369b1cc52fb0/Labs/Database/images/CreateInsertSQL.png)
 
 
+5. Use `Select` statement to query the `country` table.
 
+```sql
+SELECT * FROM country WHERE GNP > 35000 and Population > 10000000;
+```
 
    
 
