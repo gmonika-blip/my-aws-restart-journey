@@ -194,6 +194,50 @@ I was able to successfully lauch my first Amazon EC2 instance.
 
 ---
 
+## Task 2: Monitoring the Instance
+
+Monitoring is an important part of maintaining the reliability, availability, and performance of my Amazon EC2 instance and overall AWS solution.
+
+### Checking Instance Status
+
+1. Selected the instance.
+2. Navigated to the **Status checks** tab at the bottom of the screen.
+
+With instance status monitoring, I was able to determine whether Amazon EC2 detected any issues that could prevent the instance from running applications. Automated checks were performed to identify both hardware and software problems.
+
+- **System reachability check:** Passed  
+- **Instance reachability check:** Passed  
+
+
+### Viewing Monitoring Metrics
+
+1.Selected the **Monitoring** tab.
+
+This tab displayed metrics from Amazon CloudWatch for the instance. Since the instance was recently launched, only a limited number of metrics were available.
+
+2. I selected a graph to view an expanded version.
+
+Amazon EC2 automatically sends metrics to Amazon CloudWatch.
+
+- **Basic monitoring (5-minute intervals)** was enabled by default.  
+- **Detailed monitoring (1-minute intervals)** could be enabled if needed.
+
+
+### Viewing Instance Screenshot
+
+1. From the **Actions** menu, I selected:
+   - **Monitor and troubleshoot** → **Get Instance Screenshot**
+
+This displayed what the EC2 instance console would look like if a physical screen were attached.
+
+
+
+### Result
+
+I successfully monitored my instance, verified its health status, and reviewed performance metrics using Amazon CloudWatch.
+
+---
+
 ## Task 3: Updated Security Group and Accessed the Web Server
 
 When I launched the Amazon EC2 instance, I provided a script that installed a web server and created a simple web page. In this task, I accessed content from the web server.
