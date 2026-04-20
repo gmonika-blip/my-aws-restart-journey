@@ -75,7 +75,6 @@ Amazon EC2 provides a wide selection of instance types optimized for different u
      - 2 virtual CPUs
      - 1 GiB of memory
 
----
 ### Step 5: Configuring a Key Pair
 
 Amazon EC2 uses public-key cryptography to securely handle login credentials. Normally, you would create a key pair, download a private key, and use it to connect to your instance.
@@ -84,6 +83,65 @@ However, in this lab, you will not need to log in to the instance.
 
 1. In the **Key pair (login)** section:
    - Select **Proceed without a key pair (Not recommended)**.
+
+### Step 5: Configuring Network Settings
+
+The VPC determines which Virtual Private Cloud (VPC) you want to launch the instance into. You can have multiple VPCs for different environments such as development, testing, and production.
+
+1. In the **Network settings** pane, choose **Edit**.
+2. For **VPC (required)**, select **Lab VPC**.
+
+#### Configure Security Group
+A security group acts as a virtual firewall that controls traffic for one or more instances. When you launch an instance, you associate one or more security groups with it. Rules added to a security group control inbound and outbound traffic, and changes are automatically applied to all associated instances.
+
+1. Still in **Network settings**, configure the security group as follows:
+   - **Security group name (required):** `Web Server security group`  
+   - **Description:** `Security group for my web server`
+
+2. Under **Inbound security group rules**, select **Remove** to delete the SSH rule.
+
+> 🔒 In this lab, SSH access is not required. Removing it improves the security of the instance.
+
+
+### Step 6: Adding Storage
+
+Amazon EC2 stores data using a network-attached virtual disk called **Amazon Elastic Block Store (Amazon EBS)**.
+
+1. By default, the instance is launched with an **8 GiB root volume** (boot volume).
+2. In the **Configure storage** section, keep the default settings unchanged.
+
+> 💡 The root volume contains the operating system and is required for the instance to boot.
+>
+> ### Step 7: Configuring Advanced Details
+
+1. Expand the **Advanced details** pane.
+2. Find **Termination protection** and select the dropdown.
+3. Choose **Enable**.
+
+When you launch an instance in Amazon EC2, you can pass **User data** to automate configuration tasks and run scripts after the instance starts.
+
+#### Add User Data Script
+
+1. Locate the **User data** text box.
+2. Copy and paste the following script:
+
+```bash
+#!/bin/bash
+yum -y install httpd
+systemctl enable httpd
+systemctl start httpd
+echo '<html><h1>Hello From Your Web Server!</h1></html>' > /var/www/html/index.html
+```
+
+The script does the following:
+
+--Install an Apache web server (httpd)
+
+--Configure the web server to automatically start on boot
+
+--Activate the Web server
+
+--Create a simple web page
 
   
   
