@@ -13,7 +13,7 @@ This lab is designed to reinforce the concept of leveraging an AWS-managed datab
 
 ## Step 1:
 
-Launched an Amazon RDS DB instance using Amazon Aurora Provisioned DB engine with the following configuration:
+ Launched an Amazon RDS DB instance using Amazon Aurora Provisioned DB engine with the following configuration:
     * DatabaseEngine: `Aurora (MySQL compatible)`
     * Template: Choose `Dev/Test`
     * DB instance size: `Burstable classes` type `db.t3.small`
