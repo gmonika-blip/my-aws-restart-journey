@@ -315,7 +315,7 @@ In this task, I learned how termination protection prevents accidental deletion 
 
 However, the instance did not terminate. A red error message appeared:
 `
- **Failed to terminate an instance: The instance may not be terminated.**
+ Failed to terminate an instance: The instance may not be terminated.
  `
 
 > 
