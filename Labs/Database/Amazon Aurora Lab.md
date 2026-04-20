@@ -302,6 +302,11 @@ The following screenshot shows the output of the query:
 
 ![Query Table Output](https://github.com/gmonika-blip/my-aws-restart-journey/blob/4f075b182d26b6597feef8e52f39261bafce218b/Labs/Database/images/QueryTable.png)
 
+### Result
+
+ Successfully created a table named country, inserted data into the table, and queried records returning two results.
+
+---
 
 
 
