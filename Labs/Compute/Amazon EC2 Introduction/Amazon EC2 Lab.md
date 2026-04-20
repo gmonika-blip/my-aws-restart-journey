@@ -18,7 +18,9 @@ Amazon EC2's simple web service interface allows developers to obtain and config
 
  ## Lab Overview
   
-    This lab provides you with a basic overview of launching, resizing, managing, and monitoring an Amazon EC2 instance.
+  This lab gave me a basic overview of launching, resizing, managing, and monitoring an Amazon EC2 instance.
+
+  
   
 
 
