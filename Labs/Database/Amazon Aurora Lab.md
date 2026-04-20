@@ -214,11 +214,8 @@ Complete!
 **Step 2:** Using a different browser tab, I went back to the AWS Management Console and in the search bar, searched for and chose RDS.
 
 -In the left navigation menu, choose Databases.
-
 -Wait for aurora-instance-1 to display  Available.
-
--Choose aurora.
-
+-Choose Aurora.
 -Choose the Connectivity & security tab, and in the Endpoints section, copy the Endpoint name for the Writer instance to your text editor.
  The endpoint should look similar to the following: ```aurora.cluster-cabcdefghijklm.us-west-2.rds.amazonaws.com```.
 
