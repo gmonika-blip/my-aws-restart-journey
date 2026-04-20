@@ -275,13 +275,13 @@ The root, sync, shutdown, and halt users are all standard OS users in Amazon Lin
 
 `I removed the OS user who hacked into the instance, but how did they manage to connect to the EC2 instance by using SSH in the first place? The admin has been careful about who has access to the key pair file.` 
 
-I checked the SSH settings on this instance using the following command:
+ Checked the SSH settings on this instance using the following command:
 
 ```
   sudo ls -l /etc/ssh/sshd_config
 ```
 
-I noticed the last modified timestamp for the file. This file was modified the same day! That was concerning.
+noticed the last modified timestamp for the file. This file was modified the same day! That was concerning.
 
 I then executed the following command to edit the SSH configuration file in the VI editor:
 
@@ -292,25 +292,29 @@ I then executed the following command to edit the SSH configuration file in the 
 Analyzed the details of this file. 
 I noticed, on line 61, password authentication is enabled. This is definitely not a security best practice! That means that anyone who knows (or can correctly guess) the username and password combination of an OS user can remotely access this instance without using an SSH key pair. This setting needed to be corrected.
 
->Enter edit mode
->Moved my cursor (using the arrow up or down keys) to the PasswordAuthentication yes line and commented it out.
-Next, moved my cursor to the #PasswordAuthentication line (line 63) by using the arrow keys and uncommented this line (remove the # character).
+```
+   Enter edit mode
+   Moved my cursor (using the arrow up or down keys) to the PasswordAuthentication yes line and commented it out.
+   Next, moved my cursor to the #PasswordAuthentication line (line 63) by using the arrow keys and uncommented this line (remove the # character).
 
-Choose the Esc key on your keyboard to exit edit mode.
-Save the changes, and exit the VI editor using the :wq command.
+   Used the Esc key on my keyboard to exit edit mode.
+   Saved the changes, and exited the VI editor using the :wq command.
+```
 
-Run the following command to restart the SSH service so that the changes go into effect:
 
-sudo service sshd restart
-Note: If running the command above interrupts your SSH connection, reestablish the SSH connection before continuing on to the next step.
+Then, I ran the following command to restart the SSH service so that the changes could go into effect:
 
-Finally, in the EC2 console, return to the Web Server security group settings.
+```
+   sudo service sshd restart
+```
 
-With the Web Server security group selected, go to the Inbound tab, and choose Edit.
+Finally, in the EC2 console, returned to the Web Server security group settings.
 
-Delete the inbound rule that allows port 22 access from 0.0.0.0/0 (the one the hacker created).
+With the Web Server security group selected, navigated to the Inbound tab, and chose Edit.
 
-Save the change.
+Deleted the inbound rule that allowed port 22 access from 0.0.0.0/0 (the one the hacker created).
+
+Saved the change.
 
 Nice work! You have kicked the hacker out of this instance and remove the login account that they used. You also updated the SSH settings so that only users who have the correct key pair and the same source IP address as you can connect to it.
 
