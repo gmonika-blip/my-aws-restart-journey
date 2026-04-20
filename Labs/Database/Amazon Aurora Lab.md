@@ -227,7 +227,15 @@ Using a different browser tab, I went back to the AWS Management Console and in 
 5. Used the following command to log into the database, replaced <endpoint_goes_here> with the endpoint that I had  copied to my text editor.
 
    ```
-     mysql -u admin --password='admin123' -h <endpoint_goes_here> ```
+     mysql -u admin --password='admin123' -h <endpoint_goes_here>
+   ```
+   
+   ```
+      -u or --user	is the MySQL username used to connect to a database instance.
+      -p or --password	is the MySQL password used to connect to a database instance.
+      -h or --host	is the host address of the database engine.
+   ```
+
 
    
 
