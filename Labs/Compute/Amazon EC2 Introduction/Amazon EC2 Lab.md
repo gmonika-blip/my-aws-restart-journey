@@ -63,7 +63,7 @@ An **Amazon Machine Image (AMI)** provides the configuration required to launch 
 3. Keep the default selection.
 
 > 💡 The **Quick Start** list contains commonly used AMIs. You can also use custom AMIs or select from the **AWS Marketplace**, an online store where you can buy or sell software that runs on AWS.
->---
+
 
 ### Step 4: Choosing an Instance Type
 
