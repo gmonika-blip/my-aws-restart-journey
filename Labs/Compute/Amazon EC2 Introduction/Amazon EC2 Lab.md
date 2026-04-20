@@ -112,7 +112,7 @@ Amazon EC2 stores data using a network-attached virtual disk called **Amazon Ela
 
 > 💡 The root volume contains the operating system and is required for the instance to boot.
 >
-> ### Step 7: Configuring Advanced Details
+### Step 7: Configuring Advanced Details
 
 1. Expand the **Advanced details** pane.
 2. Find **Termination protection** and select the dropdown.
