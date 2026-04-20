@@ -143,6 +143,48 @@ The script does the following:
 
 --Create a simple web page
 
+### Step 8: Launching an EC2 Instance
+
+Now that you have configured your instance settings in Amazon EC2, you are ready to launch it.
+
+1. In the right pane, choose **Launch instance**.
+2. Select **View all instances**.
+
+```
+### Instance Launch Status
+
+After launching, the instance will go through the following states:
+
+- **Pending**: The instance is being created and launched.
+- **Running**: The instance has started booting and is active.
+
+> ⏳ There may be a short delay before the instance becomes fully accessible.
+
+The instance is automatically assigned a **public DNS name**, which can be used to access it over the internet.
+
+### Viewing Instance Details
+
+1. Select the checkbox next to your **Web Server** instance.
+2. The **Details** tab will display detailed information about the instance.
+3. To view more information, drag the window divider upward if needed.
+
+### Review Instance Information
+
+Check the following tabs:
+- **Details**
+- **Security**
+- **Networking**
+
+### Final Status Check
+
+Wait until your instance shows the following:
+
+- **Instance State:** `Running`
+- **Status Checks:** `2/2 checks passed`
+
+> 🔄 Refresh the page if necessary until both conditions are met.
+```
+
   
   
 
