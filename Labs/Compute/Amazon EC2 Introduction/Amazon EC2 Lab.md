@@ -230,6 +230,44 @@ The following message was displayed:
 
 I successfully modified the security group to allow HTTP traffic into my Amazon EC2 instance.
 
+## Task 4: Resized the Instance (Instance Type and EBS Volume)
+
+As my needs changed, I observed that the instance could become over-utilized (too small) or under-utilized (too large). In such cases, I could change the instance type. For example, a `t3.micro` instance could be changed to a `t3.small` instance. I could also modify the size of an attached disk.
+
+### Stopping the Instance
+
+Before resizing the instance, I stopped it.
+
+> When I stopped an instance, it was shut down. There was no charge for a stopped instance, but storage charges for attached Amazon EBS volumes still applied.
+
+1. On the Amazon EC2 Management Console, I selected **Instances** from the left navigation pane.
+2. I ensured that **Web Server** was selected.
+3. I selected **Instance state** → **Stop instance**.
+4. I confirmed by selecting **Stop**.
+
+The instance performed a normal shutdown and then stopped running.
+
+5. I waited until the **Instance State** showed: `stopped`.
+
+
+### Changing the Instance Type
+
+After the instance had stopped, I changed its instance type.
+
+1. I opened the **Actions** menu.
+2. I selected **Instance settings** → **Change instance type**.
+3. I configured the following:
+   - **Instance Type:** `t3.small`
+
+4. I selected **Change instance type**.
+
+> ⚠️ Note: In this lab, I may have been restricted from selecting other instance types.
+
+
+### Result
+
+When I started the instance again, it ran as a **t3.small**, which provided twice as much memory as a `t3.micro` instance.
+
 
   
   
