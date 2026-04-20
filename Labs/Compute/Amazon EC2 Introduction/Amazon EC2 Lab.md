@@ -181,6 +181,12 @@ Waited until my instance showed the following:
 - **Status Checks:** `2/2 checks passed`
 
 > 🔄 Refreshed the page if necessary until both conditions were met.
+>
+### Result
+
+I was able to successfully lauch my first EC2 instance
+
+---
 
 ## Task 3: Updated Security Group and Accessed the Web Server
 
