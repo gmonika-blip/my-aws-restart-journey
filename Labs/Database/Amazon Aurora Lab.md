@@ -282,9 +282,9 @@ MySQL [(none)]>
 USE world;
 ```
 
-3. Used `Create` Command to create a table named `country` in the database
+3. Used `Create` Command to create a table named `country` in the `world` database
    
-4. Used `Insert` Command to insert new records into the `country` table.
+4. Used `Insert` Command to insert new records into the `country` table in the `world` database.
 
    
 
