@@ -215,7 +215,7 @@ With instance status monitoring, I was able to determine whether Amazon EC2 dete
 
 This tab displayed metrics from Amazon CloudWatch for the instance. Since the instance was recently launched, only a limited number of metrics were available.
 
-2. I selected a graph to view an expanded version.
+2. Selected a graph to view an expanded version.
 
 Amazon EC2 automatically sends metrics to Amazon CloudWatch.
 
