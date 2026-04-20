@@ -229,7 +229,9 @@ Using a different browser tab, I went back to the AWS Management Console and in 
    ```
      mysql -u admin --password='admin123' -h <endpoint_goes_here>
    ```
-   
+
+   The MySQL Command-Line Client is a SQL shell which enables interaction with database engines
+
    ```
       -u or --user	is the MySQL username used to connect to a database instance.
       -p or --password	is the MySQL password used to connect to a database instance.
