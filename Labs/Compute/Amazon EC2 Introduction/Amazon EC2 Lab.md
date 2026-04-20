@@ -75,10 +75,7 @@ Amazon EC2 provides a wide selection of instance types optimized for different u
      - 2 virtual CPUs
      - 1 GiB of memory
 
-> ⚠️ Note: In this lab, you may be restricted from selecting other instance types.
-
 ---
-
 ### Step 5: Configuring a Key Pair
 
 Amazon EC2 uses public-key cryptography to securely handle login credentials. Normally, you would create a key pair, download a private key, and use it to connect to your instance.
