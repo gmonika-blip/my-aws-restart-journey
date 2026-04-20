@@ -143,6 +143,10 @@ I configured the database with the following options.
    > This initiated the database provisioning process.
 
 > ⏳ The Aurora DB instance took a few minutes to launch.
+>
+The following is a screenshot showing that the Aurora Database Instance was launched successfully:
+
+
 
 
 
