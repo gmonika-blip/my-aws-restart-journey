@@ -52,7 +52,7 @@ AWS created a key-value pair:
 1. In the **Name and tags** section:
    - Entered: `Web Server`
 
-### Step 3: Choose an Amazon Machine Image (AMI)
+### Step 3: Chose an Amazon Machine Image (AMI)
 An **Amazon Machine Image (AMI)** provides the configuration required to launch your instance. It includes:
 - A template for the root volume (e.g., operating system or application server)
 - Launch permissions for AWS accounts
