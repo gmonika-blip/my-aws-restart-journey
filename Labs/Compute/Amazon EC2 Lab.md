@@ -182,6 +182,8 @@ Waited until my instance showed the following:
 
 > 🔄 Refreshed the page if necessary until both conditions were met.
 >
+> 
+>
 ### Result
 
 I was able to successfully lauch my first EC2 instance
