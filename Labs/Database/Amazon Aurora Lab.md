@@ -8,12 +8,12 @@ This lab introduced me to Amazon Aurora and provided a basic understanding of ho
 
 **Objectives:**
 
-   Created an Amazon Aurora instance  
+   -Created an Amazon Aurora instance  
   
-   Connected to a pre-created Amazon EC2 instance  
+   -Connected to a pre-created Amazon EC2 instance  
   
-   Configured the EC2 instance to connect to Aurora 
+   -Configured the EC2 instance to connect to Aurora 
   
-   Queried the Aurora database instance  
+   -Queried the Aurora database instance  
 
  
