@@ -40,8 +40,10 @@ The activity starts with an Amazon Elastic Compute Cloud (Amazon EC2) instance n
    
      Opened a new browser tab, and navigated to http://<WebServerIP>/cafe/ (substituted the <WebServerIP> value).
      Noticed that the website looks normal. For example, the photos were all appropriate for a bakery café.
-
      
+  ![Normal Cafe Website](https://github.com/gmonika-blip/my-aws-restart-journey/blob/1d3d3898647140c6eaee2e0657992f217059469f/Labs/Security/Working%20with%20AWS%20CloudTrail/NormalWebsite.png)
+
+   <br>  
 
 ## Task 2: Created a CloudTrail log and observed the hacked website
 
