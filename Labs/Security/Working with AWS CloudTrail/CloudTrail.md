@@ -26,7 +26,7 @@ The activity starts with an Amazon Elastic Compute Cloud (Amazon EC2) instance n
 -- Resolve security concerns within the AWS account and on an EC2 Linux instance
 
 
-### Tasks followed for this Activity**
+### Tasks followed for this Activity
 
 ## Task 1: Modified a security group and observed the website
 
