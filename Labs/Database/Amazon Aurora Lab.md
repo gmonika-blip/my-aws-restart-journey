@@ -224,7 +224,7 @@ Using a different browser tab, I went back to the AWS Management Console and in 
 
 > An endpoint is represented as an Aurora specific URL that contains a host address and a port.
 
-5. Used the following command to log into the database, replaced <endpoint_goes_here> with the endpoint that I had  copied to my text editor.
+5. Executed the following command to log into the database, replaced <endpoint_goes_here> with the endpoint that I had  copied to my text editor.
 
    ```
      mysql -u admin --password='admin123' -h <endpoint_goes_here>
@@ -237,7 +237,8 @@ Using a different browser tab, I went back to the AWS Management Console and in 
       -p or --password	is the MySQL password used to connect to a database instance.
       -h or --host	is the host address of the database engine.
    ```
-
+   The following is a screenshot of the expected output:
+   
 
    
 
