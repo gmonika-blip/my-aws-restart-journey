@@ -20,6 +20,8 @@ This lab introduced me to Amazon Aurora and provided a basic understanding of ho
 - Some experience using the Linux operating system  
 - A basic understanding of Structured Query Language (SQL)
 
+<br>
+
 **Technologies used in this Lab:**
 
 -**Amazon Elastic Compute Cloud(Amazon EC2)** is a web service that provides resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers. Amazon EC2 reduces the time required to provision   new server instances to minutes, giving you the ability to quickly scale capacity, both up and down, as your computing requirements change.
