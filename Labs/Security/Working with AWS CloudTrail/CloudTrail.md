@@ -374,6 +374,15 @@ I decided to remove the chaos AWS Identity and Access Management (IAM) user from
    Now the chaos user was not able to cause any trouble in the AWS account anymore.
 
 
+# Conclusion
+
+Everyone at the Café was relieved that the identity of the person who committed the hack has been uncovered and their access to the web server and to the AWS account has been deleted.
+
+They all know that the hacker could have caused serious damage. Everyone on the team at the Café who participates in updating and maintaining the website now know how important it is to keep the site secure. They definitely were going to continue to use CloudTrail as a key tool for auditing activity on their AWS account.
+
+
+
+
    
 
 
