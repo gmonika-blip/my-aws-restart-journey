@@ -259,7 +259,6 @@ In this task, I learnt how to create a table in a database, load data, and run a
 ```
 
   Expected Output:
-
 ```
 ******************************
 **** This is OUTPUT ONLY. ****
