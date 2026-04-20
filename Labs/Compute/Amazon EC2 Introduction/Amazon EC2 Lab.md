@@ -192,8 +192,9 @@ When I launched the Amazon EC2 instance, I provided a script that installed a we
 
 ### Question: Was I able to access the web server? Why not?
 
+`
 I was not able to access the web server because the security group did not permit inbound traffic on **port 80 (HTTP)**. This demonstrated how a security group acts as a firewall to control inbound and outbound traffic for an instance.
-
+`
 
 ### Updating the Security Group
 
