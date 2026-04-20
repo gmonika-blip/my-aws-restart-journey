@@ -238,6 +238,8 @@ Using a different browser tab, I went back to the AWS Management Console and in 
       -h or --host	is the host address of the database engine.
    ```
    The following is a screenshot of the expected output:
+
+   ![Connect to Aurora through Linux](https://github.com/gmonika-blip/my-aws-restart-journey/blob/52f16355aa2df85e24a389f0edd25f19fba5428f/Labs/Database/images/LinuxInstancetoAurora.png)
    
 
    
