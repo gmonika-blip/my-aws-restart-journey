@@ -44,7 +44,7 @@ In this task, I created an Amazon Aurora database (DB) instance and configured i
 3. I selected **Create database**.  
    > This starts the database setup process.
 
----
+
 
 ### Step 2: Database Configuration 
 I configured the database with the following options.
@@ -61,7 +61,7 @@ I configured the database with the following options.
 - **Template:** Dev/Test  
   > Optimized for cost-effective, non-production environments.
 
----
+
 
 ### Step 3: Settings Configuration
 
@@ -77,7 +77,7 @@ I configured the database with the following options.
 - **Confirm password:** `admin123`  
   > Ensures the password is entered correctly.
 
----
+
 
 ### Step 4: Instance Configuration
 
@@ -87,14 +87,14 @@ I configured the database with the following options.
 - **Instance type:** `db.t3.medium`  
   > Provides a balance of cost and performance for this lab.
 
----
+
 
 ### Step 5: Availability & Durability
 
 - **Multi-AZ deployment:** Did not create an Aurora Replica  
   > High availability was not required for this lab, helping reduce cost and complexity.
 
----
+
 
 ### Step 6: Connectivity Configuration
 
@@ -118,7 +118,7 @@ I configured the database with the following options.
 
 > 💡 A DB subnet group groups subnets to control database placement and improve security.
 
----
+
 
 ### Step 7: Additional Settings
 
@@ -134,7 +134,7 @@ I configured the database with the following options.
 - Disabled **Auto minor version upgrade**  
   > Prevents automatic updates that might affect lab consistency.
 
----
+
 
 ### Step 8: Launching the Database
 
@@ -154,8 +154,6 @@ The following is a screenshot showing that the Aurora Database Instance was laun
 
 ### Result
 
-A confirmation message was displayed:
-
-> **Successfully created database aurora**
-
 I successfully created an Amazon Aurora database instance and understood the purpose behind each configuration step.
+
+---
