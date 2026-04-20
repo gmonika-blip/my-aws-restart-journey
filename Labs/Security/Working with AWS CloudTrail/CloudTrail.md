@@ -62,6 +62,11 @@ In this task, I created a CloudTrail trail in my AWS account. I noticed that soo
 **Step 2:**
 
    Observed the hacked website by refreshing the Cafe website page.
+
+   ![Hacked Website Screenshot](https://github.com/gmonika-blip/my-aws-restart-journey/blob/08048676aad0bce990fb1156ebf9637f1755ddc1/Labs/Security/Working%20with%20AWS%20CloudTrail/HackedWebsite.png)
+
+   <br>
+   
    Noticed that the website has been hacked. Who put that image there? The image certainly did not look correct.
    
    It is good that CloudTral was enabled before this incident. CloudTrail can give us valuable information about        whatusers have been doing in your account.
