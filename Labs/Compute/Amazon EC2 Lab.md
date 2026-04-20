@@ -229,7 +229,7 @@ I successfully monitored my Amazon EC2 instance by checking its status and confi
 
 ---
 
-## Task 3: Updated Security Group and Accessed the Web Server
+## Task 3: Updating Security Group and Accessing the Web Server
 
 When I launched the Amazon EC2 instance, I provided a script that installed a web server and created a simple web page. In this task, I accessed content from the web server.
 
@@ -281,7 +281,7 @@ I successfully modified the security group to allow HTTP traffic into my Amazon 
 
 ---
 
-## Task 4: Resized the Instance (Instance Type and EBS Volume)
+## Task 4: Resizing the Instance (Instance Type and EBS Volume)
 
 As my needs changed, I observed that the instance could become over-utilized (too small) or under-utilized (too large). In such cases, I could change the instance type. For example, a `t3.micro` instance could be changed to a `t3.small` instance. I could also modify the size of an attached disk.
 
@@ -350,7 +350,7 @@ I successfully resized my Amazon EC2 instance.
 >
 > ---
 >
- ## Task 5: Tested Termination Protection
+ ## Task 5: Testing Termination Protection
 
 You can delete your instance when you no longer need it. This is referred to as terminating the instance. Once an instance is terminated, it cannot be restarted or reconnected.
 
