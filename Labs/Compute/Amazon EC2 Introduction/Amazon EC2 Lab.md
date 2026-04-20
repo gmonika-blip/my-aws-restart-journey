@@ -298,8 +298,54 @@ I successfully resized my Amazon EC2 instance.
 > The instance was successfully resized with improved compute and storage capacity.
 >
 > ---
+>
+ ## Task 5: Tested Termination Protection
+
+You can delete your instance when you no longer need it. This is referred to as terminating the instance. Once an instance is terminated, it cannot be restarted or reconnected.
+
+In this task, I learned how termination protection prevents accidental deletion of an instance.
+
+### Attempting to Terminate the Instance
+
+1. In the left navigation pane, I selected **Instances**.
+2. Selected the **Web Server** instance by checking the box.
+3. Opened the **Instance state** menu and selected **Terminate (delete) instance**.
+
+> ⚠️ Note: A warning message appeared stating that for an EBS-backed instance, the root volume would be deleted upon termination, and all data on local drives would be lost. I was prompted to confirm termination.
+
+However, the instance did not terminate. A red error message appeared:
+`
+> **Failed to terminate an instance: The instance may not be terminated.**
+`
+This occurred because **termination protection was enabled**.
 
 
+
+### Disabling Termination Protection
+
+To allow termination, I first disabled termination protection.
+
+1. In the **Actions** menu, I selected **Instance settings** → **Change termination protection**.
+2. Unchecked **Enable**.
+3. Selected **Save**.
+
+
+
+### Terminating the Instance
+
+After disabling termination protection, I was able to terminate the instance.
+
+1. Opened the **Actions** menu again.
+2. Selected **Instance state** → **Terminate instance**.
+3. Confirmed by selecting **Terminate**.
+
+
+
+### Result
+
+I successfully tested termination protection and then terminated my Amazon EC2 instance.
+
+---
 
 
   
