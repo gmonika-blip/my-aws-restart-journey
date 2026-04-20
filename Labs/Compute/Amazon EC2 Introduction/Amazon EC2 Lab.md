@@ -62,7 +62,31 @@ An **Amazon Machine Image (AMI)** provides the configuration required to launch 
 2. Under **AMI**, ensure that **Amazon Linux 2023** is selected (default setting).
 3. Keep the default selection.
 
-> 💡 The **Quick Start** list contains commonly used AMIs. You can also use custom AMIs or select from the **AWS Marketplace**.
+> 💡 The **Quick Start** list contains commonly used AMIs. You can also use custom AMIs or select from the **AWS Marketplace**, an online store where you can buy or sell software that runs on AWS.
+>---
+
+### Step 4: Choosing an Instance Type
+
+Amazon EC2 provides a wide selection of instance types optimized for different use cases. Instance types vary in CPU, memory, storage, and networking capacity, allowing you to choose the right configuration for your workload.
+
+1. Open the **Instance type** dropdown menu.
+2. Select **t3.micro**.
+   - This instance type provides:
+     - 2 virtual CPUs
+     - 1 GiB of memory
+
+> ⚠️ Note: In this lab, you may be restricted from selecting other instance types.
+
+---
+
+### Step 5: Configuring a Key Pair
+
+Amazon EC2 uses public-key cryptography to securely handle login credentials. Normally, you would create a key pair, download a private key, and use it to connect to your instance.
+
+However, in this lab, you will not need to log in to the instance.
+
+1. In the **Key pair (login)** section:
+   - Select **Proceed without a key pair (Not recommended)**.
 
   
   
