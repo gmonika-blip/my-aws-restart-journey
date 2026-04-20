@@ -150,7 +150,7 @@ Once configured my instance settings in Amazon EC2, I was ready to launch it.
 1. In the right pane, chose **Launch instance**.
 2. Selected **View all instances**.
 
-## Instance Launch Status
+#### Instance Launch Status
 
 After launching, the instance went through the following states:
 
