@@ -225,7 +225,7 @@ Amazon EC2 automatically sends metrics to Amazon CloudWatch.
 
 ### Result
 
->I successfully monitored my Amazon EC2 instance by checking its status and confirming that both system and instance reachability checks had passed. I also reviewed performance metrics in Amazon CloudWatch, explored available graphs, and   verified that basic monitoring was active while understanding that detailed monitoring could be enabled if needed.
+I successfully monitored my Amazon EC2 instance by checking its status and confirming that both system and instance reachability checks had passed. I also reviewed performance metrics in Amazon CloudWatch, explored available graphs, and   verified that basic monitoring was active while understanding that detailed monitoring could be enabled if needed.
 
 ---
 
