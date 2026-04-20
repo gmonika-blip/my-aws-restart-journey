@@ -288,8 +288,6 @@ After resizing the volume, I started the instance again so it could use the upda
 2. Selected the **Web Server** instance by checking the box.
 3. Navigated to **Instance state** → **Start instance**.
 
----
-
 ### Result
 
 I successfully resized my Amazon EC2 instance.
@@ -298,6 +296,8 @@ I successfully resized my Amazon EC2 instance.
 - I increased the root EBS volume from **8 GiB** to **10 GiB**.
 
 > The instance was successfully resized with improved compute and storage capacity.
+>
+> ---
 
 
 
