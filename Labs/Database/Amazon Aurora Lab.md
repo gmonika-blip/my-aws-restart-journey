@@ -176,3 +176,15 @@ In this task, I logged into to my Amazon EC2 Linux instance.
 I successfully connected to the Amazon EC2 instance named Command Host.
 
 ---
+
+## Task 3: Configure the Amazon EC2 Linux instance to connect to Aurora
+
+In this task, I used the yum package manager to install the MariaDB client and then configured the Amazon EC2 Linux instance to connect to the Aurora database.
+
+
+
+
+
+
+
+
