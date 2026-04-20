@@ -29,4 +29,129 @@ This lab introduced me to Amazon Aurora and provided a basic understanding of ho
 -**Amazon Relational Database Service (Amazon RDS)** makes it easy to set up, operate, and scale a relational database in the cloud. It provides cost-efficient and resizable capacity while managing time-consuming database administration      tasks, freeing you up to focus on your applications and business. Amazon RDS provides you with six database engines to choose from, including Aurora, Oracle, Microsoft SQL Server, PostgreSQL, MySQL, and MariaDB.
 
 
- 
+ ## Task 1: Created an Aurora Instance
+
+In this task, I created an Amazon Aurora database (DB) instance and configured it for a basic lab environment.
+
+### Step 1: Navigate to RDS
+
+1. At the top of the AWS Management Console, I searched for and selected **RDS**.  
+   > This service is used to create and manage relational databases in AWS.
+
+2. In the left navigation menu, I chose **Databases**.  
+   > This section lists all database instances and allows creation of new ones.
+
+3. I selected **Create database**.  
+   > This starts the database setup process.
+
+---
+
+### Database Configuration
+
+- **Database creation method:** Standard create  
+  > Provides full control over configuration options instead of using quick defaults.
+
+- **Engine type:** Aurora (MySQL Compatible)  
+  > Chosen for high performance and compatibility with MySQL.
+
+- **Engine version:** Default for major version 8.0  
+  > Ensures stability and compatibility with modern features.
+
+- **Template:** Dev/Test  
+  > Optimized for cost-effective, non-production environments.
+
+---
+
+### Settings
+
+- **DB cluster identifier:** `aurora`  
+  > A unique name to identify the database cluster.
+
+- **Master username:** `admin`  
+  > The primary login user for database access.
+
+- **Master password:** `admin123`  
+  > Password used for authentication.
+
+- **Confirm password:** `admin123`  
+  > Ensures the password is entered correctly.
+
+---
+
+### Instance Configuration
+
+- **DB instance class:** Burstable classes (t class)  
+  > Suitable for small workloads with occasional spikes in usage.
+
+- **Instance type:** `db.t3.medium`  
+  > Provides a balance of cost and performance for this lab.
+
+---
+
+### Availability & Durability
+
+- **Multi-AZ deployment:** Did not create an Aurora Replica  
+  > High availability was not required for this lab, helping reduce cost and complexity.
+
+---
+
+### Connectivity Configuration
+
+- **Virtual Private Cloud (VPC):** `LabVPC`  
+  > Defines the network where the database is deployed.
+
+- **Subnet group:** `dbsubnetgroup`  
+  > Specifies which subnets the database can use within the VPC.
+
+- **Public access:** No  
+  > Restricts direct internet access for better security.
+
+- **VPC security group:** Chose existing  
+  > Uses predefined firewall rules for controlled access.
+
+- Removed the **default** security group  
+  > Avoids overly permissive access rules.
+
+- Selected **DBSecurityGroup**  
+  > Ensures only allowed resources (like EC2) can connect.
+
+> 💡 A DB subnet group groups subnets to control database placement and improve security.
+
+---
+
+### Additional Settings
+
+- Disabled **Enhanced monitoring**  
+  > Reduces unnecessary monitoring overhead for this lab.
+
+- **Initial database name:** `world`  
+  > Creates a default database schema for immediate use.
+
+- Disabled **Encryption**  
+  > Simplifies setup since advanced security is not required here.
+
+- Disabled **Auto minor version upgrade**  
+  > Prevents automatic updates that might affect lab consistency.
+
+---
+
+### Launching the Database
+
+1. I scrolled to the bottom of the page.
+2. I selected **Create database**.  
+   > This initiated the database provisioning process.
+
+> ⏳ The Aurora DB instance took a few minutes to launch.
+
+If a **Suggested add-ons for Aurora** pop-up appeared, I ignored it and selected **Close**.  
+> These add-ons are optional and not required for this lab.
+
+---
+
+### Result
+
+A confirmation message was displayed:
+
+> **Successfully created database aurora**
+
+I successfully created an Amazon Aurora database instance and understood the purpose behind each configuration step.
