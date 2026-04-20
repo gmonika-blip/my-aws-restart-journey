@@ -262,8 +262,8 @@ After the instance had stopped, I changed its instance type.
 4. Selected **Change instance type**.
 
 > ⚠️ Note: In this lab, I may have been restricted from selecting other instance types.
->
-> ### Resize the EBS Volume
+
+ ### Resize the EBS Volume
 
 In the left navigation menu, I selected **Volumes** under **Elastic Block Store**.
 
