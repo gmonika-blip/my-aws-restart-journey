@@ -316,7 +316,7 @@ Deleted the inbound rule that allowed port 22 access from 0.0.0.0/0 (the one the
 
 Saved the change.
 
-Nice work! You have kicked the hacker out of this instance and remove the login account that they used. You also updated the SSH settings so that only users who have the correct key pair and the same source IP address as you can connect to it.
+I managed to kick the hacker out of this instance and removed the login account that they used. I also updated the SSH settings so that only users who have the correct key pair and the same source IP address as I can connect to it.
 
    
 
