@@ -79,7 +79,7 @@ I configured the database with the following options.
 
 ---
 
-### Instance Configuration
+### Step 4: Instance Configuration
 
 - **DB instance class:** Burstable classes (t class)  
   > Suitable for small workloads with occasional spikes in usage.
@@ -89,14 +89,14 @@ I configured the database with the following options.
 
 ---
 
-### Availability & Durability
+### Step 5: Availability & Durability
 
 - **Multi-AZ deployment:** Did not create an Aurora Replica  
   > High availability was not required for this lab, helping reduce cost and complexity.
 
 ---
 
-### Connectivity Configuration
+### Step 6: Connectivity Configuration
 
 - **Virtual Private Cloud (VPC):** `LabVPC`  
   > Defines the network where the database is deployed.
@@ -120,7 +120,7 @@ I configured the database with the following options.
 
 ---
 
-### Additional Settings
+### Step 7: Additional Settings
 
 - Disabled **Enhanced monitoring**  
   > Reduces unnecessary monitoring overhead for this lab.
@@ -136,16 +136,15 @@ I configured the database with the following options.
 
 ---
 
-### Launching the Database
+### Step 8: Launching the Database
 
 1. I scrolled to the bottom of the page.
-2. I selected **Create database**.  
+2. Selected **Create database**.  
    > This initiated the database provisioning process.
 
 > ⏳ The Aurora DB instance took a few minutes to launch.
 
-If a **Suggested add-ons for Aurora** pop-up appeared, I ignored it and selected **Close**.  
-> These add-ons are optional and not required for this lab.
+
 
 ---
 
