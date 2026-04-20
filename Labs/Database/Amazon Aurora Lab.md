@@ -300,6 +300,9 @@ SELECT * FROM country WHERE GNP > 35000 and Population > 10000000;
 
 The following screenshot shows the output of the query:
 
+![Query Table Output](https://github.com/gmonika-blip/my-aws-restart-journey/blob/4f075b182d26b6597feef8e52f39261bafce218b/Labs/Database/images/QueryTable.png)
+
+
 
 
    
