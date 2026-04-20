@@ -171,4 +171,8 @@ In this task, I logged into to my Amazon EC2 Linux instance.
       Choose `Connect` to open a terminal window.
 
 
- Task complete: You have successfully connected to the Amazon EC2 instance named Command Host.
+### Result 
+
+I successfully connected to the Amazon EC2 instance named Command Host.
+
+---
