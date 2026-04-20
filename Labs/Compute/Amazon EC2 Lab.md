@@ -181,8 +181,12 @@ Waited until my instance showed the following:
 - **Status Checks:** `2/2 checks passed`
 
 > 🔄 Refreshed the page if necessary until both conditions were met.
+
+The following screenshot shows my Amazon EC2 instance sucesssfully launched and running:
+
+> ![EC2 Launched Screenshot](https://github.com/gmonika-blip/my-aws-restart-journey/blob/7fa03c0c37eb377c0bf4e9c709942353ef6f43bc/Labs/Compute/images/EC2%20InstanceLaunched.png)
 >
-> ![](https://github.com/gmonika-blip/my-aws-restart-journey/blob/7fa03c0c37eb377c0bf4e9c709942353ef6f43bc/Labs/Compute/images/EC2%20InstanceLaunched.png)
+> 
 
 ### Result
 
