@@ -1,5 +1,5 @@
 
-Introduction to Amazon Aurora
+# Introduction to Amazon Aurora
  
 
 ## Lab Overview
