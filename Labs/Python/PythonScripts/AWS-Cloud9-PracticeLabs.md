@@ -11,7 +11,8 @@ Cloud9 environments can run on Amazon EC2 instances or on custom Linux servers, 
 
 ![AWS Cloud9](https://github.com/gmonika-blip/my-aws-restart-journey/blob/e29a88e453d4669f405ce9ffa46846426dea3ab1/Labs/Python/images/AWS-Cloud9Access.png)
 
-<img width="1762" height="293" alt="AWS-Cloud9Environment" src="https://github.com/user-attachments/assets/f182c774-5738-4586-8c24-d3a1337edbc6" />
+![AWS Cloud9 Environment](https://github.com/gmonika-blip/my-aws-restart-journey/blob/eb0b3d8e868bfb645ac8edffa3dd557ea721c7b2/Labs/Python/images/AWS-Cloud9Environment.png)
+
 
 <br>
 
