@@ -20,18 +20,18 @@ Amazon EC2's simple web service interface allows developers to obtain and config
   
   This lab gave me a basic overview of launching, resizing, managing, and monitoring an Amazon EC2 instance.
 
-  **Objectives:**
+ ` **Objectives:**
     Launch a web server with termination protection enabled
 
     Monitor Your EC2 instance
 
     Modify the security group that your web server is using to allow HTTP access
 
-   Resize your Amazon EC2 instance to scale
+    Resize your Amazon EC2 instance to scale
 
-   Test termination protection
+    Test termination protection
 
-   Terminate your EC2 instance
+    Terminate your EC2 instance`
 
   
   
