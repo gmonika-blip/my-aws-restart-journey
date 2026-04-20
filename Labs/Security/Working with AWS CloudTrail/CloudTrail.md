@@ -249,19 +249,27 @@ Executed the `who` command again to verify that the chaos-user OS user was no lo
   who
 ```
 
-Now you (the ec2-user) should be the only user connected.
+**Now I (the ec2-user) was the only user connected.**
 
-Run the following command to try to delete the chaos-user again:
+Run the following command to try to delete the `chaos-user` again:
 
-sudo userdel -r chaos-user
-It should succeed this time.
+```
+  sudo userdel -r chaos-user
+```
 
-Run the following command to verify no other suspicious OS users who can login:
+It succeeded this time. The `chaos-user` was deleted.
 
-sudo cat /etc/passwd | grep -v nologin
-Note that the grep part of the command you just ran filtered out the OS users who do not have a login.
+I ran the following command to verify no other suspicious OS users who could login:
 
-The root, sync, shutdown, and halt users are all standard OS users in Amazon Linux, so there are no other concerning user logins on this instance.
+```
+   sudo cat /etc/passwd | grep -v nologin
+```
+
+The grep part of the command filtered out the OS users who do not have a login.
+
+The root, sync, shutdown, and halt users are all standard OS users in Amazon Linux, so there were no other concerning user logins on this instance.
+
+
 
    
 
