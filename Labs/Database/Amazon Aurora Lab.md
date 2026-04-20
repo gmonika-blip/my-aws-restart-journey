@@ -138,8 +138,8 @@ I configured the database with the following options.
 
 ### Step 8: Launching the Database
 
-1. I scrolled to the bottom of the page.
-2. Selected **Create database**.  
+- I scrolled to the bottom of the page.
+- Selected **Create database**.  
    > This initiated the database provisioning process.
 
 > ⏳ The Aurora DB instance took a few minutes to launch.
@@ -162,11 +162,11 @@ In this task, I logged into to my Amazon EC2 Linux instance.
 
 **Step 1:** 
 
--At the top of the AWS Management Console, in the search bar, I searched for and chose EC2.
+- At the top of the AWS Management Console, in the search bar, I searched for and chose EC2.
 
--In the left navigation menu, chose Instances.
+- In the left navigation menu, chose Instances.
 
--Next to the instance labelled Command Host, selected the check box, and then chose Connect.
+- Next to the instance labelled Command Host, selected the check box, and then chose Connect.
       For Connect to instance, choose Session Manager.
       Choose Connect to open a terminal window.
 
