@@ -84,7 +84,7 @@ However, in this lab, I was not required to log in to the instance.
 1. In the **Key pair (login)** section:
    - Selected **Proceed without a key pair (Not recommended)**.
 
-### Step 5: Configured Network Settings
+### Step 6: Configured Network Settings
 
 The VPC determines which Virtual Private Cloud (VPC) I chose to launch the instance into. Developers can have multiple VPCs for different environments such as development, testing, and production.
 
@@ -103,7 +103,7 @@ A security group acts as a virtual firewall that controls traffic for one or mor
 > 🔒 In this lab, SSH access is not required. Removing it improves the security of the instance.
 
 
-### Step 6: Adding Storage
+### Step 7: Adding Storage
 
 Amazon EC2 stores data using a network-attached virtual disk called **Amazon Elastic Block Store (Amazon EBS)**.
 
@@ -112,7 +112,7 @@ Amazon EC2 stores data using a network-attached virtual disk called **Amazon Ela
 
 > 💡 The root volume contains the operating system and is required for the instance to boot.
 >
-### Step 7: Configured Advanced Details
+### Step 8: Configured Advanced Details
 
 1. Expanded the **Advanced details** pane.
 2. Found **Termination protection** and selected the dropdown.
@@ -143,7 +143,7 @@ The script does the following:
 
 --Create a simple web page
 
-### Step 8: Launched an EC2 Instance
+### Step 9: Launched an EC2 Instance
 
 Once configured my instance settings in Amazon EC2, I was ready to launch it.
 
