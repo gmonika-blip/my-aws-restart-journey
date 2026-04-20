@@ -166,9 +166,9 @@ In this task, I logged into to my Amazon EC2 Linux instance.
 
 - In the left navigation menu, chose Instances.
 
-- Next to the instance labelled Command Host, selected the check box, and then chose Connect.
-      For Connect to instance, choose Session Manager.
-      Choose Connect to open a terminal window.
+- Next to the instance labelled `Command Host`, selected the check box, and then chose `Connect`.
+      For Connect to instance, choose `Session Manager`.
+      Choose `Connect` to open a terminal window.
 
 
  Task complete: You have successfully connected to the Amazon EC2 instance named Command Host.
