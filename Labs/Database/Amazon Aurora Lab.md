@@ -1,5 +1,7 @@
 
 # Introduction to Amazon Aurora
+
+**Amazon Aurora** is a fully managed, MySQL-compatible, relational database engine that combines the performance and reliability of high-end commercial databases with the simplicity and cost-effectiveness of open-source databases. It delivers up to five times the performance of MySQL without requiring changes to most of your existing applications that use MySQL databases.
  
 
 ## Lab Overview
