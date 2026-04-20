@@ -182,8 +182,8 @@ Waited until my instance showed the following:
 
 > 🔄 Refreshed the page if necessary until both conditions were met.
 >
-> 
->
+> ![](https://github.com/gmonika-blip/my-aws-restart-journey/blob/7fa03c0c37eb377c0bf4e9c709942353ef6f43bc/Labs/Compute/images/EC2%20InstanceLaunched.png)
+
 ### Result
 
 I was able to successfully lauch my first EC2 instance
