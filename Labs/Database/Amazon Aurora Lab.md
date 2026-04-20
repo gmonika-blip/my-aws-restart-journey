@@ -6,7 +6,7 @@
 
 This lab introduced me to Amazon Aurora and provided a basic understanding of how to use it.
 
-### Objectives
+**Objectives**
 
 - Created an Amazon Aurora instance  
 - Connected to a pre-created Amazon EC2 instance  
