@@ -349,7 +349,21 @@ It seemed the hacker created a backup of the original file.
 
 
 
-That looks better!
+That looks better! It worked!
+
+**Task 5.4:** Delete the AWS hacker user
+
+The hacker not only accessed the EC2 instance hosting the website but also managed to run an AWS CLI command that opened port 22 in the security group to the entire internet. 
+I decided to remove the chaos AWS Identity and Access Management (IAM) user from the account.
+
+1. In the AWS Management Console, navigated to the Services menu, and chose IAM.
+
+   Chose the Users link, and selected the check box next to the chaos user.
+
+   Chose Delete, entered the users name and selected Delete.
+
+   Now the chaos user was not able to cause any trouble in the AWS account anymore.
+
 
    
 
