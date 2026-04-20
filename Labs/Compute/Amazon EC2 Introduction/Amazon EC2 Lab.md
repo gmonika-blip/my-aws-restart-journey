@@ -34,6 +34,36 @@ Amazon EC2's simple web service interface allows developers to obtain and config
 
     Terminate your EC2 instance
 
+## Task 1: Launching the EC2 Instance
+
+In this task, I launched an Amazon EC2 instance with termination protection. Termination protection helps prevent accidental deletion of your instance. I also used a **User Data script** to deploy a simple web server automatically.
+
+### Step 1: Open EC2 Dashboard
+1. In the **AWS Management Console**, go to **Services**.
+2. Select **EC2**.
+3. In the left navigation pane, choose **EC2 Dashboard**.
+4. Click **Launch instance**, then select **Launch instance** again.
+
+### Step 2: Name Your EC2 Instance
+When you name your instance, AWS creates a key-value pair:
+- **Key**: `Name`  
+- **Value**: Your chosen name  
+
+1. In the **Name and tags** section:
+   - Enter: `Web Server`
+
+### Step 3: Choose an Amazon Machine Image (AMI)
+An **Amazon Machine Image (AMI)** provides the configuration required to launch your instance. It includes:
+- A template for the root volume (e.g., operating system or application server)
+- Launch permissions for AWS accounts
+- Storage configuration (block device mapping)
+
+1. Locate the **Application and OS Images (Amazon Machine Image)** section.
+2. Under **AMI**, ensure that **Amazon Linux 2023** is selected (default setting).
+3. Keep the default selection.
+
+> 💡 The **Quick Start** list contains commonly used AMIs. You can also use custom AMIs or select from the **AWS Marketplace**.
+
   
   
 
