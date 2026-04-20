@@ -219,8 +219,8 @@ Using a different browser tab, I went back to the AWS Management Console and in 
 1. In the left navigation menu, I chose `Databases`.
 2. Waited for aurora-instance-1 to display  `Available`.
 3. Chose `Aurora`.
-4. Chose the Connectivity & security tab, and in the Endpoints section, copy the Endpoint name for the `Writer instance` to your text editor.
- The endpoint should look similar to the following: ```aurora.cluster-cabcdefghijklm.us-west-2.rds.amazonaws.com```.
+4. Chose the Connectivity & security tab, and in the Endpoints section, copied the Endpoint name for the `Writer instance` to my text editor.
+ The endpoint looked similar to the following: ```aurora.cluster-cabcdefghijklm.us-west-2.rds.amazonaws.com```.
 
 > An endpoint is represented as an Aurora specific URL that contains a host address and a port. The following types of endpoints are available from an Aurora DB cluster.
 
