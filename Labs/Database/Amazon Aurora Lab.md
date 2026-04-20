@@ -212,6 +212,7 @@ Complete!
 ```
 
 **Step 2:** 
+
 Using a different browser tab, I went back to the AWS Management Console and in the search bar, searched for and chose RDS.
 
 -In the left navigation menu, choose Databases.
