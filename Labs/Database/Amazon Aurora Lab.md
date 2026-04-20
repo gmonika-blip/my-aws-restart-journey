@@ -161,11 +161,14 @@ I successfully created an Amazon Aurora database instance and understood the pur
 In this task, I logged into to my Amazon EC2 Linux instance.
 
 **Step 1:** 
+
 -At the top of the AWS Management Console, in the search bar, I searched for and chose EC2.
+
 -In the left navigation menu, chose Instances.
+
 -Next to the instance labelled Command Host, selected the check box, and then chose Connect.
       For Connect to instance, choose Session Manager.
       Choose Connect to open a terminal window.
 
-<i class="fas fa-sticky-note" style="color:#ff6633" aria-hidden="true"></i> **Note:** If the **Connect** button is not available, wait for a few minutes and try again.
+
  Task complete: You have successfully connected to the Amazon EC2 instance named Command Host.
