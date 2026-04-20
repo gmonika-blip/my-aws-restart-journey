@@ -150,7 +150,6 @@ Now that you have configured your instance settings in Amazon EC2, you are ready
 1. In the right pane, choose **Launch instance**.
 2. Select **View all instances**.
 
-```
 ### Instance Launch Status
 
 After launching, the instance will go through the following states:
@@ -183,7 +182,7 @@ Wait until your instance shows the following:
 - **Status Checks:** `2/2 checks passed`
 
 > 🔄 Refresh the page if necessary until both conditions are met.
-```
+
 
   
   
