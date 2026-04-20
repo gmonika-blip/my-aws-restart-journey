@@ -210,15 +210,16 @@ mariadb.x86_64 1:5.5.68-1.amzn2.0.1
 
 Complete!   
 ```
+<br>
 
 **Step 2:** 
 
 Using a different browser tab, I went back to the AWS Management Console and in the search bar, searched for and chose RDS.
 
--In the left navigation menu, choose Databases.
--Wait for aurora-instance-1 to display  Available.
--Choose Aurora.
--Choose the Connectivity & security tab, and in the Endpoints section, copy the Endpoint name for the Writer instance to your text editor.
+1. In the left navigation menu, I chose Databases.
+2. Waited for aurora-instance-1 to display  Available.
+3. Chose Aurora.
+4. Chose the Connectivity & security tab, and in the Endpoints section, copy the Endpoint name for the Writer instance to your text editor.
  The endpoint should look similar to the following: ```aurora.cluster-cabcdefghijklm.us-west-2.rds.amazonaws.com```.
 
  Note: An endpoint is represented as an Aurora specific URL that contains a host address and a port. The following types of endpoints are available from an Aurora DB cluster.
