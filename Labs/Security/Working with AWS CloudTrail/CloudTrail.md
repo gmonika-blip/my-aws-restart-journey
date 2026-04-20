@@ -358,7 +358,6 @@ It seemed the hacker created a backup of the original file.
 
   ![Normal Cafe Website](https://github.com/gmonika-blip/my-aws-restart-journey/blob/1d3d3898647140c6eaee2e0657992f217059469f/Labs/Security/Working%20with%20AWS%20CloudTrail/NormalWebsite.png)
 
-<br>
 That looks better! It worked!
 
 **Task 5.4:** Delete the AWS hacker user
