@@ -26,9 +26,9 @@ The activity starts with an Amazon Elastic Compute Cloud (Amazon EC2) instance n
 -- Resolve security concerns within the AWS account and on an EC2 Linux instance
 
 
-**Tasks followed for this Activity**
+### Tasks followed for this Activity**
 
-**Task 1:** Modified a security group and observed the website
+## Task 1: Modified a security group and observed the website
 
    **Step 1:**
    
@@ -41,7 +41,7 @@ The activity starts with an Amazon Elastic Compute Cloud (Amazon EC2) instance n
      Opened a new browser tab, and navigated to http://<WebServerIP>/cafe/ (substituted the <WebServerIP> value).
      Noticed that the website looks normal. For example, the photos were all appropriate for a bakery café.
 
-**Task 2:** Created a CloudTrail log and observed the hacked website
+## Task 2: Created a CloudTrail log and observed the hacked website
 
 In this task, I created a CloudTrail trail in my AWS account. I noticed that soon after creating the trail, the Café website was hacked.
 
@@ -71,7 +71,7 @@ In this task, I created a CloudTrail trail in my AWS account. I noticed that soo
 
    Who added this security rule?  I searched the CloudTrail logs to find out.
 
-**Task 3:** Used a variety of methods to analyze the CloudTrail logs, including the Linux grep utility and the AWS Command Line Interface (AWS CLI).
+## Task 3: Used a variety of methods to analyze the CloudTrail logs, including the Linux grep utility and the AWS Command Line Interface (AWS CLI).
 
 **Step 1:** Connected to the Café Web Server host EC2 instance via SSH using a private key
 
@@ -169,7 +169,7 @@ I could have kept experimenting with different commands to filter the log result
 
 ---
 
-**Task 4:** Analyzed the CloudTrail logs by using Athena
+## Task 4: Analyzed the CloudTrail logs by using Athena
 
 The advantage of using Athena is that I could now run SQL queries over the log data.
 
@@ -209,7 +209,59 @@ LIMIT 30
 
 **Challenge:** Identify the hacker
 
-**Task 5:** Analyzing the hack further and improving security
+## Task 5: Analyzing the hack further and improving security
+
+**Task 5.1:** Check the OS users
+
+In the terminal where I had an active SSH session to the web server instance, executed the following command to find out who was recently logged into this operating system (OS):
+
+```
+  sudo aureport --auth
+```
+
+There was evidence that a user other than ec2-user has logged in. Who is that `chaos-user`?
+
+Ran the `who` command to figure out who is currently logged in:
+
+```
+  who
+```
+
+The user was still logged in! I wanted to get the user(s) off this instance right away!
+
+Ran the following command to try to remove the chaos-user OS user:
+
+```
+  sudo userdel -r chaos-user
+```
+
+That didn't work because user was still logged in. However, the command did return the process number the user is onnected as.
+
+I then ran the following command (after replacing ProcNum with the process number returned by the last command) to stop the process that had the active chaos-user login session:
+
+```
+  sudo kill -9 ProcNum
+```
+
+Executed the `who` command again to verify that the chaos-user OS user was no longer connected:
+
+```
+  who
+```
+
+Now you (the ec2-user) should be the only user connected.
+
+Run the following command to try to delete the chaos-user again:
+
+sudo userdel -r chaos-user
+It should succeed this time.
+
+Run the following command to verify no other suspicious OS users who can login:
+
+sudo cat /etc/passwd | grep -v nologin
+Note that the grep part of the command you just ran filtered out the OS users who do not have a login.
+
+The root, sync, shutdown, and halt users are all standard OS users in Amazon Linux, so there are no other concerning user logins on this instance.
 
    
 
