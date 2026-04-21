@@ -155,9 +155,24 @@ In this challenge, the AWS CLI Command Reference documentation and the AWS CLI w
 
 Activity challenge solution
 
-The following command lists IAM policies and filters customer managed policies:
+I used the following command to list IAM policies and filter customer managed policies:
 
 ```
 aws iam list-policies --scope Local
 ```
+Next, I used the version number `Arn` information and `DefaultVersionId` found inside the `lab_policy document` to retrieve the JSON IAM policy. Used the > command to save the file. 
 
+```
+ aws iam get-policy-version --policy-arn arn:aws:iam::038946776283:policy/lab_policy --version-id v1 > lab_policy.json
+```
+
+---
+
+## Conclusion
+
+In this lab, the AWS CLI was successfully installed on a Red Hat Linux instance and connected to an AWS account. The AWS CLI was then used to retrieve IAM policy information by referencing AWS documentation.
+
+**Key Takeaways**
+
+- The AWS CLI was used to manage and control multiple AWS services through the command line, and the same tasks could also be completed using the AWS Management Console.
+- To connect to the AWS account using the AWS CLI, an access key ID and secret access key were required. To sign in to the AWS Management Console, a username and password were required.
