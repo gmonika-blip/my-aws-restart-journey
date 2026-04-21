@@ -46,7 +46,7 @@ This tab listed all applications installed on the instance. I reviewed the insta
 
 The following screenshot shows the output after step 7.
 
-
+![Inventory](https://github.com/gmonika-blip/my-aws-restart-journey/blob/56edd5992a6f21e663008722fd25467d203301e5/Labs/Extra%20Labs/images/Inventory.png)
 
 
 ### Result
