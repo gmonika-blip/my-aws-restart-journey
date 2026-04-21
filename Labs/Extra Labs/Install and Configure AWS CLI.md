@@ -100,5 +100,35 @@ aws help
 
 At the : prompt, q was entered to exit the help menu.
 
+---
+
+## Task 3: Observed IAM Configuration Details in the AWS Management Console
+
+In this task, IAM configuration details for the EC2 instance were reviewed using the AWS Management Console.
+
+1. **IAM** was entered into the AWS Management Console search bar and the **IAM** service was selected to open the IAM console page.
+
+2. **Users** was selected from the navigation pane, and the **awsstudent** user was chosen.
+
+3. Under the **Permissions** tab, the `lab_policy` policy was located. The arrow icon next to `lab_policy` was selected, and the **JSON ({})** button was chosen to view the policy document.
+
+The `lab_policy` document was displayed in JSON format and showed the permissions granted to the `awsstudent` user for specific AWS services.
+
+4. **Security credentials** tab was selected. In the **Access keys** section, the access key ID for the `awsstudent` user was located.
+
+> **Note:** The secret access key could only be viewed at the time it was created. For this lab, both the access key ID and secret access key were available in the **Details** dropdown list.
+
+---
+
+## Task 4: Configured the AWS CLI to Connect to the AWS Account
+
+In this task, the AWS CLI was configured through the SSH terminal session.
+
+The following command was executed to begin configuration:
+
+```bash
+aws configure
+```
+
 
 
