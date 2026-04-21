@@ -64,3 +64,33 @@ ssh -i labsuser.pem ec2-user@<ip-address>
 
 When prompted, yes was entered to confirm the connection.
 
+---
+
+## Task 2: Installed the AWS CLI on a Red Hat Linux Instance
+
+In this task, the AWS CLI was installed on a Red Hat Linux EC2 instance using the terminal.
+
+First, the AWS CLI installer file was downloaded into the current directory using the `curl` command:
+
+```bash
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+```
+Next, the downloaded ZIP file was extracted using the unzip command. The -u option was used to overwrite existing files without prompting:
+
+```
+unzip -u awscliv2.zip
+```
+
+After the files were extracted, the AWS CLI installation script was executed. The sudo command was used to grant the necessary permissions:
+
+```
+sudo ./aws/install
+```
+
+To confirm that the AWS CLI was installed successfully, the version was checked using the following command:
+
+```
+aws --version
+```
+
+
