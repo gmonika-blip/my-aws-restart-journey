@@ -149,6 +149,12 @@ In the terminal window, the IAM configuration was tested by running the followin
 aws iam list-users
 ```
 
+The output is shown in the following screenshot:
+
+![IAM Configuration](https://github.com/gmonika-blip/my-aws-restart-journey/blob/0db0b3d807b4bab8ab66a66d272bbef455aaa5a6/Labs/Extra%20Labs/images/IAM-Details-CLI.png)
+
+<br>
+
 ## Activity Challenge
 
 In this challenge, the AWS CLI Command Reference documentation and the AWS CLI were used to download the `lab_policy` document as a JSON-formatted IAM policy document. This policy document was the same one that was viewed earlier in the AWS Management Console.
