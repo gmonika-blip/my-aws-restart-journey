@@ -92,5 +92,13 @@ To confirm that the AWS CLI was installed successfully, the version was checked 
 ```
 aws --version
 ```
+Finally, the AWS CLI help command was executed to verify that the AWS CLI was working correctly:
+
+```
+aws help
+```
+
+At the : prompt, q was entered to exit the help menu.
+
 
 
