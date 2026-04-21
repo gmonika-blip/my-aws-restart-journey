@@ -159,7 +159,7 @@ The output is shown in the following screenshot:
 
 In this challenge, the AWS CLI Command Reference documentation and the AWS CLI were used to download the `lab_policy` document as a JSON-formatted IAM policy document. This policy document was the same one that was viewed earlier in the AWS Management Console.
 
-Activity challenge solution
+**Activity challenge solution**
 
 I used the following command to list IAM policies and filter customer managed policies:
 
