@@ -44,6 +44,11 @@ A banner message appeared indicating **"Setup inventory request succeeded"**, an
 
 This tab listed all applications installed on the instance. I reviewed the installed applications and other available inventory options in the **Inventory type** dropdown list.
 
+The following screenshot shows the output after step 7.
+
+
+
+
 ### Result
 
 Successfully created a Systems Manager inventory association for the instance. Using Inventory, I was able to review and validate software configurations without needing to connect to the instance using SSH.
