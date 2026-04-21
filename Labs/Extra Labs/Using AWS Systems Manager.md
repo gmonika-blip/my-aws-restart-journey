@@ -166,3 +166,7 @@ A new session tab opened in the browser.
 
 ```bash
 ls /var/www/html
+```
+The output listed the application files installed on the instance.
+
+7. Executed the following commands:
