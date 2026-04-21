@@ -110,6 +110,8 @@ To validate the application:
 
 The **Widget Manufacturing Dashboard** application appeared.
 
+## Result
+
 I successfully used Run Command through Systems Manager to install a custom application without needing to remotely access the instance using SSH.
 
 ---
@@ -143,6 +145,8 @@ The application running on Amazon EC2 automatically checked for this parameter, 
 
 6. Returned to the application browser tab and refreshed the page.
 
+## Result
+
 After refreshing, I observed that three charts were displayed. The application had checked Parameter Store and enabled the beta chart feature.
 
 
@@ -170,3 +174,28 @@ ls /var/www/html
 The output listed the application files installed on the instance.
 
 7. Executed the following commands:
+
+```
+   # Get region
+   AZ=`curl -s http://169.254.169.254/latest/meta-data/placement/availability-zone`
+   export AWS_DEFAULT_REGION=${AZ::-1}
+
+   # List information about EC2 instances
+   aws ec2 describe-instances
+```
+
+The output lists the EC2 instance details for the Managed Instance in JSON format.
+
+## Result
+
+This task demonstrated how to use Session Manager to log in to an instance without using SSH.
+
+>Access can be restricted to Session Manager through AWS Identity and Access Management (IAM) policies, and AWS CloudTrail logs Session Manager >usage. These options provide better security and auditing than traditional SSH access.
+
+---
+
+## Conclusion
+
+In this lab, I used AWS Systems Manager to manage and automate operational tasks across AWS resources. I successfully generated inventory reports using Fleet Manager, installed a custom web application on an EC2 instance using Run Command, managed application configuration settings through Parameter Store, and securely accessed the instance using Session Manager without relying on SSH. 
+
+Overall, the lab demonstrated how Systems Manager can improve efficiency, security, and centralized management when working with EC2 instances and application environments at scale.
