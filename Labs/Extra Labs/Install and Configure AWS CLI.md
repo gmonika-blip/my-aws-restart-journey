@@ -191,3 +191,5 @@ In this lab, the AWS CLI was successfully installed on a Red Hat Linux instance 
 
 - The AWS CLI was used to manage and control multiple AWS services through the command line, and the same tasks could also be completed using the AWS Management Console.
 - To connect to the AWS account using the AWS CLI, an access key ID and secret access key were required. To sign in to the AWS Management Console, a username and password were required.
+
+---
