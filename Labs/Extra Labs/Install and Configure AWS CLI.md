@@ -20,4 +20,32 @@ The result of the lab is refelected in the following diagram:
 
 ![Architecture Diagram](https://github.com/gmonika-blip/my-aws-restart-journey/blob/c5a925ceb3e0c6ca067853f8ce03550d0d1ef5fd/Labs/Extra%20Labs/images/ArchitectureDiagram.png)
 
+---
 
+## Task 1: Connected to the Red Hat EC2 Instance Using SSH
+
+In this task, the EC2 instance was accessed using SSH.
+
+### Windows Users
+
+The following steps were completed on a Windows system:
+
+- The **Details** drop-down menu was selected and **Show** was chosen to open the Credentials window.
+- The **Download PPK** button was selected and the `labsuser.ppk` file was saved (usually in the **Downloads** folder).
+- The **PublicIP** address was noted for later use.
+- The **Details** panel was closed by selecting the **X**.
+- **PuTTY** was downloaded and installed (if it was not already installed).
+- `putty.exe` was opened and configured to connect to the EC2 instance using the downloaded `.ppk` file.
+
+### macOS and Linux Users
+
+The following steps were completed on macOS or Linux:
+
+- The **Details** drop-down menu was selected and **Show** was chosen to open the Credentials window.
+- The **Download PEM** option was selected and the `labsuser.pem` file was saved.
+- The **PublicIP** address was copied into a text editor for later use.
+- The **Details** panel was closed by selecting the **X**.
+- A terminal window was opened and the directory was changed to the location where the `.pem` file was downloaded:
+
+```bash
+cd ~/Downloads
