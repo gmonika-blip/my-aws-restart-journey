@@ -16,3 +16,8 @@ During this activity, I established a Secure Shell (SSH) connection to the insta
 
 - Access IAM by using the AWS CLI
 
+The result of the lab is refelected in the following diagram:
+
+![Architecture Diagram](https://github.com/gmonika-blip/my-aws-restart-journey/blob/c5a925ceb3e0c6ca067853f8ce03550d0d1ef5fd/Labs/Extra%20Labs/images/ArchitectureDiagram.png)
+
+
