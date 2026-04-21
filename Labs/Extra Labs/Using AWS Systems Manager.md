@@ -195,7 +195,9 @@ The output listed the application files installed on the instance.
    aws ec2 describe-instances
 ```
 
-The output lists the EC2 instance details for the Managed Instance in JSON format.
+The output lists the EC2 instance details for the Managed Instance in JSON format. The following screenshot shows the new session window in the browser and the output  of the the commands executed:
+
+![Session Window](https://github.com/gmonika-blip/my-aws-restart-journey/blob/173fc2df51107e4902ed08d2492006a1169d5560/Labs/Extra%20Labs/images/SessionWindow.png)
 
 ## Result
 
