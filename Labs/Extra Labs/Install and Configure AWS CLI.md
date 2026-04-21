@@ -112,7 +112,7 @@ In this task, IAM configuration details for the EC2 instance were reviewed using
 
 3. Under the **Permissions** tab, the `lab_policy` policy was located. The arrow icon next to `lab_policy` was selected, and the **JSON ({})** button was chosen to view the policy document.
 
-The `lab_policy` document was displayed in JSON format and showed the permissions granted to the `awsstudent` user for specific AWS services.
+   The `lab_policy` document was displayed in JSON format and showed the permissions granted to the `awsstudent` user for specific AWS services.
 
 4. **Security credentials** tab was selected. In the **Access keys** section, the access key ID for the `awsstudent` user was located.
 
