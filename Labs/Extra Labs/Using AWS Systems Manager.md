@@ -5,6 +5,8 @@
 
 AWS Systems Manager is a collection of capabilities that one could use to centralize operational data and automate tasks across their Amazon Web Services (AWS) resources. Systems Manager can configure and manage Amazon Elastic Compute Cloud (Amazon EC2) instances, on-premises servers, virtual machines, and other AWS resources at scale.
 
+![AWS Systems Manager](https://github.com/gmonika-blip/my-aws-restart-journey/blob/b15f93fa1f3d9e9cafe31ee51158a04a91b5ee47/Labs/Extra%20Labs/images/AWS-SystemsManager.png)
+
 ## Objectives
 
 - Verify configurations and permissions  
