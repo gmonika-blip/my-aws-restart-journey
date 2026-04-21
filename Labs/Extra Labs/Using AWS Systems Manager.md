@@ -115,7 +115,9 @@ To validate the application:
 3. Copied the **ServerIP** value (public IP address).
 4. Opened a new browser tab, pasted the IP address, and pressed **Enter**.
 
-The **Widget Manufacturing Dashboard** application appeared.
+The **Widget Manufacturing Dashboard** application appeared as shown in the following screenshot:
+
+![Widget Manufacturing Dashboard](https://github.com/gmonika-blip/my-aws-restart-journey/blob/89d1c543899c4347ca644c6b08164e252fd8977b/Labs/Extra%20Labs/images/WidgetManufacturingDashboard.png)
 
 ## Result
 
