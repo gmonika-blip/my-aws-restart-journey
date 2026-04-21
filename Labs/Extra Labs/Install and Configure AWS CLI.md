@@ -10,6 +10,9 @@ During this activity, I established a Secure Shell (SSH) connection to the insta
 
 **Objectives**
 
--Install and configure the AWS CLI.
--Connect the AWS CLI to an AWS account.
--Access IAM by using the AWS CLI.
+- Install and configure the AWS CLI
+
+- Connect the AWS CLI to an AWS account
+
+- Access IAM by using the AWS CLI
+
