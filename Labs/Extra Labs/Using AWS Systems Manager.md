@@ -152,7 +152,9 @@ The parameter was stored as a hierarchical path in the format:
 
 The application running on Amazon EC2 automatically checked for this parameter, and if it existed, it displayed additional features.
 
-6. Returned to the application browser tab and refreshed the page.
+6. Returned to the application browser tab and refreshed the page and the output can been seen in the following screenshot:
+
+ ![Three Charts](https://github.com/gmonika-blip/my-aws-restart-journey/blob/6e32c6b0d0078c4ded0d18982c38f08152f94546/Labs/Extra%20Labs/images/ThreeCharts.png)
 
 ## Result
 
