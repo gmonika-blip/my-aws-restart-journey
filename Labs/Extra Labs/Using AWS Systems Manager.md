@@ -1,68 +1,34 @@
 
-Using AWS Systems Manager
-Lab overview
-AWS Systems Manager is a collection of capabilities that you can use to centralize operational data and automate tasks across your Amazon Web Services (AWS) resources. Systems Manager can configure and manage Amazon Elastic Compute Cloud (Amazon EC2) instances, on-premises servers, virtual machines, and other AWS resources at scale. 
-
-Objectives
-After completing this lab, you should be able to use Systems Manager to do the following:
-
-Verify configurations and permissions.
-Run tasks on multiple servers.
-Update application settings or configurations.
-Access the command line on an instance.
-
 # Using AWS Systems Manager
 
 ## Lab Overview
 
-AWS Systems Manager was a collection of capabilities that you could use to centralize operational data and automate tasks across your Amazon Web Services (AWS) resources. Systems Manager could configure and manage Amazon Elastic Compute Cloud (Amazon EC2) instances, on-premises servers, virtual machines, and other AWS resources at scale.
+AWS Systems Manager is a collection of capabilities that one could use to centralize operational data and automate tasks across their Amazon Web Services (AWS) resources. Systems Manager can configure and manage Amazon Elastic Compute Cloud (Amazon EC2) instances, on-premises servers, virtual machines, and other AWS resources at scale.
 
 ## Objectives
 
-After completing this lab, you were able to use Systems Manager to do the following:
-
-- Verified configurations and permissions  
-- Ran tasks on multiple servers  
-- Updated application settings or configurations  
-- Accessed the command line on an instance  
-
-## Duration
-
-This activity required approximately **30 minutes** to complete.
-
----
-
-## Accessing the AWS Management Console
-
-At the top of the instructions, you chose **Start Lab** to launch the lab.
-
-You waited until the message **"Lab status: ready"** appeared, and then chose **X** to close the Start Lab panel.
-
-Next to **Start Lab**, you chose **AWS** to open the AWS Management Console in a new browser tab. The system automatically signed you in.
-
-> **Tip:** If a new browser tab did not open, a banner or icon at the top of the browser indicated that pop-up windows were being blocked. You selected the banner or icon and allowed pop-ups.
-
-You arranged the AWS Management Console so that it appeared alongside the lab instructions.
-
-> **Note:** You did not change the AWS Region unless instructed to do so.
+- Verify configurations and permissions  
+- Run tasks on multiple servers  
+- Update application settings or configurations  
+- Access the command line on an instance 
 
 ---
 
 ## Task 1: Generated Inventory Lists for Managed Instances
 
-You used **Fleet Manager**, a capability of Systems Manager, to collect operating system information, application information, and metadata from EC2 instances, on-premises servers, or virtual machines in a hybrid environment. You also used Fleet Manager to query metadata and quickly identify which instances were running the required software and configurations, and which instances needed updates.
+Used **Fleet Manager**, a capability of Systems Manager, to collect operating system information, application information, and metadata from EC2 instances, on-premises servers, or virtual machines in a hybrid environment. Also used Fleet Manager to query metadata and quickly identify which instances were running the required software and configurations, and which instances needed updates.
 
-In this task, you used Fleet Manager to gather inventory from an EC2 instance.
+In this task, I used Fleet Manager to gather inventory from an EC2 instance.
 
-1. In the AWS Management Console search box, you entered **Systems Manager** and pressed **Enter**.
-2. In the left navigation pane, under **Node Management**, you chose **Fleet Manager**.
-3. You opened the **Account management** dropdown list and chose **Set up inventory**.
-4. To create an association that collected software and settings information for the managed instance, you selected the following options:
+1. In the AWS Management Console search box, I entered **Systems Manager** and pressed **Enter**.
+2. In the left navigation pane, under **Node Tools**, I chose **Fleet Manager**.
+3. Opened the **Account management** dropdown list and chose **Set up inventory**.
+4. To create an association that collected software and settings information for the managed instance, I selected the following options:
 
-   - Under **Provide inventory details**, for **Name**, you entered:  
+   - Under **Provide inventory details**, for **Name**, I entered:  
      `Inventory-Association`
 
-   - Under **Targets**, you selected:
+   - Under **Targets**, I selected:
      - **Specify targets by:** *Manually selecting instances*
      - You selected the row for **Managed Instance**
      - You left the remaining options as default
