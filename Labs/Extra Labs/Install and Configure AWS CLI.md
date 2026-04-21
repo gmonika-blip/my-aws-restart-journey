@@ -49,3 +49,18 @@ The following steps were completed on macOS or Linux:
 
 ```bash
 cd ~/Downloads
+```
+
+- Permissions were updated to make the key read-only:
+```
+chmod 400 labsuser.pem
+```
+
+- SSH was used to connect to the EC2 instance (with <ip-address> replaced by the Public IP):
+
+```
+ssh -i labsuser.pem ec2-user@<ip-address>
+```
+
+When prompted, yes was entered to confirm the connection.
+
