@@ -18,37 +18,39 @@ AWS Systems Manager is a collection of capabilities that one could use to centra
 
 Used **Fleet Manager**, a capability of Systems Manager, to collect operating system information, application information, and metadata from EC2 instances, on-premises servers, or virtual machines in a hybrid environment. Also used Fleet Manager to query metadata and quickly identify which instances were running the required software and configurations, and which instances needed updates.
 
-In this task, I used Fleet Manager to gather inventory from an EC2 instance.
+In this task, I used Fleet Manager to gather inventory from an EC2 instance and performed the following steps:
 
-1. In the AWS Management Console search box, I entered **Systems Manager** and pressed **Enter**.
-2. In the left navigation pane, under **Node Tools**, I chose **Fleet Manager**.
+1. In the AWS Management Console search box, entered **Systems Manager** and pressed **Enter**.
+2. In the left navigation pane, under **Node Tools**, chose **Fleet Manager**.
 3. Opened the **Account management** dropdown list and chose **Set up inventory**.
 4. To create an association that collected software and settings information for the managed instance, I selected the following options:
 
-   - Under **Provide inventory details**, for **Name**, I entered:  
+   - Under **Provide inventory details**, for **Name**, entered:  
      `Inventory-Association`
 
-   - Under **Targets**, I selected:
+   - Under **Targets**, selected:
      - **Specify targets by:** *Manually selecting instances*
-     - You selected the row for **Managed Instance**
-     - You left the remaining options as default
+     - Selected the row for **Managed Instance**
+     - Left the remaining options as default
 
-5. You chose **Setup Inventory**.
+5. Chose **Setup Inventory**.
 
 A banner message appeared indicating **"Setup inventory request succeeded"**, and Systems Manager Inventory began regularly inventorying the instance.
 
-6. You chose the **Node ID** link to open the node overview.
-7. You selected the **Inventory** tab.
+6. Chose the **Node ID** link to open the node overview.
+7. Selected the **Inventory** tab.
 
-This tab listed all applications installed on the instance. You reviewed the installed applications and other available inventory options in the **Inventory type** dropdown list.
+This tab listed all applications installed on the instance. I reviewed the installed applications and other available inventory options in the **Inventory type** dropdown list.
 
-You successfully created a Systems Manager inventory association for the instance. Using Inventory, you were able to review and validate software configurations without needing to connect to the instance using SSH.
+### Result
+
+Successfully created a Systems Manager inventory association for the instance. Using Inventory, I was able to review and validate software configurations without needing to connect to the instance using SSH.
 
 ---
 
 ## Task 2: Installed a Custom Application Using Run Command
 
-In this task, you installed a custom web application (**Widget Manufacturing Dashboard**) using **Run Command**, a capability of Systems Manager.
+In this task, I installed a custom web application (**Widget Manufacturing Dashboard**) using **Run Command**, a capability of Systems Manager.
 
 Systems Manager installed the application on an EC2 instance inside a VPC using Run Command. The install script installed the following:
 
@@ -59,71 +61,69 @@ Systems Manager installed the application on an EC2 instance inside a VPC using 
 
 After installation, the script started the web server.
 
-To complete the installation:
+To complete the installation, I followed the steps:
 
-1. In the upper-left corner, you expanded the menu icon.
-2. Under **Node Management**, you chose **Run Command**.
-3. You chose **Run command**.
+1. In the upper-left corner, expanded the menu icon.
+2. Under **Node Tools**, chose **Run Command**.
+3. Chose `Run command`.
 
 A list of pre-configured documents appeared.
 
-4. You chose the search icon in the document selection box.
-5. From the dropdown options, you selected:
+4. Chose the search icon in the document selection box.
+5. From the dropdown options, I selected:
 
    - **Owner**
    - **Owned by me**
 
 A document appeared.
 
-> **Note:** You did not manually type *Owner* or *Owned by me*, because typing these values did not return results.
-
-6. You selected the document (if it was not already selected).
+6. Selected the document. 
 
 The following information appeared:
 
 - **Description:** Install Dashboard App  
 - **Document version:** 1 (Default)
 
-You left the document version set to the default.
+Left the document version set to the default.
 
-7. Under **Target selection**, you selected **Choose instances manually**.
-8. Under **Instances**, you selected **Managed Instance**.
+7. Under **Target selection**,selected **Choose instances manually**.
+8. Under **Instances**, selected **Managed Instance**.
 
 The Managed Instance already had the Systems Manager agent installed and registered, allowing it to be selected for Run Command.
 
-9. Under **Output options**, you cleared **Enable an S3 bucket**.
-10. You expanded the **AWS command line interface command** section to review the CLI command that could be used later in scripts.
-11. You chose **Run**.
+9. Under **Output options**, cleared **Enable an S3 bucket**.
+10. Expanded the **AWS command line interface command** section to review the CLI command that could be used later in scripts.
+11. Chose **Run**.
 
 A banner appeared with the **Command ID**, indicating the command was successfully sent.
 
-After 1–2 minutes, the **Overall status** changed to **Success**. If it did not update, you chose the refresh icon.
+After 1–2 minutes, the **Overall status** changed to **Success**. 
 
 ### Validated the Application
 
 To validate the application:
 
-1. In the Vocareum console, you opened the **Details** dropdown list.
-2. You chose **Show**.
-3. You copied the **ServerIP** value (public IP address).
-4. You opened a new browser tab, pasted the IP address, and pressed **Enter**.
+1. In the Vocareum console, opened the **Details** dropdown list.
+2. Chose **Show**.
+3. Copied the **ServerIP** value (public IP address).
+4. Opened a new browser tab, pasted the IP address, and pressed **Enter**.
 
 The **Widget Manufacturing Dashboard** application appeared.
 
-You successfully used Run Command through Systems Manager to install a custom application without needing to remotely access the instance using SSH.
+I successfully used Run Command through Systems Manager to install a custom application without needing to remotely access the instance using SSH.
 
 ---
 
 ## Task 3: Used Parameter Store to Manage Application Settings
 
-Parameter Store, a capability of Systems Manager, provided secure hierarchical storage for configuration data and secrets management. You stored values such as passwords, database strings, and license codes as parameter values. These values could be stored as plain text or encrypted data and referenced by their unique parameter name.
+Parameter Store, a capability of Systems Manager, provides secure hierarchical storage for configuration data and secrets management. Users can store values such as passwords, database strings, and license codes as parameter values. These values could be stored as plain text or encrypted data and referenced by their unique parameter name.
 
-In this task, you used Parameter Store to store a parameter that activated a feature in the application.
+In this task, I used Parameter Store to store a parameter that activated a feature in the application, following the steps:
 
-1. You kept the Widget Manufacturing Dashboard browser tab open and returned to the AWS Systems Manager tab.
-2. In the left navigation pane, under **Application Management**, you chose **Parameter Store**.
-3. You chose **Create parameter**.
-4. You entered the following values:
+1. Kept the Widget Manufacturing Dashboard browser tab open and returned to the AWS Systems Manager tab.
+2. In the left navigation pane, under **Application Tools**, chose **Parameter Store**.
+3. Chose **Create parameter**.
+4. Entered the following values:
 
    - **Name:** `/dashboard/show-beta-features`
    - **Description:** `Display beta features`
@@ -131,7 +131,7 @@ In this task, you used Parameter Store to store a parameter that activated a fea
    - **Type:** Default
    - **Value:** `True`
 
-5. You chose **Create parameter**.
+5. Chose **Create parameter**.
 
 A banner appeared indicating **"Create parameter request succeeded"**.
 
@@ -141,35 +141,28 @@ The parameter was stored as a hierarchical path in the format:
 
 The application running on Amazon EC2 automatically checked for this parameter, and if it existed, it displayed additional features.
 
-6. You returned to the application browser tab and refreshed the page.
+6. Returned to the application browser tab and refreshed the page.
 
-If the tab had been closed, you reopened it by copying the **ServerIP** value again from the lab details.
+After refreshing, I observed that three charts were displayed. The application had checked Parameter Store and enabled the beta chart feature.
 
-After refreshing, you observed that three charts were displayed. The application had checked Parameter Store and enabled the beta chart feature.
-
-> It was common to configure applications to display "dark features" that were installed but not yet activated.
-
-### Optional Step
-
-You optionally deleted the parameter and refreshed the browser tab again. The third chart disappeared.
 
 ---
 
 ## Task 4: Used Session Manager to Access Instances
 
-Session Manager, a capability of Systems Manager, allowed you to manage EC2 instances through a browser-based shell or the AWS CLI. It provided secure and auditable instance management without opening inbound ports, maintaining bastion hosts, or managing SSH keys.
+Session Manager, a capability of Systems Manager, allows developers to manage EC2 instances through a browser-based shell or the AWS CLI. It provides secure and auditable instance management without opening inbound ports, maintaining bastion hosts, or managing SSH keys.
 
-In this task, you accessed the EC2 instance through Session Manager.
+In this task, I accessed the EC2 instance through Session Manager by performing the following steps:
 
-1. In the left navigation pane, under **Node Management**, you chose **Session Manager**.
-2. You chose **Start session**.
-3. You selected **Managed Instance**.
-4. You chose **Start session**.
+1. In the left navigation pane, under **Node Tools**, I chose **Session Manager**.
+2. Chose **Start session**.
+3. Selected **Managed Instance**.
+4. Chose **Start session**.
 
 A new session tab opened in the browser.
 
-5. To activate the cursor, you clicked inside the session window.
-6. You ran the following command:
+5. To activate the cursor,clicked inside the session window.
+6. Executed the following command:
 
 ```bash
 ls /var/www/html
