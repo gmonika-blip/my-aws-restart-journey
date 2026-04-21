@@ -137,6 +137,27 @@ At the prompts, the AWS CLI was configured using the following values:
 - **Default region name:** `us-west-2` was entered.
 - **Default output format:** `json` was entered.
 
-  
+---
 
+## Task 5: Observed IAM Configuration Details Using the AWS CLI
+
+In this task, IAM configuration details for the EC2 instance were verified using the AWS CLI.
+
+In the terminal window, the IAM configuration was tested by running the following command:
+
+```bash
+aws iam list-users
+```
+
+## Activity Challenge
+
+In this challenge, the AWS CLI Command Reference documentation and the AWS CLI were used to download the `lab_policy` document as a JSON-formatted IAM policy document. This policy document was the same one that was viewed earlier in the AWS Management Console.
+
+Activity challenge solution
+
+The following command lists IAM policies and filters customer managed policies:
+
+```
+aws iam list-policies --scope Local
+```
 
