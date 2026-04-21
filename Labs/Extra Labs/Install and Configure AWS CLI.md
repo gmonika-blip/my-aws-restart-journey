@@ -172,6 +172,12 @@ Next, I used the version number `Arn` information and `DefaultVersionId` found i
  aws iam get-policy-version --policy-arn arn:aws:iam::038946776283:policy/lab_policy --version-id v1 > lab_policy.json
 ```
 
+The following two screenshots show the output of the commands executed in the activity challenge:
+
+![List Policy](https://github.com/gmonika-blip/my-aws-restart-journey/blob/0063bae367b93fca1c318d396400a5c859c55c3d/Labs/Extra%20Labs/images/AWS-CLI-Command-ListPolicy.png)
+
+
+
 ---
 
 ## Conclusion
