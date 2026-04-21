@@ -130,5 +130,13 @@ The following command was executed to begin configuration:
 aws configure
 ```
 
+At the prompts, the AWS CLI was configured using the following values:
+
+- **AWS Access Key ID:** The **Details** dropdown list was selected, **Show** was chosen, and the **AccessKey** value was copied and pasted into the terminal.
+- **AWS Secret Access Key:** The **SecretKey** value was copied and pasted into the terminal.
+- **Default region name:** `us-west-2` was entered.
+- **Default output format:** `json` was entered.
+
+  
 
 
