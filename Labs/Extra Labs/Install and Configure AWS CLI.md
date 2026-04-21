@@ -176,7 +176,10 @@ The following two screenshots show the output of the commands executed in the ac
 
 ![List Policy](https://github.com/gmonika-blip/my-aws-restart-journey/blob/0063bae367b93fca1c318d396400a5c859c55c3d/Labs/Extra%20Labs/images/AWS-CLI-Command-ListPolicy.png)
 
+![CLI Commands-2](https://github.com/gmonika-blip/my-aws-restart-journey/blob/6ba152e6ede4eb6efffcf039dba158fc57e805db/Labs/Extra%20Labs/images/AWS-CLI-Commands2.png)
 
+
+`The second screenshot shows partial output`
 
 ---
 
