@@ -22,11 +22,11 @@
 
 In this lab, an Amazon S3 bucket was created and configured to share images with an external user (`mediacouser`) from a media company. The bucket was also configured to send email notifications to an administrator whenever its contents were modified.
 
-## Architecture Summary
+### Architecture Summary
 
 An AWS IAM user named `mediacouser` had been pre-created with the required Amazon S3 permissions to upload, modify, or delete images in the bucket. Permissions were reviewed to ensure secure and appropriate access.
 
-## Workflow
+### Workflow
 
 1. When new product images became available or existing ones needed updates, the media company representative signed in to the AWS Management Console as `mediacouser` and managed the bucket contents.
 
@@ -36,11 +36,10 @@ An AWS IAM user named `mediacouser` had been pre-created with the required Amazo
 
 4. The administrator subscribed to the topic received an email with details about the changes.
 
----
 
 > **Note:** In real-world scenarios, external users typically would not have direct access to a CLI host as shown in the architecture diagram.
 
-## Objectives
+### Objectives
 
 By the end of this lab, the following tasks were completed:
 
