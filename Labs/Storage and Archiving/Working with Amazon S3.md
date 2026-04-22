@@ -421,9 +421,7 @@ An image file was uploaded to the S3 bucket using the AWS CLI.
 ### Command used:
 
 ```bash
-aws s3api put-object \  --bucket <cafe-xxxnnn> \
---key images/Caramel-Delight.jpg \
---body ~/new-images/Caramel-Delight.jpg
+aws s3api put-object \  --bucket <cafe-xxxnnn> \  --key images/Caramel-Delight.jpg \  --body ~/new-images/Caramel-Delight.jpg
 ```
 
 
