@@ -92,4 +92,15 @@ In this task, I configured the new EBS volume as an ext3 file system and mounted
    ```bash
   df -h
    ```
-   
+- The output was :
+
+  ```
+  devtmpfs        464M     0  464M   0% /dev
+  tmpfs           473M     0  473M   0% /dev/shm
+  tmpfs           473M  464K  472M   1% /run
+  tmpfs           473M     0  473M   0% /sys/fs/cgroup
+  /dev/nvme0n1p1  8.0G  1.7G  6.4G  21% /
+  tmpfs            95M     0   95M   0% /run/user/0
+  tmpfs            95M     0   95M   0% /run/user/1000
+  ```
+  
