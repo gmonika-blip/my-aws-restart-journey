@@ -266,5 +266,12 @@ The file was deleted.
 
 I noticed the file.txt file.
 
+---
+
+# Conclusion
+
+In this lab, I successfully created, attached, and configured an Amazon EBS volume for an EC2 instance. I learnt how to provision storage, connect it to a virtual machine, and prepare it for use by creating and mounting a file system. This demonstrates how EBS provides flexible, persistent, and scalable storage for cloud-based applications.
+
+---
 
 
