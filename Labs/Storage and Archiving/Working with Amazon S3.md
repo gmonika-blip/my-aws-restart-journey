@@ -444,6 +444,7 @@ aws s3api put-object \  --bucket <cafe-xxxnnn> \  --key images/Caramel-Delight.j
 
 A new object was successfully added to the bucket, and the event notification system correctly triggered an SNS email.
 
+<br>
 
 ## Test 2: Get Object (Read Use Case)
 
