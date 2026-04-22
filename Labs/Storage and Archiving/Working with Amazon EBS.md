@@ -75,6 +75,10 @@ The following screenshot shows the successfully newly created volume:
 - Chose **Attach volume**.  
 - The volume state will change to **In-use**.
 
+The following screenshot shows that the volume was attached to the EC2 Instance successfully:
+
+![EBS-AttachVolume](https://github.com/gmonika-blip/my-aws-restart-journey/blob/31e13e7d2918b3de0e2eb88c7c2d1dec59a76d0f/Labs/Storage%20and%20Archiving/images/EBS-AttachVolumetoEC2Instance.png)
+
 ---
 
 ### Task 3: Connecting to the Lab EC2 instance
