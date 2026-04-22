@@ -135,4 +135,135 @@ aws s3 ls s3://<cafe-xxxnnn>/images/ --human-readable --summarize
 The uploaded files were displayed along with the total number of files and their combined size.
 
 
+## Task 3: Reviewing IAM Group and User Permissions
+
+In this task, the permissions assigned to the **mediaco IAM user group** were reviewed. This group had been created to allow media company users to access the AWS Management Console or AWS CLI to upload and manage images in an S3 shared bucket. The group setup simplified user permission management. The permissions inherited by the **mediacouser** IAM user (a member of the group) were also reviewed and tested.
+
+
+### Task 3.1: Reviewing the mediaco IAM Group
+
+The permissions assigned to the **mediaco group** were reviewed in the IAM console.
+
+### Steps performed:
+- The AWS Management Console was opened.
+- IAM was searched and selected to open the IAM Management Console.
+- In the left navigation pane, **User groups** was selected.
+- The **mediaco** group was selected from the list.
+- The **Permissions** tab was opened.
+
+### Policy review:
+- The **IAMUserChangePassword** policy was expanded.
+  - The AWS managed policy allowing users to change their own password was reviewed.
+  - The policy was then collapsed.
+
+- The **mediaCoPolicy** was expanded and reviewed.
+  - The following permissions were identified:
+    - **AllowGroupToSeeBucketListInTheConsole**
+      - Allowed users to view the list of S3 buckets in the account via the console.
+    - **AllowRootLevelListingOfTheBucket**
+      - Allowed users to view first-level objects in the *cafe* bucket.
+    - **AllowUserSpecificActionsOnlyInTheSpecificPrefix**
+      - Allowed actions (GetObject, PutObject, DeleteObject) on objects in the `cafe-*/images/*` prefix.
+      - Included additional version-related permissions for future use.
+  - The policy was then collapsed.
+
+
+
+## Task 3.2: Reviewing the mediacouser IAM User
+
+The properties and permissions of the **mediacouser** IAM user were reviewed.
+
+### Steps performed:
+- IAM console navigation pane was opened.
+- **Users** was selected.
+- The **mediacouser** user was selected.
+- On the **Permissions** tab:
+  - Two policies were confirmed:
+    - IAMUserChangePassword
+    - mediaCoPolicy
+
+### Group membership verification:
+- The **Groups** tab was selected.
+- It was confirmed that **mediacouser** was a member of the **mediaco group**.
+- The user inherited permissions from this group.
+
+### Access key creation:
+- The **Security credentials** tab was selected.
+- **Create access key** was chosen.
+- The following options were selected:
+  - Command Line Interface (CLI)
+  - Confirmation checkbox acknowledging recommendation
+- The access key was created.
+- The **.csv file** containing credentials was downloaded.
+- The process was completed by selecting **Done**.
+
+### Console sign-in link:
+- The **Console sign-in link** was copied for later use.
+
+
+## Task 3.3: Testing mediacouser Permissions
+
+The permissions of the **mediacouser** were tested by signing in as the user and performing S3 operations.
+
+### Sign-in process:
+- A new browser or incognito/private window was used (to avoid logging out of the existing session).
+- The copied **Console sign-in link** was opened.
+- The following credentials were entered:
+  - IAM user name: `mediacouser`
+  - Password: `Training1!`
+- The user signed in successfully.
+
+
+### Amazon S3 testing
+
+- The **S3 console** was opened from the AWS Management Console.
+- The previously created bucket was selected.
+- The **images/** folder was opened.
+
+### View test:
+- `Donuts.jpg` was selected and opened.
+- The image successfully displayed in a new browser tab.
+- The tab was closed afterward.
+
+---
+
+### Upload test:
+- The **Upload** button was selected.
+- A local image file was added.
+- The file was uploaded successfully.
+- The uploaded file was opened and displayed in a new tab.
+- The tab was closed.
+
+---
+
+### Delete test:
+- `Cup-of-Hot-Chocolate.jpg` was selected.
+- The **Delete** option was chosen.
+- `delete` was entered in the confirmation field.
+- The object was successfully deleted.
+
+---
+
+### Unauthorized action test:
+- The bucket **Permissions** tab was opened.
+- An **Insufficient permissions** error was displayed.
+  - It was confirmed that `mediacouser` could not modify bucket permissions.
+- An attempt to upload directly to the bucket root would also fail due to restricted permissions.
+
+---
+
+### Final result:
+- The **S3 bucket configuration and IAM policies worked as intended**.
+- The **mediacouser** user was able to:
+  - View objects
+  - Upload objects
+  - Delete objects
+- The user was correctly restricted from:
+  - Modifying bucket permissions
+
+---
+
+## Conclusion
+
+The IAM group and user permissions were successfully reviewed and validated. The configuration ensured secure, controlled access to the S3 bucket while allowing only the intended operations for external users.
 
