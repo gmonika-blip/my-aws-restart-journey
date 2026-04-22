@@ -102,5 +102,37 @@ The following values were entered when prompted:
 
 The AWS CLI was then ready to be used to interact with AWS services.
 
+## Task 2: Creating and Initializing the S3 Share Bucket
+
+In this task, the S3 share bucket was created using the AWS CLI, and sample images were uploaded.
+
+To create an S3 bucket, the following command was used. The bucket name began with `cafe-` and included a unique combination of letters and numbers:
+
+```bash
+aws s3 mb s3://<cafe-xxxnnn> --region 'us-west-2'
+```
+
+A confirmation message similar to the following was returned:
+
+```
+make_bucket: cafe-xxxx9999999
+```
+
+Next, sample images were uploaded into the /images prefix from the initial-images folder on the CLI host. The following command was executed:
+
+```
+aws s3 sync ~/initial-images/ s3://<cafe-xxxnnn>/images
+```
+
+The output listed the uploaded image files.
+
+To verify the upload, the following command was run:
+
+```
+aws s3 ls s3://<cafe-xxxnnn>/images/ --human-readable --summarize
+```
+
+The uploaded files were displayed along with the total number of files and their combined size.
+
 
 
