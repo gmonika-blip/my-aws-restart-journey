@@ -261,5 +261,92 @@ The permissions of the **mediacouser** were tested by signing in as the user and
   - Modifying bucket permissions
 
 
+## Task 4: Configuring Event Notifications on the S3 Share Bucket
+
+In this task, the S3 share bucket was configured to generate event notifications whenever its contents changed. These events were published to an Amazon SNS topic, which then sent email notifications to subscribed users. The setup included creating an SNS topic, configuring permissions, subscribing an email endpoint, and linking the S3 bucket to the SNS topic through event notifications.
+
+### Task 4.1: Creating and Configuring the `s3NotificationTopic` SNS Topic
+
+The SNS topic **s3NotificationTopic** was created and configured to receive messages from Amazon S3.
+
+### Steps performed:
+
+- The AWS Management Console was opened using the **voclabs/user** session.
+- SNS was searched and the **Simple Notification Service (SNS)** console was opened.
+- In the navigation pane, **Topics** was selected.
+- **Create topic** was chosen.
+- The following configuration was applied:
+  - Type: **Standard**
+  - Name: `s3NotificationTopic`
+- The topic was created successfully.
+
+### ARN retrieval:
+- The **ARN (Amazon Resource Name)** of the topic was copied.
+- The ARN was saved for later use in the configuration steps.
+
+
+### Access policy configuration:
+- The topic was selected and **Edit** was chosen.
+- The **Access policy** section was expanded.
+- The JSON policy was updated to allow Amazon S3 to publish messages to the SNS topic.
+
+#### Key policy behavior:
+- Allowed the **S3 service** (`s3.amazonaws.com`) to publish messages.
+- Restricted publishing to a specific S3 bucket using `aws:SourceArn`.
+- Ensured only the designated bucket could send notifications.
+
+- The updated policy was saved successfully.
+
+
+### Subscription setup:
+
+- The **Subscriptions** tab was opened.
+- **Create subscription** was selected.
+- The following values were configured:
+  - Topic ARN: `s3NotificationTopic`
+  - Protocol: **Email**
+  - Endpoint: a valid email address
+
+- The subscription was created successfully.
+
+
+### Email confirmation:
+- An email titled **AWS Notification - Subscription Confirmation** was received.
+- The **Confirm subscription** link was selected.
+- A confirmation page opened showing **Subscription confirmed!**
+
+
+### Task 4.2: Adding Event Notification Configuration to the S3 Bucket
+
+An event notification configuration was created and associated with the S3 bucket using AWS CLI.
+
+### Configuration file creation:
+
+- A new file was created in the CLI environment:
+  ```bash
+  vi s3EventNotification.json
+  ```
+  The editor was switched to insert mode by pressing: `i`
+  
+  The following JSON configuration was added:
+```{
+  "TopicConfigurations": [
+    {
+      "TopicArn": "<ARN of s3NotificationTopic>",
+      "Events": ["s3:ObjectCreated:*", "s3:ObjectRemoved:*"],
+      "Filter": {
+        "Key": {
+          "FilterRules": [
+            {
+              "Name": "prefix",
+              "Value": "images/"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
+```
 
 
