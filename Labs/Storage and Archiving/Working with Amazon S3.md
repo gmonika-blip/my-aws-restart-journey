@@ -349,5 +349,17 @@ An event notification configuration was created and associated with the S3 bucke
   ]  }  
 
 
+### Configuration Review
+
+The configuration ensured that:
+
+- Amazon S3 published notifications to the SNS topic.
+- Events included object creation and object removal.
+- Only objects under the `images/` prefix triggered notifications.
 
 
+## Saving the File
+
+- Insert mode was exited by pressing:
+```bash
+ESC
