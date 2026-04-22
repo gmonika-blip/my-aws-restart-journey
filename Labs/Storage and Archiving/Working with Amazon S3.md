@@ -341,8 +341,7 @@ An event notification configuration was created and associated with the S3 bucke
           "FilterRules": [
             {
               "Name": "prefix",
-              "Value": "images/"
-            }
+              "Value": "images/"}
           ]
         }
       }
