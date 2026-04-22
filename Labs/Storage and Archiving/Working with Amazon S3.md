@@ -138,19 +138,10 @@ To verify the upload, the following command was run:
 aws s3 ls s3://<cafe-xxxnnn>/images/ --human-readable --summarize
 ```
 
-The uploaded files were displayed along with the total number of files and their combined size.
-
-The following screenshots show the output of the Task 2:
+The uploaded files were displayed along with the total number of files and their combined size. The following screenshots show the output:
 
 <img src="images/CreateBucket.png" alt="App Screenshot" width="50%">
 <img src="images/SampleImagesUploaded.png" alt="App Screenshot" width="50%">
-
-
-(https://github.com/gmonika-blip/my-aws-restart-journey/blob/47adcd543b179cd336daa4da385303c5009d18bc/Labs/Storage%20and%20Archiving/images/SampleImagesUploaded.png)
-
-(https://github.com/gmonika-blip/my-aws-restart-journey/blob/3975499180db70d51b5813e343b3fabd8a7555b7/Labs/Storage%20and%20Archiving/images/CreateBucket.png)
-
-(https://github.com/gmonika-blip/my-aws-restart-journey/blob/6df99e7b35503991aabf53c471920fd52c758e63/Labs/Storage%20and%20Archiving/images/ConfigureAWS.png)
 
 ---
 
