@@ -444,27 +444,24 @@ aws s3api put-object \  --bucket <cafe-xxxnnn> \  --key images/Caramel-Delight.j
 
 A new object was successfully added to the bucket, and the event notification system correctly triggered an SNS email.
 
+
 ## Test 2: Get Object (Read Use Case)
 
 An object was retrieved from the S3 bucket using the AWS CLI.
 
----
-
 ### Command used:
+
 ```bash
-aws s3api get-object \
---bucket <cafe-xxxnnn> \
---key images/Donuts.jpg Donuts.jpg
+aws s3api get-object \  --bucket <cafe-xxxnnn> \  --key images/Donuts.jpg Donuts.jpg
 ```
 
-## Result
+### Result
 
 - The object was downloaded successfully.
 - No email notification was generated.
 
----
 
-## Observation
+### Observation
 
 No notification was expected because the S3 event configuration was set only for:
 
