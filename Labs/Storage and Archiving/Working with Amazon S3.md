@@ -102,6 +102,10 @@ The following values were entered when prompted:
 
 The AWS CLI was then ready to be used to interact with AWS services.
 
+The following screenshot shows the configuration commands:
+
+<img src="images/ConfigureAWS.png" alt="App Screenshot" width="50%">
+
 ---
 
 ## Task 2: Creating and Initializing the S3 Share Bucket
