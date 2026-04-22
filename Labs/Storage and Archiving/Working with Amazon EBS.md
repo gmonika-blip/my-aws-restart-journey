@@ -286,7 +286,7 @@ The following screenshot shows the output of **task 6.3**:
 
 <img src="images/EBS-MountRestoredVolume.png" alt="App Screenshot" width="70%">
 
-I noticed the file.txt file.
+
 
 ---
 
