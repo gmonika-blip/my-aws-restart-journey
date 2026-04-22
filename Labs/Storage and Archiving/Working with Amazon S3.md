@@ -323,11 +323,12 @@ The SNS topic **s3NotificationTopic** was created and configured to receive mess
 
 ### Email confirmation:
 - An email titled **AWS Notification - Subscription Confirmation** was received.
+  <img src="images/EmailNotifySubscibeConfirm.png" alt="App Screenshot" width="50%">
+  
 - The **Confirm subscription** link was selected.
 - A confirmation page opened showing **Subscription confirmed!**
 
-  ![](https://github.com/gmonika-blip/my-aws-restart-journey/blob/28498039b632286b811a2f2101815172cee32e42/Labs/Storage%20and%20Archiving/images/EmailNotifySubscibeConfirm.png)
-
+ 
 
 ### Task 4.2: Adding Event Notification Configuration to the S3 Bucket
 
