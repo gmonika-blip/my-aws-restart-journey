@@ -79,4 +79,17 @@ In this task, I created and attached an EBS volume to a new EC2 instance.
 - Chose **Connect**.  
 - Opened the **EC2 Instance Connect** tab and clicked **Connect**.  
 - A new browser tab opened with a terminal session.  
-- Used this terminal for all lab tasks; reconnected if it becomes unresponsive.
+- Used this terminal for all lab tasks; reconnected if it became unresponsive.
+
+---
+
+### Task 4: Creating and configuring the file system
+
+In this task, I configured the new EBS volume as an ext3 file system and mounted it on a Linux instance.
+
+- In the EC2 Instance Connect terminal, checked available storage:  
+
+   ```bash
+  df -h
+   ```
+   
