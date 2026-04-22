@@ -54,6 +54,21 @@ By the end of this lab, the following tasks were completed:
 - Configured event notifications for the S3 bucket
 
 
+### Accessing the AWS Management Console
+
+- The lab was started by selecting **Start Lab**  
+- After the status changed to *"Lab status: ready"*, the panel was closed  
+
+- The **AWS Management Console** was opened in a new browser tab, and the session was automatically signed in  
+
+> If the tab did not open, pop-ups were enabled in the browser
+
+- The console was arranged alongside the lab instructions for easier navigation  
+
+- The **Details** section was opened, and **Show** was selected  
+- From the **Credentials** panel, the **AccessKey** and **SecretKey** values were copied and saved in a text editor for later use
+
+  
 ## Task 1: Connecting to the CLI Host EC2 Instance and Configuring the AWS CLI
 
 In this task, a connection was established to the CLI Host EC2 instance using EC2 Instance Connect, and the AWS CLI was configured to run commands.
