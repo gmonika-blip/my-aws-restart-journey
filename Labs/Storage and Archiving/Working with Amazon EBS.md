@@ -35,3 +35,48 @@ In this lab, I learnt how to create an EBS volume and perform operations on it, 
 - Attach and mount an EBS volume to an EC2 instance.
 - Create a snapshot of an EBS volume.
 - Create an EBS volume from a snapshot.
+
+---
+
+# Task 1: Creating a new EBS volume
+
+In this task, I created and attached an EBS volume to a new EC2 instance.
+
+- On the AWS Management Console, search for and choose **EC2** to open the EC2 Management Console.  
+- In the left navigation pane, choose **Instances**.  
+- An EC2 instance named **Lab** has already been launched for your lab.  
+- Note the **Availability Zone** of the Lab instance (e.g., `us-west-2a`).  
+- In the left navigation pane, under **Elastic Block Store**, choose **Volumes**.  
+- You will see an existing 8 GiB volume already attached to the instance.  
+- Choose **Create volume** and configure:  
+  - Volume type: **General Purpose SSD (gp2)**  
+  - Size (GiB): **1**  
+  - Availability Zone: same as Lab instance (e.g., `us-west-2a`)  
+- In **Tags (optional)**, add:  
+  - Key: `Name`  
+  - Value: `My Volume`  
+- Choose **Create volume**.  
+- Wait until the volume state changes from **Creating** to **Available**.
+
+---
+
+# Task 2: Attaching the volume to an EC2 instance
+
+- Select **My Volume**.  
+- From the **Actions** menu, choose **Attach volume**.  
+- Select the **Lab** instance from the Instance dropdown.  
+- Set Device name to `/dev/sdb`.  
+- Choose **Attach volume**.  
+- The volume state will change to **In-use**.
+
+---
+
+# Task 3: Connecting to the Lab EC2 instance
+
+- Search for and choose **EC2** in the AWS Management Console.  
+- In the navigation pane, choose **Instances**.  
+- Select the **Lab** instance from the list.  
+- Choose **Connect**.  
+- Open the **EC2 Instance Connect** tab and click **Connect**.  
+- A new browser tab opens with a terminal session.  
+- Use this terminal for all lab tasks; reconnect if it becomes unresponsive.
