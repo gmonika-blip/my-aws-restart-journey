@@ -1,4 +1,4 @@
-# Amazon EBS (Elastic Block Store)
+# Working with Amazon EBS (Elastic Block Store)
 
 **Amazon EBS (Elastic Block Store)** is a cloud-based block storage service provided by Amazon Web Services for use with its virtual servers (Amazon EC2 instances). It is like a virtual hard drive in the cloud. It lets you store data that needs to persist even when an EC2 instance is stopped or restarted.
 
