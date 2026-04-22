@@ -480,3 +480,18 @@ An object was deleted from the S3 bucket using the AWS CLI.
 aws s3api delete-object \  --bucket <cafe-xxxnnn> \  --key images/Strawberry-Tarts.jpg
 ```
 
+### Email Notification
+
+- A new email with subject **Amazon S3 Notification** was received.
+- The notification contained:
+  - `eventName`: `ObjectRemoved:Delete`
+  - `object key`: `images/Strawberry-Tarts.jpg`
+
+
+### Observation
+
+The object was successfully deleted, and the SNS notification system correctly reported the event.
+
+<br>
+
+
