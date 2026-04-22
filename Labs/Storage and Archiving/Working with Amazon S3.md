@@ -512,5 +512,10 @@ aws s3api put-object-acl \  --bucket <cafe-xxxnnn> \  --key images/Donuts.jpg \ 
 An error occurred (AccessDenied) when calling the PutObjectAcl operation: Access Denied
 ```
 
+### Observation
+
+The operation was correctly blocked, and the IAM policy successfully prevented unauthorized permission changes.
+
+
 
 
