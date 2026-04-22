@@ -493,16 +493,15 @@ aws s3api delete-object \  --bucket <cafe-xxxnnn> \  --key images/Strawberry-Tar
 The object was successfully deleted, and the SNS notification system correctly reported the event.
 
 <br>
+
 ## Test 4: Unauthorized Action (Access Control Test)
 
 An attempt was made to change the object ACL to make it publicly readable.
 
----
-
 ### Command used:
 ```bash
-aws s3api put-object-acl \
---bucket <cafe-xxxnnn> \
---key images/Donuts.jpg \
---acl public-read
+aws s3api put-object-acl \  --bucket <cafe-xxxnnn> \  --key images/Donuts.jpg \  --acl public-read
+```
+
+
 
