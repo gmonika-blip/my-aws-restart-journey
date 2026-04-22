@@ -1,4 +1,4 @@
-## Amazon S3
+## Working with Amazon S3
 
 **Amazon S3 (Amazon Simple Storage Service)** is a cloud-based object storage service offered by Amazon Web Services.  
  It allows you to store and retrieve any amount of data from anywhere on the internet.
@@ -9,7 +9,7 @@
 - **Durablity & Availability**: 99.999999999% durability and 99.99% availability  
 - **Security**: Encryption, access control, and auditing capabilities  
 - **Cost-Effective**: Pay only for what you use with multiple storage classes  
----
+
 
 ### Common Use Cases
 
