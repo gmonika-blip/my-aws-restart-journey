@@ -516,6 +516,21 @@ An error occurred (AccessDenied) when calling the PutObjectAcl operation: Access
 
 The operation was correctly blocked, and the IAM policy successfully prevented unauthorized permission changes.
 
+---
 
+## Conclusion
 
+In this lab, an end-to-end AWS solution was successfully implemented and tested using IAM, Amazon S3, and Amazon SNS services.
 
+An S3 bucket was configured for controlled file sharing by defining IAM users, groups, and policies. The **mediaco IAM group** was used to manage permissions efficiently, while the **mediacouser** inherited access rights that allowed limited and secure interaction with objects in the S3 bucket.
+
+Event-driven notifications were then configured by integrating Amazon S3 with Amazon SNS. A topic (`s3NotificationTopic`) was created, secured with an appropriate access policy, and subscribed to via email. The S3 bucket was configured to publish events for object creation and deletion under a specific prefix, enabling real-time notifications.
+
+Finally, the setup was validated through testing:
+- Objects were successfully uploaded, retrieved, and deleted using the AWS CLI.
+- Email notifications were correctly triggered for supported S3 events.
+- Unauthorized actions were properly blocked, confirming that IAM policies were enforced as intended.
+
+Overall, the lab demonstrated how AWS services can be combined to build a secure, event-driven file management system with proper access control and monitoring.
+
+---
