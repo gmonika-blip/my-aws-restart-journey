@@ -262,7 +262,4 @@ The permissions of the **mediacouser** were tested by signing in as the user and
 
 
 
-## Result
-
-The IAM group and user permissions were successfully reviewed and validated. The configuration ensured secure, controlled access to the S3 bucket while allowing only the intended operations for external users.
 
