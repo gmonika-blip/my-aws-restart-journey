@@ -329,8 +329,9 @@ An event notification configuration was created and associated with the S3 bucke
   The editor was switched to insert mode by pressing: `i`
   
   The following JSON configuration was added:
-```{
-  "TopicConfigurations": [
+  
+  ```{
+     "TopicConfigurations": [
     {
       "TopicArn": "<ARN of s3NotificationTopic>",
       "Events": ["s3:ObjectCreated:*", "s3:ObjectRemoved:*"],
@@ -347,6 +348,6 @@ An event notification configuration was created and associated with the S3 bucke
     }
   ]
 }
-```
+ ```
 
 
