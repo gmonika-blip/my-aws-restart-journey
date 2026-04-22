@@ -58,8 +58,9 @@ In this task, I created and attached an EBS volume to a new EC2 instance.
 - Chose **Create volume**.  
 - Waited until the volume state changes from **Creating** to **Available**.
 
+The following screenshot the successfully newly created volume: 
 
-  ![CreateNewVolume](https://github.com/gmonika-blip/my-aws-restart-journey/blob/951fb2240e952e6d057782b8e9147ef2797c969c/Labs/Storage%20and%20Archiving/images/EBS-CreateNewEBSVolume.png)
+![CreateNewVolume](https://github.com/gmonika-blip/my-aws-restart-journey/blob/951fb2240e952e6d057782b8e9147ef2797c969c/Labs/Storage%20and%20Archiving/images/EBS-CreateNewEBSVolume.png)
 
 ---
 
