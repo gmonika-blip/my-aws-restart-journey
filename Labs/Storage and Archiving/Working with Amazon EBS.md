@@ -179,7 +179,7 @@ In this task, I configured the new EBS volume as an ext3 file system and mounted
  cat /mnt/data-store/file.txt
 ```
 
-   The output displays the text that this command copies to the file. 
+   The output displays `some text has been written` the text that this command copies to the file. 
 
 ---
 
