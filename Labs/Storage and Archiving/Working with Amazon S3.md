@@ -396,5 +396,19 @@ The value of the "Event" key was "s3:TestEvent". Amazon S3 sent this notificatio
 
 ---
 
+## Task 5: Testing the S3 Share Bucket Event Notifications
+
+In this task, the S3 share bucket event notification configuration was tested by performing authorized and unauthorized actions using the AWS CLI as the **mediacouser**. The tests verified object upload, retrieval, deletion, and access control behavior. Email notifications were generated for supported events and validated through the SNS subscription.
+
+
+### Configure AWS CLI for mediacouser
+
+The AWS CLI was configured to use the **mediacouser** credentials using the command:
+
+```bash
+aws configure
+```
+
+
 
 
