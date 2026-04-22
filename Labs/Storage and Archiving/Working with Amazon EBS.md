@@ -203,3 +203,44 @@ The Snapshot status of your snapshot was `Pending`. After completion, the status
 The following message displays: `ls: cannot access /mnt/data-store/file.txt: No such file or directory`
 
 The file was deleted.
+
+---
+
+### Task 6: Restoring the Amazon EBS snapshot
+
+#### Task 6.1: Creating a volume by using the snapshot
+
+- On the EC2 Management Console, selected My Snapshot.
+
+- From the Actions menu, chose `Create volume from snapshot`.
+
+- For Availability Zone, chose the same Availability Zone that was used earlier in Task1.
+
+- In the Tags - optional section, chose `Add tag`, and then configure the following options:
+
+     Key: `Name`
+
+     Value: `Restored Volume`
+
+- Chose `Create volume`
+
+- To see the new volume, in the left navigation, chose `Volumes`.
+
+   The Volume status of the new volume is `Available`.
+
+   When restoring a snapshot to a new volume, the configuration can also be modified, such as changing the volume type, size, or       Availability Zone.
+
+#### Task 6.2: Attaching the restored volume to the EC2 instance
+Select Restored Volume.
+
+From the Actions menu, choose Attach volume.
+
+From the Instance dropdown list, choose the Lab instance.
+
+For the Device name field, choose /dev/sdc. You use this device identifier in a later task.
+
+Choose Attach volume.
+
+The Volume status of your volume is now In-use.
+
+
