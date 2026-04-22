@@ -136,6 +136,10 @@ aws s3 ls s3://<cafe-xxxnnn>/images/ --human-readable --summarize
 
 The uploaded files were displayed along with the total number of files and their combined size.
 
+<img src="images/ConfigureAWS.png" alt="App Screenshot" width="50%">
+
+(https://github.com/gmonika-blip/my-aws-restart-journey/blob/6df99e7b35503991aabf53c471920fd52c758e63/Labs/Storage%20and%20Archiving/images/ConfigureAWS.png)
+
 ---
 
 ## Task 3: Reviewing IAM Group and User Permissions
