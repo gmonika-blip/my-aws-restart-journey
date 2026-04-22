@@ -244,4 +244,19 @@ The file was deleted.
 
   The Volume status of your volume is now `In-use`.
 
+#### Task 6.3: Mounting the restored volume
+
+- To create a directory for mounting the new storage volume, in the EC2 Instance Connect terminal, used the following command:
+
+```
+  sudo mkdir /mnt/data-store2
+```
+
+- To mount the new volume, run the following command:
+
+sudo mount /dev/sdc /mnt/data-store2
+To verify that the volume that you mounted has the file that you created earlier, run the following command:
+
+ls /mnt/data-store2/file.txt
+You should see the file.txt file.
 
