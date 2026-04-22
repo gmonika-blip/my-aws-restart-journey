@@ -208,7 +208,7 @@ The file was deleted.
 
 ### Task 6: Restoring the Amazon EBS snapshot
 
-#### Task 6.1: Creating a volume by using the snapshot
+#### Task 6.1: Created a volume by using the snapshot
 
 - On the EC2 Management Console, selected My Snapshot.
 
@@ -230,17 +230,18 @@ The file was deleted.
 
    When restoring a snapshot to a new volume, the configuration can also be modified, such as changing the volume type, size, or       Availability Zone.
 
-#### Task 6.2: Attaching the restored volume to the EC2 instance
-Select Restored Volume.
+#### Task 6.2: Attached the restored volume to the EC2 instance
 
-From the Actions menu, choose Attach volume.
+- Selected `Restored Volume`.
 
-From the Instance dropdown list, choose the Lab instance.
+- From the Actions menu, chose `Attach volume`.
 
-For the Device name field, choose /dev/sdc. You use this device identifier in a later task.
+- From the Instance dropdown list, chose the Lab instance.
 
-Choose Attach volume.
+- For the Device name field, chose `/dev/sdc`. I used this device identifier in a later task.
 
-The Volume status of your volume is now In-use.
+- Chose `Attach volume`.
+
+  The Volume status of your volume is now `In-use`.
 
 
