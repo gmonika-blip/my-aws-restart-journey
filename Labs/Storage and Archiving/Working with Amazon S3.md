@@ -138,6 +138,10 @@ The uploaded files were displayed along with the total number of files and their
 
 <img src="images/ConfigureAWS.png" alt="App Screenshot" width="50%">
 
+<img src="images/CreateBucket.png" alt="App Screenshot" width="50%">
+
+(https://github.com/gmonika-blip/my-aws-restart-journey/blob/3975499180db70d51b5813e343b3fabd8a7555b7/Labs/Storage%20and%20Archiving/images/CreateBucket.png)
+
 (https://github.com/gmonika-blip/my-aws-restart-journey/blob/6df99e7b35503991aabf53c471920fd52c758e63/Labs/Storage%20and%20Archiving/images/ConfigureAWS.png)
 
 ---
