@@ -408,7 +408,11 @@ The AWS CLI was configured to use the **mediacouser** credentials using the comm
 ```bash
 aws configure
 ```
-
+Inputs provided:
+- AWS Access Key ID: (copied from mediacouser_accessKeys.csv)
+- AWS Secret Access Key: (copied from the same file)
+- Default region name: (left as default by pressing Enter)
+- Default output format: `json`
 
 
 
