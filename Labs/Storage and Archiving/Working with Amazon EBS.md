@@ -124,4 +124,4 @@ In this task, I configured the new EBS volume as an ext3 file system and mounted
   echo "/dev/sdb   /mnt/data-store ext3 defaults,noatime 1 2" | sudo tee -a /etc/fstab
   ```
 
-`The last line in this command ensured that the volume was mounted even after the instance was restarted.`
+  `The last line in this command ensured that the volume was mounted even after the instance was restarted.`
