@@ -469,3 +469,14 @@ No notification was expected because the S3 event configuration was set only for
 - Object creation  
 - Object deletion
 
+<br>
+
+## Test 3: Delete Object (Delete Use Case)
+
+An object was deleted from the S3 bucket using the AWS CLI.
+
+### Command used:
+```bash
+aws s3api delete-object \  --bucket <cafe-xxxnnn> \  --key images/Strawberry-Tarts.jpg
+```
+
