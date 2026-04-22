@@ -137,7 +137,6 @@ aws s3 ls s3://<cafe-xxxnnn>/images/ --human-readable --summarize
 The uploaded files were displayed along with the total number of files and their combined size.
 
 <img src="images/ConfigureAWS.png" alt="App Screenshot" width="50%">
-
 <img src="images/CreateBucket.png" alt="App Screenshot" width="50%">
 
 (https://github.com/gmonika-blip/my-aws-restart-journey/blob/3975499180db70d51b5813e343b3fabd8a7555b7/Labs/Storage%20and%20Archiving/images/CreateBucket.png)
