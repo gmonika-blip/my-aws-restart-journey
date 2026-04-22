@@ -424,5 +424,21 @@ An image file was uploaded to the S3 bucket using the AWS CLI.
 aws s3api put-object \  --bucket <cafe-xxxnnn> \  --key images/Caramel-Delight.jpg \  --body ~/new-images/Caramel-Delight.jpg
 ```
 
+### Result
 
+- The command completed successfully.
+- An **ETag** was returned for the uploaded object.
+
+
+### Email Notification
+
+- An email with the subject **Amazon S3 Notification** was received.
+- The notification contained:
+  - `eventName`: `ObjectCreated:Put`
+  - `object key`: `images/Caramel-Delight.jpg`
+
+
+### Observation
+
+A new object was successfully added to the bucket, and the event notification system correctly triggered an SNS email.
 
