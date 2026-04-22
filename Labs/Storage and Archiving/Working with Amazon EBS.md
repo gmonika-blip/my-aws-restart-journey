@@ -276,11 +276,15 @@ The file was deleted.
  sudo mount /dev/sdc /mnt/data-store2
 ```
 
-- To verify that the volume that has been mounted has the file that I created earlier, executed the following command:
+- To verify that the volume that has been mounted had the file that was created earlier, I executed the following command:
 
 ```
  ls /mnt/data-store2/file.txt
 ```
+
+The following screenshot shows the output of **task 6.3**:
+
+<img src="images/EBS-MountRestoredVolume.png" alt="App Screenshot" width="70%">
 
 I noticed the file.txt file.
 
