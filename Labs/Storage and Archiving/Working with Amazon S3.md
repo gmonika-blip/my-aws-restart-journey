@@ -22,7 +22,7 @@
 
 In this lab, an Amazon S3 bucket was created and configured to share images with an external user (`mediacouser`) from a media company. The bucket was also configured to send email notifications to an administrator whenever its contents were modified.
 
-### Architecture Summary
+### Architecture Diagram
 
 The following diagram shows the component architecture of the Amazon S3 file-sharing solution and illustrates its usage flow.
 
