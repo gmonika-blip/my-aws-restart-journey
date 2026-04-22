@@ -178,9 +178,9 @@ In this task, I configured the new EBS volume as an ext3 file system and mounted
 ```
  cat /mnt/data-store/file.txt
 ```
-The following screenshot shows all the commands executed in **task 4**:
+The following screenshot shows all the commands executed and their output in **task 4**:
 
- <img src="images/EBS-CreatConfigureFileSystem.png" alt="App Screenshot" width="70%">
+ <img src="images/EBS-CreateConfigureFileSystem.png" alt="App Screenshot" width="70%">
 
 ---
 
