@@ -172,19 +172,19 @@ In this task, I created a snapshot of my EBS volume.
 
 `Amazon EBS snapshots are stored in Amazon Simple Storage Service (Amazon S3) for durability. New EBS volumes can be created out of snapshots for cloning or restoring backups. Amazon EBS snapshots can also be shared among Amazon Web Services (AWS) accounts or copied over AWS Regions.`
 
-- On the EC2 Management Console, chose `Volumes`, and selected `My Volume`.
+- On the EC2 Management Console, chose **Volumes**, and selected **My Volume**.
 
-- From the Actions menu, chose `Create snapshot`.
+- From the Actions menu, chose **Create snapshot**.
 
-- In the Tags section, chose `Add tag`, and then configured the following options:
+- In the Tags section, chose **Add tag**, and then configured the following options:
 
     Key:`Name`.
 
     Value:`My Snapshot`.
 
-- Chose `Create snapshot`.
+- Chose **Create snapshot**.
 
-- In the left navigation pane, chose `Snapshots`.
+- In the left navigation pane, chose **Snapshots**.
 
 The Snapshot status of your snapshot was `Pending`. After completion, the status changed to `Completed`. Only used storage blocks are copied to snapshots, so empty blocks do not use any snapshot storage space.
 
@@ -210,21 +210,21 @@ The file was deleted.
 
 #### Task 6.1: Created a volume by using the snapshot
 
-- On the EC2 Management Console, selected My Snapshot.
+- On the EC2 Management Console, selected **My Snapshot**.
 
-- From the Actions menu, chose `Create volume from snapshot`.
+- From the Actions menu, chose **Create volume from snapshot**.
 
-- For Availability Zone, chose the same Availability Zone that was used earlier in Task1.
+- For Availability Zone, chose the same Availability Zone that was used earlier in Task 1.
 
-- In the Tags - optional section, chose `Add tag`, and then configure the following options:
+- In the Tags - optional section, chose **Add tag**, and then configure the following options:
 
      Key: `Name`
 
      Value: `Restored Volume`
 
-- Chose `Create volume`
+- Chose **Create volume**
 
-- To see the new volume, in the left navigation, chose `Volumes`.
+- To see the new volume, in the left navigation, chose **Volumes**.
 
    The Volume status of the new volume is `Available`.
 
@@ -232,15 +232,15 @@ The file was deleted.
 
 #### Task 6.2: Attached the restored volume to the EC2 instance
 
-- Selected `Restored Volume`.
+- Selected **Restored Volume**.
 
-- From the Actions menu, chose `Attach volume`.
+- From the Actions menu, chose **Attach volume**.
 
 - From the Instance dropdown list, chose the Lab instance.
 
 - For the Device name field, chose `/dev/sdc`. I used this device identifier in a later task.
 
-- Chose `Attach volume`.
+- Chose **Attach volume**.
 
   The Volume status of your volume is now `In-use`.
 
