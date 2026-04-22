@@ -164,4 +164,42 @@ In this task, I configured the new EBS volume as an ext3 file system and mounted
 
    The output displays the text that this command copies to the file. 
 
- 
+---
+
+### Task 5: Creating an Amazon EBS snapshot
+
+In this task, I created a snapshot of my EBS volume.
+
+`Amazon EBS snapshots are stored in Amazon Simple Storage Service (Amazon S3) for durability. New EBS volumes can be created out of snapshots for cloning or restoring backups. Amazon EBS snapshots can also be shared among Amazon Web Services (AWS) accounts or copied over AWS Regions.`
+
+- On the EC2 Management Console, chose `Volumes`, and selected `My Volume`.
+
+- From the Actions menu, chose `Create snapshot`.
+
+- In the Tags section, chose `Add tag`, and then configured the following options:
+
+    Key:`Name`.
+
+    Value:`My Snapshot`.
+
+- Chose `Create snapshot`.
+
+- In the left navigation pane, chose `Snapshots`.
+
+The Snapshot status of your snapshot was `Pending`. After completion, the status changed to `Completed`. Only used storage blocks are copied to snapshots, so empty blocks do not use any snapshot storage space.
+
+- In the EC2 Instance Connect terminal window, to delete the file that I created on my volume, executed the following command:
+
+```
+  sudo rm /mnt/data-store/file.txt
+```
+
+- To verify that the file was deleted, used the following command:
+
+```
+   ls /mnt/data-store/file.txt
+```
+
+The following message displays: `ls: cannot access /mnt/data-store/file.txt: No such file or directory`
+
+The file was deleted.
