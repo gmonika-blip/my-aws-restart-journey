@@ -51,7 +51,41 @@ By the end of this lab, the following tasks were completed:
 
 - Used `s3api` and `s3` AWS CLI commands to create and configure an S3 bucket  
 - Verified write permissions for a user on the S3 bucket  
-- Configured event notifications for the S3 bucket  
+- Configured event notifications for the S3 bucket
+
+
+## Task 1: Connecting to the CLI Host EC2 Instance and Configuring the AWS CLI
+
+In this task, a connection was established to the CLI Host EC2 instance using EC2 Instance Connect, and the AWS CLI was configured to run commands.
+
+### Task 1.1: Connecting to the CLI Host EC2 Instance
+
+- The AWS Management Console was opened, and **EC2** was searched and selected  
+- In the navigation pane, **Instances** was chosen  
+- The **CLI Host** instance was selected from the list  
+- The **Connect** option was chosen  
+- Under the **EC2 Instance Connect** tab, **Connect** was selected  
+
+A new browser tab opened with the EC2 Instance Connect terminal, which was used throughout the lab.
+
+> If the terminal became unresponsive, the browser was refreshed or the connection steps were repeated.
+
+### Task 1.2: Configuring the AWS CLI
+
+The AWS CLI profile was configured by running:
+
+```bash
+aws configure
+```
+
+The following values were entered when prompted:
+
+AWS Access Key ID: AccessKey
+AWS Secret Access Key: SecretKey
+Default region name: us-west-2
+Default output format: json
+
+The AWS CLI was then ready to be used to interact with AWS services.
 
 
 
