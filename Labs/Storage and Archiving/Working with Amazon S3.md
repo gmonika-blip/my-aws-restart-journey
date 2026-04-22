@@ -169,7 +169,7 @@ The permissions assigned to the **mediaco group** were reviewed in the IAM conso
 
 
 
-## Task 3.2: Reviewing the mediacouser IAM User
+### Task 3.2: Reviewing the mediacouser IAM User
 
 The properties and permissions of the **mediacouser** IAM user were reviewed.
 
@@ -225,7 +225,7 @@ The permissions of the **mediacouser** were tested by signing in as the user and
 - The image successfully displayed in a new browser tab.
 - The tab was closed afterward.
 
----
+
 
 ### Upload test:
 - The **Upload** button was selected.
@@ -234,7 +234,7 @@ The permissions of the **mediacouser** were tested by signing in as the user and
 - The uploaded file was opened and displayed in a new tab.
 - The tab was closed.
 
----
+
 
 ### Delete test:
 - `Cup-of-Hot-Chocolate.jpg` was selected.
@@ -242,7 +242,6 @@ The permissions of the **mediacouser** were tested by signing in as the user and
 - `delete` was entered in the confirmation field.
 - The object was successfully deleted.
 
----
 
 ### Unauthorized action test:
 - The bucket **Permissions** tab was opened.
@@ -250,7 +249,7 @@ The permissions of the **mediacouser** were tested by signing in as the user and
   - It was confirmed that `mediacouser` could not modify bucket permissions.
 - An attempt to upload directly to the bucket root would also fail due to restricted permissions.
 
----
+
 
 ### Final result:
 - The **S3 bucket configuration and IAM policies worked as intended**.
@@ -261,9 +260,9 @@ The permissions of the **mediacouser** were tested by signing in as the user and
 - The user was correctly restricted from:
   - Modifying bucket permissions
 
----
 
-## Conclusion
+
+## Result
 
 The IAM group and user permissions were successfully reviewed and validated. The configuration ensured secure, controlled access to the S3 bucket while allowing only the intended operations for external users.
 
