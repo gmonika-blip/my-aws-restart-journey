@@ -414,6 +414,8 @@ Inputs provided:
 - Default region name: (left as default by pressing Enter)
 - Default output format: `json`
 
+<br>
+
 ## Test 1: Put Object (Upload Use Case)
 
 An image file was uploaded to the S3 bucket using the AWS CLI.
@@ -441,4 +443,31 @@ aws s3api put-object \  --bucket <cafe-xxxnnn> \  --key images/Caramel-Delight.j
 ### Observation
 
 A new object was successfully added to the bucket, and the event notification system correctly triggered an SNS email.
+
+## Test 2: Get Object (Read Use Case)
+
+An object was retrieved from the S3 bucket using the AWS CLI.
+
+---
+
+### Command used:
+```bash
+aws s3api get-object \
+--bucket <cafe-xxxnnn> \
+--key images/Donuts.jpg Donuts.jpg
+```
+
+## Result
+
+- The object was downloaded successfully.
+- No email notification was generated.
+
+---
+
+## Observation
+
+No notification was expected because the S3 event configuration was set only for:
+
+- Object creation  
+- Object deletion
 
