@@ -125,3 +125,43 @@ In this task, I configured the new EBS volume as an ext3 file system and mounted
   ```
 
   `The last line in this command ensured that the volume was mounted even after the instance was restarted.`
+
+- To view the configuration file to see the setting on the last line, executed the following command:
+
+  ```cat /etc/fstab
+  ```
+  
+- To view the available storage again, executed the following command:
+
+  ```df -h
+  ```
+  
+  `The output now contains an additional line similar to the following: /dev/nvme1n1`
+
+```
+  Filesystem      Size  Used Avail Use% Mounted on
+  devtmpfs        464M     0  464M   0% /dev
+  tmpfs           473M     0  473M   0% /dev/shm
+  tmpfs           473M  464K  472M   1% /run
+  tmpfs           473M     0  473M   0% /sys/fs/cgroup
+  /dev/nvme0n1p1  8.0G  1.7G  6.4G  21% /
+  tmpfs            95M     0   95M   0% /run/user/0
+  tmpfs            95M     0   95M   0% /run/user/1000
+  /dev/nvme1n1    975M   60K  924M   1% /mnt/data-store
+```
+
+- To create a file and add some text on the mounted volume, executed the following command:
+
+```
+  sudo sh -c "echo some text has been written > /mnt/data-store/file.txt"
+```
+
+- To verify that the text has been written to my volume, executed the following command:
+
+```
+ cat /mnt/data-store/file.txt
+```
+
+   The output displays the text that this command copies to the file. 
+
+ 
