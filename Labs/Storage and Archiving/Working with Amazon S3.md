@@ -95,12 +95,8 @@ aws configure
 
 The following values were entered when prompted:
 
-AWS Access Key ID: AccessKey (retrieved in the Accessing the AWS Management Console step)
-AWS Secret Access Key: SecretKey (retrieved in the Accessing the AWS Management Console step)
 - AWS Access Key ID: AccessKey (see [Accessing the AWS Management Console](#accessing-the-aws-management-console))  
 - AWS Secret Access Key: SecretKey (see [Accessing the AWS Management Console](#accessing-the-aws-management-console))  
-- AWS Access Key ID: AccessKey
-- AWS Secret Access Key: SecretKey
 - Default region name: `us-west-2`
 - Default output format: `json`
 
