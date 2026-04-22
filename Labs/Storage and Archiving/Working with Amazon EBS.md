@@ -252,11 +252,17 @@ The file was deleted.
   sudo mkdir /mnt/data-store2
 ```
 
-- To mount the new volume, run the following command:
+- To mount the new volume, executed the following command:
 
-sudo mount /dev/sdc /mnt/data-store2
-To verify that the volume that you mounted has the file that you created earlier, run the following command:
+```
+ sudo mount /dev/sdc /mnt/data-store2
+```
 
-ls /mnt/data-store2/file.txt
+- To verify that the volume that has been mounted has the file that I created earlier, executed the following command:
+
+```
+ ls /mnt/data-store2/file.txt
+```
+
 You should see the file.txt file.
 
