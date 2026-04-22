@@ -80,10 +80,10 @@ aws configure
 
 The following values were entered when prompted:
 
-AWS Access Key ID: AccessKey
-AWS Secret Access Key: SecretKey
-Default region name: us-west-2
-Default output format: json
+- AWS Access Key ID: AccessKey
+- AWS Secret Access Key: SecretKey
+- Default region name: `us-west-2`
+- Default output format: `json`
 
 The AWS CLI was then ready to be used to interact with AWS services.
 
