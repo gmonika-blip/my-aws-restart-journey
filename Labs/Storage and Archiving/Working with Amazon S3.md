@@ -102,6 +102,8 @@ The following values were entered when prompted:
 
 The AWS CLI was then ready to be used to interact with AWS services.
 
+---
+
 ## Task 2: Creating and Initializing the S3 Share Bucket
 
 In this task, the S3 share bucket was created using the AWS CLI, and sample images were uploaded.
@@ -134,6 +136,7 @@ aws s3 ls s3://<cafe-xxxnnn>/images/ --human-readable --summarize
 
 The uploaded files were displayed along with the total number of files and their combined size.
 
+---
 
 ## Task 3: Reviewing IAM Group and User Permissions
 
@@ -260,6 +263,7 @@ The permissions of the **mediacouser** were tested by signing in as the user and
 - The user was correctly restricted from:
   - Modifying bucket permissions
 
+---
 
 ## Task 4: Configuring Event Notifications on the S3 Share Bucket
 
