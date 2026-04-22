@@ -143,12 +143,14 @@ In this task, I configured the new EBS volume as an ext3 file system and mounted
 
 - To view the configuration file to see the setting on the last line, executed the following command:
 
-  ```cat /etc/fstab
+  ```
+  cat /etc/fstab
   ```
   
 - To view the available storage again, executed the following command:
 
-  ```df -h
+  ```
+  df -h
   ```
   
   `The output now contains an additional line similar to the following: /dev/nvme1n1`
