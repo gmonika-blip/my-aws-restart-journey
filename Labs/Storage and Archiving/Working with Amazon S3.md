@@ -140,7 +140,8 @@ aws s3 ls s3://<cafe-xxxnnn>/images/ --human-readable --summarize
 
 The uploaded files were displayed along with the total number of files and their combined size.
 
-<img src="images/ConfigureAWS.png" alt="App Screenshot" width="50%">
+The following screenshots show the output of the Task 2:
+
 <img src="images/CreateBucket.png" alt="App Screenshot" width="50%">
 <img src="images/SampleImagesUploaded.png" alt="App Screenshot" width="50%">
 
