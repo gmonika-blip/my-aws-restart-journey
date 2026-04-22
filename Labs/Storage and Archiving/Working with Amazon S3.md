@@ -325,14 +325,14 @@ The SNS topic **s3NotificationTopic** was created and configured to receive mess
 - An email titled **AWS Notification - Subscription Confirmation** was received as is the following screenshot.
   <br>
   
-   <img src="images/AWSCofirmNotificatio.png.png" alt="App Screenshot" width="70%">
+   <img src="images/EmailNotifySubscibeConfirm.png" alt="App Screenshot" width="70%">
 
   <br>
   
 - The **Confirm subscription** link was selected.
 - A confirmation page opened showing **Subscription confirmed!**
 
-   <img src="images/AWSConfirmNotification.png.png" alt="App Screenshot" width="70%">
+   <img src="images/AWSConfirmNotification.png" alt="App Screenshot" width="70%">
 
    
 
