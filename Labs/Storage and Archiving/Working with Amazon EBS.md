@@ -178,8 +178,7 @@ In this task, I configured the new EBS volume as an ext3 file system and mounted
 ```
  cat /mnt/data-store/file.txt
 ```
-
-   The output displays `some text has been written` the text that this command copies to the file. 
+The following screenshot shows all the commands executed in **task 4**:
 
  <img src="images/EBS-CreatConfigureFileSystem.png" alt="App Screenshot" width="70%">
 
