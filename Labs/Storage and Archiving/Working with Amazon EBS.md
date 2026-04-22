@@ -29,14 +29,7 @@
 
 In this lab, I learnt how to create an EBS volume and perform operations on it, such as attaching it to an instance, creating a file system, and taking a snapshot backup.
 
- 
-
-Schematic diagram showing an EC2 instance with an attached EBS volume and a snapshot created from the EBS volume 
-
- 
-
 **Objectives:**
-By the end of this lab, you will be able to do the following:
 
 - Create an EBS volume.
 - Attach and mount an EBS volume to an EC2 instance.
