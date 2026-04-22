@@ -67,7 +67,7 @@ By the end of this lab, the following tasks were completed:
 
 - The **Details** section was opened, and **Show** was selected  
 - From the **Credentials** panel, the **AccessKey** and **SecretKey** values were copied and saved in a text editor for later use
-> **Note:** These credentials were used later when configuring the AWS CLI.
+> **Note:** These credentials were used later when configuring the AWS CLI in Task 1.2
   
 ## Task 1: Connecting to the CLI Host EC2 Instance and Configuring the AWS CLI
 
