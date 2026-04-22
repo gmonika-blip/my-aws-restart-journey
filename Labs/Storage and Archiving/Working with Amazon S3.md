@@ -24,6 +24,12 @@ In this lab, an Amazon S3 bucket was created and configured to share images with
 
 ### Architecture Summary
 
+<img src="images/Architecture-Amazon S3.png" alt="App Screenshot" width="50%">
+
+<br>
+
+(https://github.com/gmonika-blip/my-aws-restart-journey/blob/4a27dad48609bb23320c777f4cfbebb7fd4c0139/Labs/Storage%20and%20Archiving/images/Architecture-Amazon%20S3.png)
+
 An AWS IAM user named `mediacouser` had been pre-created with the required Amazon S3 permissions to upload, modify, or delete images in the bucket. Permissions were reviewed to ensure secure and appropriate access.
 
 ### Workflow
