@@ -3,11 +3,9 @@
 **Amazon S3 (Amazon Simple Storage Service)** is a cloud-based object storage service offered by Amazon Web Services.  
 At its core, it lets you store and retrieve any amount of data from anywhere on the internet.
 
----
+### Key Features
 
-## Key Features
-
-### Scalability
+**Scalability**
 - You can store virtually any amount of data with S3, all the way to exabytes with unmatched performance.  
 - S3 is fully elastic, automatically growing and shrinking as you add and remove data.  
 - There’s no need to provision storage, and you pay only for what you use.
