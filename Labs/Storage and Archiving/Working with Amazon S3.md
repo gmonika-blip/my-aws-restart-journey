@@ -358,8 +358,21 @@ The configuration ensured that:
 - Only objects under the `images/` prefix triggered notifications.
 
 
-## Saving the File
+### Saving the File
 
-- Insert mode was exited by pressing:
+The file was saved and closed using:
+
 ```bash
-ESC
+:wq
+```
+
+### Applying the Configuration
+
+To associate the event configuration file with the S3 share bucket, the following AWS CLI command was run. The placeholder `<cafe-xxxnnn>` was replaced with the actual S3 bucket name:
+
+```bash
+aws s3api put-bucket-notification-configuration \
+--bucket <cafe-xxxnnn> \
+--notification-configuration file://s3EventNotification.json
+```
+
