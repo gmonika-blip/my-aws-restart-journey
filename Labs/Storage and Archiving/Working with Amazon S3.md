@@ -503,5 +503,14 @@ An attempt was made to change the object ACL to make it publicly readable.
 aws s3api put-object-acl \  --bucket <cafe-xxxnnn> \  --key images/Donuts.jpg \  --acl public-read
 ```
 
+### Result
+
+- The command failed as expected.
+- The following error message was displayed:
+
+```text
+An error occurred (AccessDenied) when calling the PutObjectAcl operation: Access Denied
+```
+
 
 
