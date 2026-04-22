@@ -105,7 +105,23 @@ In this task, I configured the new EBS volume as an ext3 file system and mounted
   ```
  
 `This output showed the original 8 GB root volume.
-The new EBS volume was not yet visible because it was not formatted or mounted yet. `
+ The new EBS volume was not yet visible because it was not formatted or mounted yet. `
 
+- Created an ext3 file system on the new volume, executed the following command:
 
+  ```sudo mkfs -t ext3 /dev/sdb
+  ```
 
+- Created a directory to mount the new storage volume, executed the following command:
+
+  ```sudo mkdir /mnt/data-store
+  ```
+
+- Ran the following command to mount the new volume:
+
+  ```
+  sudo mount /dev/sdb /mnt/data-store
+  echo "/dev/sdb   /mnt/data-store ext3 defaults,noatime 1 2" | sudo tee -a /etc/fstab
+  ```
+
+`The last line in this command ensured that the volume was mounted even after the instance was restarted.`
