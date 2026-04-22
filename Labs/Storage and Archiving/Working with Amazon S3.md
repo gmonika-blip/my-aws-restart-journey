@@ -414,5 +414,17 @@ Inputs provided:
 - Default region name: (left as default by pressing Enter)
 - Default output format: `json`
 
+## Test 1: Put Object (Upload Use Case)
+
+An image file was uploaded to the S3 bucket using the AWS CLI.
+
+### Command used:
+
+```bash
+aws s3api put-object \  --bucket <cafe-xxxnnn> \
+--key images/Caramel-Delight.jpg \
+--body ~/new-images/Caramel-Delight.jpg
+```
+
 
 
