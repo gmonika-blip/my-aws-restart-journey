@@ -325,22 +325,18 @@ The SNS topic **s3NotificationTopic** was created and configured to receive mess
 - An email titled **AWS Notification - Subscription Confirmation** was received as is the following screenshot.
   <br>
   
-   <img src="images/EmailNotifySubscibeConfirm.png" alt="App Screenshot" width="70%">
+   <img src="images/EmailNotifySubscibeConfirm.png" alt="App Screenshot" width="50%">
 
   <br>
   
 - The **Confirm subscription** link was selected.
 - A confirmation page opened showing **Subscription confirmed!**
 
-   <img src="images/AWSConfirmNotification.png" alt="App Screenshot" width="70%">
+  <img src="images/AWSConfirmNotification.png" alt="App Screenshot" width="50%">
 
-   
+  <br>
 
-![I](https://github.com/gmonika-blip/my-aws-restart-journey/blob/f9bbb53d28422959a35c6d87254dc64523633c13/Labs/Storage%20and%20Archiving/images/AWSConfirmNotification.png)
-
- 
-
-### Task 4.2: Adding Event Notification Configuration to the S3 Bucket
+ ### Task 4.2: Adding Event Notification Configuration to the S3 Bucket
 
 An event notification configuration was created and associated with the S3 bucket using AWS CLI.
 
