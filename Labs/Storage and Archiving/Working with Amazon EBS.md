@@ -264,5 +264,7 @@ The file was deleted.
  ls /mnt/data-store2/file.txt
 ```
 
-You should see the file.txt file.
+I noticed the file.txt file.
+
+
 
