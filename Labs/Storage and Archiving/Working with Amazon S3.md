@@ -376,3 +376,21 @@ aws s3api put-bucket-notification-configuration \
 --notification-configuration file://s3EventNotification.json
 ```
 
+### Verification of Event Notifications
+
+After waiting a few moments, the inbox of the email address used for the SNS subscription was checked. An email message with the subject **Amazon S3 Notification** was received.
+
+The email message was opened, and the notification payload was similar to the following:
+
+```json
+{"Service":"Amazon S3","Event":"s3:TestEvent","Time":"2019-04-26T06:04:27.405Z","Bucket":"","RequestId":"7A87C25E0323B2F4","HostId":"fB3Z...SD////PWubF3E7RYtVupg="}
+```
+
+### Observation
+
+The value of the "Event" key was "s3:TestEvent". Amazon S3 sent this notification as a test of the event notification configuration that had been set up, confirming that the integration between Amazon S3 and Amazon SNS was working correctly.
+
+---
+
+
+
