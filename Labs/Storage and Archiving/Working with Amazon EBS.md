@@ -103,4 +103,8 @@ In this task, I configured the new EBS volume as an ext3 file system and mounted
   tmpfs            95M     0   95M   0% /run/user/0
   tmpfs            95M     0   95M   0% /run/user/1000
   ```
-  
+ 
+`This output shows the original 8 GB root volume.
+The new EBS volume is not yet visible because it has not been formatted or mounted. `
+
+
