@@ -201,7 +201,7 @@ The properties and permissions of the **mediacouser** IAM user were reviewed.
 - The **Console sign-in link** was copied for later use.
 
 
-## Task 3.3: Testing mediacouser Permissions
+### Task 3.3: Testing mediacouser Permissions
 
 The permissions of the **mediacouser** were tested by signing in as the user and performing S3 operations.
 
