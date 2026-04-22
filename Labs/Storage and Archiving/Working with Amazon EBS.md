@@ -117,7 +117,7 @@ In this task, I configured the new EBS volume as an ext3 file system and mounted
   ```sudo mkdir /mnt/data-store
   ```
 
-- Ran the following command to mount the new volume:
+- Used the following command to mount the new volume:
 
   ```
   sudo mount /dev/sdb /mnt/data-store
