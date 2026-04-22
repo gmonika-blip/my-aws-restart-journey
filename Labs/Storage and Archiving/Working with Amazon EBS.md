@@ -88,7 +88,10 @@ The following screenshot shows that the volume was attached to the EC2 Instance 
 - Selected the **Lab** instance from the list.  
 - Chose **Connect**.  
 - Opened the **EC2 Instance Connect** tab and clicked **Connect**.  
-- A new browser tab opened with a terminal session.  
+- A new browser tab opened with a terminal session.
+
+  <img src="images/EBS-ConnectToLabEC2Instance.png" alt="App Screenshot" width="50%">
+  
 - Used this terminal for all lab tasks; reconnected if it became unresponsive.
 
 ---
