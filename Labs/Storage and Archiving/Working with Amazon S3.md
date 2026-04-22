@@ -322,7 +322,7 @@ The SNS topic **s3NotificationTopic** was created and configured to receive mess
 
 
 ### Email confirmation:
-- An email titled **AWS Notification - Subscription Confirmation** was received as is the following screenshot.
+- An email titled **AWS Notification - Subscription Confirmation** was received as in the following screenshot:
   <br>
   
    <img src="images/EmailNotifySubscibeConfirm.png" alt="App Screenshot" width="50%">
@@ -330,7 +330,7 @@ The SNS topic **s3NotificationTopic** was created and configured to receive mess
   <br>
   
 - The **Confirm subscription** link was selected.
-- A confirmation page opened showing **Subscription confirmed!**
+- A confirmation page opened showing **Subscription confirmed!** as in the following screenshot:
 
   <img src="images/AWSConfirmNotification.png" alt="App Screenshot" width="50%">
 
