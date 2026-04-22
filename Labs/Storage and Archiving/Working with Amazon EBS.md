@@ -181,6 +181,8 @@ In this task, I configured the new EBS volume as an ext3 file system and mounted
 
    The output displays `some text has been written` the text that this command copies to the file. 
 
+ <img src="images/EBS-CreatConfigureFileSystem.png" alt="App Screenshot" width="50%">
+
 ---
 
 ### Task 5: Creating an Amazon EBS snapshot
