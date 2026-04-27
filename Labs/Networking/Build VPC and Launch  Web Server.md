@@ -128,7 +128,7 @@ In this task, I created two additional subnets in a second Availability Zone.
    
     **IPv4 CIDR block**: Enter 10.0.2.0/24
    
-   Themn, I chose `Create subnet`
+    Then, I chose `Create subnet`
 
 `The subnet had all IP addresses starting with 10.0.2.x`
 
@@ -142,9 +142,9 @@ In this task, I created two additional subnets in a second Availability Zone.
    
     **IPv4 CIDR block**: `10.0.3.0/24`
 
-  Then, I Chose `Create subnet`
+    Then, I Chose `Create subnet`
 
-`The subnet will had all IP addresses starting with 10.0.3.x`
+`The subnet had all IP addresses starting with 10.0.3.x`
 
 
 
