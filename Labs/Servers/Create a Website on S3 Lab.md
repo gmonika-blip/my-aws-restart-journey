@@ -33,5 +33,6 @@ A connection to the EC2 instance was established using AWS Systems Manager Sessi
 ```bash
 sudo su -l ec2-user
 pwd
+```
 
 > **Note:** This was the SSH terminal where commands were executed as instructed throughout the lab.
