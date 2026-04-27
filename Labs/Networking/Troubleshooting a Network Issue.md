@@ -123,6 +123,7 @@ This confirmed that the internet could be reached, therefore the internet gatewa
 **Instead, the security group lacked an inbound rule allowing HTTP traffic (port 80) from the internet (0.0.0.0/0). I added this rule to 
 the Linux instance SG security group and retested the Apache server using its public URL.**
    
+<img src="images/TestPageSuccess.png" alt="App Screenshot" width="100%">
 
 
 
