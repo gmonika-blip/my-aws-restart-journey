@@ -277,4 +277,25 @@ service httpd start
 
 It was successful, the web server page was displayed in the browser.
 
+---
+
+## Conclusion
+
+In this lab, a fully functional **Amazon VPC** environment was successfully designed and deployed to support a web application for a Fortune 100 customer.
+
+A custom VPC was created with both public and private subnets, along with associated route tables, enabling proper network segmentation and traffic control. Additional subnets were added in a second Availability Zone to improve scalability and support high availability. Routing was configured to ensure correct subnet associations within the VPC.
+
+A **security group** was then created to act as a virtual firewall, allowing HTTP traffic to reach the web server securely. Finally, an **Amazon EC2 instance** was launched into the public subnet, configured with user data to automatically install and start an Apache web server.
+
+After deployment, the instance was verified to be running successfully and was accessed via its public DNS, confirming that the web server was reachable over the internet.
+
+Overall, this lab demonstrated how to:
+- Build a custom VPC network architecture
+- Configure subnets, routing, and security controls
+- Deploy and expose a web server using EC2 within a secure cloud environment
+
+This exercise provided hands-on experience in designing scalable, secure, and production-like cloud infrastructure using AWS networking and compute services.
+
+---
+
 
