@@ -64,7 +64,7 @@ An SSH connection was established to an **Amazon Linux EC2 instance**.
   ```bash
   cd ~/Downloads
 
-- Permissions for the key file were restricted:
+- Permissions for the key file were changed to be read-only:
   ```
   chmod 400 labsuser.pem
 
@@ -72,8 +72,7 @@ An SSH connection was established to an **Amazon Linux EC2 instance**.
   ```
   ssh -i labsuser.pem ec2-user@<public-ip>
   
-- When prompted, yes was entered to confirm the connection.
-- No password was required because authentication was performed using the key pair.
+- When prompted, yes was entered to confirm the connection. No password was required because authentication was performed using the key pair.
 
 ---
 
