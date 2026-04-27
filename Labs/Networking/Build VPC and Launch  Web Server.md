@@ -28,16 +28,29 @@ An **AWS VPC** (Amazon Virtual Private Cloud) is a customizable, isolated networ
 ---
 
 ## Lab Scenario
-In this lab, I used Amazon Virtual Private Cloud (VPC) to create a VPC and added additional components to produce a customized network for a Fortune 100 customer. I also created security groups for my EC2 instance. I then configured and customized an EC2 instance to run the web server and launched it into the VPC that looked like the following customer diagram:
+
+In this lab, a custom network infrastructure was built using **Amazon Virtual Private Cloud (VPC)** to simulate a real-world customer environment. The goal was to design and deploy a secure and scalable cloud architecture for hosting a web application.
+The scenario represented a Fortune 100 customer requirement, where a fully configured VPC was needed to support both public-facing and private resources, along with a web server deployed on an EC2 instance.
+The following diagram depicts the complete architecture that I deployed based on the customer's request:
+
+---
 
 **Objectives**
 
-After completing this lab, I will be able to:
+- Create a custom **VPC** with a defined CIDR range  
+- Configure **public and private subnets** across Availability Zones  
+- Set up **route tables** to manage network traffic flow  
+- Attach an **internet gateway** and NAT gateway for internet connectivity  
+- Create and configure a **security group** to allow HTTP access  
+- Launch an **Amazon EC2 instance** inside the VPC  
+- Deploy and configure a **web server** using user data scripts  
+- Validate connectivity by accessing the web server via its public DNS  
 
-- Create a Virtual Private Cloud (VPC)  
-- Create and configure subnets  
-- Configure a security group  
-- Launch an Amazon EC2 instance within a VPC  
+---
+
+This setup demonstrated how cloud networking, security, and compute services work together to deliver a functional and accessible web application environment in AWS.
+
+
 
 ### Accessing the AWS Management Console
 
