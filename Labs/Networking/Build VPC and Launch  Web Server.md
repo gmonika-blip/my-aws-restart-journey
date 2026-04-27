@@ -89,5 +89,5 @@ A **NAT gateway**, enables instances in private subnets to access the internet s
    - Private subnet (us-west-2a): `10.0.1.0/24`  
    - NAT gateways: In 1 AZ  
    - VPC endpoints: None
- ```
+
 
