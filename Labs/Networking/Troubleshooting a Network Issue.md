@@ -1,37 +1,73 @@
 # Troubleshooting a Network Issue
 
-### Lab Overview
-
-In this lab, troubleshooting was performed on VPC configuration, and VPC Flow Logs were analyzed to identify and resolve networking issues in a cloud environment.
-
-The environment consisted of two VPCs, EC2 instances, and supporting networking components. A CLI Host instance was used to run AWS CLI commands for troubleshooting and analysis.
-
-The troubleshooting workflow followed a structured sequence:
-1. Capturing network traffic using VPC Flow Logs  
-2. Identifying connectivity issues affecting a web server instance  
-3. Diagnosing and fixing routing, security group, and network ACL misconfigurations  
-4. Validating access to the web server  
-5. Analyzing flow logs to confirm rejected and accepted traffic patterns  
-
 **Objectives**
 
-By completing this lab, the following skills were developed:
+After completing this lab, the following skills were developed:
 
-- Creation and configuration of **VPC Flow Logs**
-- Troubleshooting **VPC networking connectivity issues**
-- Analysis of **network traffic logs** to identify access failures and patterns
+- Analyze a customer networking scenario  
+- Troubleshoot AWS VPC connectivity issues  
 
 ---
 
-### Scenario Summary
+## Scenario
 
-The lab simulated a real-world troubleshooting scenario where a web server hosted in a VPC was initially inaccessible due to misconfigured networking components. The objective was to restore connectivity while capturing and analyzing traffic data using VPC Flow Logs.
+You acted as a **Cloud Support Engineer at Amazon Web Services (AWS)**. A customer reported a networking issue within their AWS infrastructure.
 
-A CLI-based approach was used extensively to diagnose issues, including:
-- Security group validation  
-- Route table verification  
-- Network ACL inspection  
-- Log analysis using AWS CLI and Linux commands  
+### Customer Email
+
+> Hello, Cloud Support!  
+>
+> When I created an Apache server through the command line, I could not ping it. I also received an error when entering the IP address in the browser. Could you please help figure out what is blocking my connection?  
+>
+> Thanks!  
+>
+> Ana  
+> Contractor  
+
+The customer’s environment included a **Virtual Private Cloud (VPC)** with:
+- An Internet Gateway  
+- A public subnet  
+- An Amazon EC2 instance running an Apache web server  
+
+---
+
+## AWS Service Restrictions
+
+Access to AWS services in this lab environment was limited to only the services required to complete the tasks. Attempting to use additional services may have resulted in errors.
+
+---
+
+## Accessing the AWS Management Console
+
+- The lab was started using **Start Lab**  
+- The system displayed **Lab status: ready** before proceeding  
+- The AWS Console was opened via the **AWS link** provided  
+- The session automatically logged in  
+- The console was arranged side-by-side with the lab instructions for easier navigation  
+
+---
+
+## Task 1: Use SSH to Connect to an EC2 Instance
+
+An SSH connection was established to an **Amazon Linux EC2 instance**.
+
+### Windows Users (PuTTY)
+
+- The **Details** panel was opened and credentials were displayed  
+- The **PPK file** (`labsuser.ppk`) was downloaded  
+- The **Public IP address** was recorded  
+- **PuTTY** was installed and opened  
+- A secure SSH session was configured using the provided guide  
+
+### macOS/Linux Users
+
+- The **PEM key** (`labsuser.pem`) was downloaded  
+- The **Public IP address** was recorded  
+- The terminal was opened and the download directory was accessed  
+- File permissions were updated:
+
+```bash
+chmod 400 labsuser.pem
 
 Email from the customer
 >Hello, Cloud Support!
