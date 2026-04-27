@@ -275,6 +275,6 @@ service httpd start
 - A new web browser tab was opened.  
 - The copied DNS value was pasted into the address bar and entered.  
 
-If successful, the web server page was displayed in the browser.
+It was successful, the web server page was displayed in the browser.
 
 
