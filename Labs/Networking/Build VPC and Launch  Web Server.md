@@ -70,14 +70,15 @@ A **NAT gateway**, enables instances in private subnets to access the internet s
 
 ### Steps
 
-1. Open the **AWS Management Console**
-2. Search for **VPC** in the top search bar and select it
-3. In the VPC dashboard, choose **Create VPC**
+1. Opened the **AWS Management Console**
+2. Searched for **VPC** in the top search bar and selected it
+3. In the VPC dashboard, chose **Create VPC**
 
 ### Configuration
 
-Set the following options:
+I set the following options:
 
+```
 - **Resources to create:** VPC and more  
 - **Name tag auto-generation:** Uncheck *Auto-generate*  
 - **IPv4 CIDR:** `10.0.0.0/16`  
@@ -86,6 +87,7 @@ Set the following options:
 - **Availability Zones (AZs):** 1  
 - **Public subnets:** 1  
 - **Private subnets:** 1  
+```
 
 #### Customize subnet CIDR blocks
 
