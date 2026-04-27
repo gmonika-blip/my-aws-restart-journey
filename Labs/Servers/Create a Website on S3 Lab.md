@@ -249,9 +249,9 @@ The file was saved and closed, and execution permissions were applied:
    chmod +x update-website.sh
 ```
 
-Modified Website Content
+Modified Website Content:
 
-- The index.html file was opened for editing:
+- The `index.html` file was opened for editing:
 
   ```
      vi sysops-activity-files/static-website/index.html
@@ -271,7 +271,7 @@ After saving the changes, the script was executed to update the website:
   ./update-website.sh
 ```
 
-The command output confirmed that the updated files were copied to Amazon S3.
+`The command output confirmed that the updated files were copied to Amazon S3`
 
 The website was refreshed in the browser, and the changes were successfully reflected.
 
