@@ -91,22 +91,3 @@ A **NAT gateway**, enables instances in private subnets to access the internet s
    - VPC endpoints: None
  ```
 
-4. Resource Naming: In the preview pane, assigned the following names:
-
-- **VPC:** Lab VPC  
-
-**Subnets:**
-- Public Subnet 1  
-- Private Subnet 1  
-
-**Route Tables:**
-- Public Route Table  
-- Private Route Table  
-
-### Finalize
-
-1. Choose **Create VPC**  
-2. Wait for the success message  
-3. Select **View VPC** to review the configuration  
-
-Your **Lab VPC** is now created and ready for use.
