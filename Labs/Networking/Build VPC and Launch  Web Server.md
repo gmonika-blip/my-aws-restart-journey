@@ -84,10 +84,11 @@ A **NAT gateway**, enables instances in private subnets to access the internet s
    - Public subnets: 1  
    - Private subnets: 1  
 
-
    - Public subnet (us-west-2a): `10.0.0.0/24`  
    - Private subnet (us-west-2a): `10.0.1.0/24`  
    - NAT gateways: In 1 AZ  
    - VPC endpoints: None
+
+4. Resource Naming: 
 
 
