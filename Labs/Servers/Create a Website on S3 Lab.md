@@ -75,14 +75,17 @@ aws s3api create-bucket \
   --region us-west-2 \
   --create-bucket-configuration LocationConstraint=us-west-2
 ```
+
 The command included:
 
-The --region us-west-2 parameter
-The --create-bucket-configuration LocationConstraint=us-west-2 parameter
+- The --region us-west-2 parameter
+- The --create-bucket-configuration LocationConstraint=us-west-2 parameter
 
 Upon successful execution, a JSON-formatted response was returned containing a Location value that reflected the bucket name, for example:
 
+```
 </> JSON
 {
   "Location": "http://twhitlock256.s3.amazonaws.com/"
 }
+```
