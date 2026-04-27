@@ -78,15 +78,24 @@ An SSH connection was established to an **Amazon Linux EC2 instance**. The steps
 
 ## Task 2: Install and Start HTTPD
 
-The Apache HTTP server was verified and started using the following commands:
-```
+1. The Apache HTTP server was verified and started using the following commands:
+   ```
    </> Bash
    sudo systemctl status httpd.service
    sudo systemctl start httpd.service
    sudo systemctl status httpd.service
-```
+   ```
+   The service was confirmed as active (running).
+
+2. Tried to access the Test page using:
+   ```
+   http://<PUBLIC-IP-OF-INSTANCE>
+   ```
+   
+   <PUBLIC-IP-OF-INSTANCE> was replaced by the **Public IP address** that was recorded in Task 1.
 
 
+   
 # Troubleshooting a Network Issue
 
 
