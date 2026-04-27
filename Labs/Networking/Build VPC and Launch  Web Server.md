@@ -27,6 +27,7 @@ An **AWS VPC** (Amazon Virtual Private Cloud) is a customizable, isolated networ
 
 > AWS VPC is the foundation of networking in AWS, enabling secure and scalable cloud infrastructure.
 
+---
 
 ## Lab Scenario
 In this lab, I used Amazon Virtual Private Cloud (VPC) to create a VPC and added additional components to produce a customized network for a Fortune 100 customer. I also created security groups for my EC2 instance. I then configured and customized an EC2 instance to run the web server and launched it into the VPC that looked like the following customer diagram:
