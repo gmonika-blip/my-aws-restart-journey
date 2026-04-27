@@ -85,7 +85,7 @@ A **NAT gateway**, enables instances in private subnets to access the internet s
    - Private subnets: 1  
   ```
 
-  Customized subnet CIDR blocks
+  Then, customized subnet CIDR blocks
 
   ```
    - Public subnet (us-west-2a): `10.0.0.0/24`  
@@ -95,9 +95,7 @@ A **NAT gateway**, enables instances in private subnets to access the internet s
    - VPC endpoints: None
  ```
 
-### Resource Naming
-
-In the preview pane, assigned the following names:
+4. Resource Naming:  In the preview pane, assigned the following names:
 
 - **VPC:** Lab VPC  
 
