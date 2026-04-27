@@ -38,9 +38,8 @@ The customer’s environment included a **Virtual Private Cloud (VPC)** with:
 - The lab was started using **Start Lab**  
 - The system displayed **Lab status: ready** before proceeding  
 - The AWS Console was opened via the **AWS link** provided  
-- The session automatically logged in  
-- The console was arranged side-by-side with the lab instructions for easier navigation  
-
+- The session automatically logged in
+- 
 ---
 
 ## Task 1: Use SSH to Connect to an EC2 Instance
@@ -59,15 +58,22 @@ An SSH connection was established to an **Amazon Linux EC2 instance**.
 
 - The **PEM key** (`labsuser.pem`) was downloaded  
 - The **Public IP address** was recorded  
-- The terminal was opened and the download directory was accessed  
-- File permissions were updated:
+- A terminal window was opened and the following steps were completed:
 
-```bash
-chmod 400 labsuser.pem
+- The directory was changed to where the key file was downloaded:
+  ```bash
+  cd ~/Downloads
 
+- Permissions for the key file were restricted:
+  ```
+  chmod 400 labsuser.pem
 
-
-<img src="images/CustomerDiagram.png" alt="App Screenshot" width="100%">
+- The EC2 instance was accessed using SSH (replacing <public-ip> with the actual IP address):
+  ```
+  ssh -i labsuser.pem ec2-user@<public-ip>
+  
+- When prompted, yes was entered to confirm the connection.
+- No password was required because authentication was performed using the key pair.
 
 ---
 
