@@ -69,6 +69,7 @@ This opened the **AWS Management Console** in a new browser tab and automaticall
 > 💡 **Tip:** The new tab did not open as my browser was blocking pop-ups.  
 > I allowed pop-ups using the browser notification or icon, then I tried again.
 
+---
 
 ### Task 1: Create Your VPC
 
