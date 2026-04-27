@@ -31,9 +31,10 @@ An **AWS VPC** (Amazon Virtual Private Cloud) is a customizable, isolated networ
 
 In this lab, a custom network infrastructure was built using **Amazon Virtual Private Cloud (VPC)** to simulate a real-world customer environment. The goal was to design and deploy a secure and scalable cloud architecture for hosting a web application.
 The scenario represented a Fortune 100 customer requirement, where a fully configured VPC was needed to support both public-facing and private resources, along with a web server deployed on an EC2 instance.
+
 The following diagram depicts the complete architecture that I deployed based on the customer's request:
 
-<img src="images/FinalArchitectureDiagram.png" alt="App Screenshot" width="70%">
+<img src="images/FinalArchitectureDiagram.png" alt="App Screenshot" width="100%">
 
 ---
 
