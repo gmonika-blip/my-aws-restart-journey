@@ -125,6 +125,7 @@ the Linux instance SG security group and retested the Apache server using its pu
    
 <img src="images/TestPageSuccess.png" alt="App Screenshot" width="100%">
 
+---
 
 ## Conclusion
 In this lab, I troubleshot the customer's networking issue and found that the customer had an issue with their security ports in the security group. After fixing the issue, I was able to successfully load the Apache server.
@@ -132,5 +133,7 @@ In this lab, I troubleshot the customer's networking issue and found that the cu
 
 ## Additional resources
 - [What is Amazon VPC?](https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html)
+
+---
 
 
