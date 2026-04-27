@@ -42,9 +42,9 @@ The customer’s environment included a **Virtual Private Cloud (VPC)** with:
 - 
 ---
 
-## Task 1: Use SSH to Connect to an EC2 Instance
+## Task 1: Use SSH to Connect to an Amazon Linux EC2 Instance
 
-An SSH connection was established to an **Amazon Linux EC2 instance**.
+An SSH connection was established to an **Amazon Linux EC2 instance**. The steps varied depending on the operating system used (Windows or macOS/Linux).
 
 ### Windows Users (PuTTY)
 
@@ -76,51 +76,6 @@ An SSH connection was established to an **Amazon Linux EC2 instance**.
 
 ---
 
-### Task 1: Use SSH to Connect to an Amazon Linux EC2 Instance
-
-In this task, an SSH utility was used to connect to an Amazon Linux EC2 instance. The steps varied depending on the operating system used (Windows or macOS/Linux).
-
-## Windows Users: Using SSH to Connect
-
-These instructions were followed by Windows users:
-
-- The **Details** drop-down menu was selected and **Show** was chosen. A Credentials window appeared.  
-- The **Download PPK** button was selected and the `labsuser.ppk` file was saved (typically in the Downloads folder).  
-- The **Public IP address** of the instance was noted.  
-- The Details panel was closed by selecting **X**.  
-- **PuTTY** was downloaded and installed if not already available.  
-- `putty.exe` was opened.  
-- A PuTTY session was configured following the instructions for connecting to a Linux instance using PuTTY.  
-
-Windows users then proceeded to the next task.
-
-## macOS and Linux Users: Using SSH to Connect
-
-These instructions were followed by macOS/Linux users:
-
-- The **Details** drop-down menu was selected and **Show** was chosen. A Credentials window appeared.  
-- The **Download PEM** button was selected and the `labsuser.pem` file was saved.  
-- The **Public IP address** of the instance was noted.  
-- The Details panel was closed by selecting **X**.  
-
-A terminal window was opened and the following steps were completed:
-
-- The directory was changed to where the key file was downloaded:
-  ```bash
-  cd ~/Downloads
-
-- Permissions for the key file were restricted:
-  ```
-  chmod 400 labsuser.pem
-
-- The EC2 instance was accessed using SSH (replacing <public-ip> with the actual IP address):
-  ```
-  ssh -i labsuser.pem ec2-user@<public-ip>
-  
-- When prompted, yes was entered to confirm the connection.
-- No password was required because authentication was performed using the key pair.
-
-  
 # Troubleshooting a Network Issue
 
 
