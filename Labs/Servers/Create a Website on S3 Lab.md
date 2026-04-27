@@ -49,10 +49,10 @@ The AWS CLI, which was pre-installed on the instance, was configured using provi
 
 The following values were entered:
 
--AWS Access Key ID: (Enter value from Task 1)
+- **AWS Access Key ID**: (Enter value from Task 1)
 
--AWS Secret Access Key: (Enter value from Task 1)
+- **AWS Secret Access Key**: (Enter value from Task 1)
 
--Default region: `us-west-2`
+- **Default region name**: `us-west-2`
 
--Default output format: `json`
+- **Default output format**: `json`
