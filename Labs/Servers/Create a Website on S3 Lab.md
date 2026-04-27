@@ -10,7 +10,7 @@ In this lab, AWS Command Line Interface (AWS CLI) commands were used from an Ama
 
 The following image shows the architecture diagram:
 
-<img src="images/ArchitectureDiagram-Create Website-S3" alt="App Screenshot" width="70%">
+<img src="images/ArchitectureDiagram-Create Website-S3.png" alt="App Screenshot" width="70%">
 
 **Objectives**
 
