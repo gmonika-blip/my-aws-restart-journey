@@ -77,7 +77,7 @@ A **NAT gateway**, enables instances in private subnets to access the internet s
    ```
    - Resources to create: VPC and more  
    - Name tag auto-generation: Uncheck *Auto-generate*  
-   - IPv4 CIDR: `10.0.0.0/16`  
+   - IPv4 CIDR: 10.0.0.0/16  
    - IPv6 CIDR block: No IPv6 CIDR block  
    - Tenancy: Default  
    - Availability Zones (AZs): 1  
