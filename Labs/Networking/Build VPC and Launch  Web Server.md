@@ -146,6 +146,7 @@ In this task, I created two additional subnets in a second Availability Zone.
 
 `The subnet had all IP addresses starting with 10.0.3.x`
 
+The following screenshot shows the two subnets created in this task:
 
 <img src="images/Subnets.png" alt="App Screenshot" width="70%">
 
