@@ -1,4 +1,4 @@
-# Troubleshooting a VPC
+# Troubleshooting a Network issue
 
 ### Lab Overview
 
@@ -83,6 +83,17 @@ A terminal window was opened and the following steps were completed:
 - The directory was changed to where the key file was downloaded:
   ```bash
   cd ~/Downloads
+
+- Permissions for the key file were restricted:
+  ```
+  chmod 400 labsuser.pem
+
+- The EC2 instance was accessed using SSH (replacing <public-ip> with the actual IP address):
+  ```
+  ssh -i labsuser.pem ec2-user@<public-ip>
+  
+- When prompted, yes was entered to confirm the connection.
+- No password was required because authentication was performed using the key pair.
 
   
 # Troubleshooting a Network Issue
