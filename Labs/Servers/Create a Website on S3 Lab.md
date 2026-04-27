@@ -63,9 +63,9 @@ The following values were entered:
 
 The `s3api` command was used to create a new S3 bucket with the AWS credentials provided in the lab. By default, S3 buckets are created in the `us-east-1` Region.
 
-> **Tip:** In this lab, both `s3api` and `s3` commands were used. The `s3` commands were built on top of the operations provided by `s3api`.
+> In this lab, both `s3api` and `s3` commands were used. The `s3` commands were built on top of the operations provided by `s3api`.
 
-When creating a new S3 bucket, a globally unique name was required. A naming convention such as a combination of initials, last name, and random numbers was used (for example: `twhitlock256`).
+When creating a new S3 bucket, a globally unique name is required. A naming convention such as a combination of initials, last name, and random numbers was used (for example: `twhitlock256`).
 
 To create the S3 bucket in the `us-west-2` Region, the following command was executed:
 
@@ -74,3 +74,15 @@ aws s3api create-bucket \
   --bucket <bucket-name> \
   --region us-west-2 \
   --create-bucket-configuration LocationConstraint=us-west-2
+```
+The command included:
+
+The --region us-west-2 parameter
+The --create-bucket-configuration LocationConstraint=us-west-2 parameter
+
+Upon successful execution, a JSON-formatted response was returned containing a Location value that reflected the bucket name, for example:
+
+</> JSON
+{
+  "Location": "http://twhitlock256.s3.amazonaws.com/"
+}
