@@ -218,26 +218,36 @@ To enable repeatable deployments, a batch script was created using the VI editor
 The command history was first reviewed to locate the previously used `aws s3 cp` command:
 
 ```bash
-history
+   history
+```
 
 A new script file was then created in the home directory:
 
-cd ~
-touch update-website.sh
+```
+   cd ~
+   touch update-website.sh
+```
 
 The file was opened in the VI editor:
 
-vi update-website.sh
+```
+   vi update-website.sh
+```
+
 
 Edit mode was entered, and the script was defined by adding the standard bash header along with the S3 copy command:
 
-#!/bin/bash
-aws s3 cp /home/ec2-user/sysops-activity-files/static-website/ \
-s3://<bucket-name>/ --recursive --acl public-read
+```
+   #!/bin/bash
+   aws s3 cp /home/ec2-user/sysops-activity-files/static-website/ \
+   s3://<bucket-name>/ --recursive --acl public-read
+```
 
 The file was saved and closed, and execution permissions were applied:
 
-chmod +x update-website.sh
+```
+   chmod +x update-website.sh
+```
 
 Modify Website Content
 
