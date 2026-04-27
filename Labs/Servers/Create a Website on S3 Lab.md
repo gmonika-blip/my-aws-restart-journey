@@ -207,7 +207,7 @@ To verify that the files were successfully uploaded, the following command was r
 
 The following screenshot shows the commands run in Task 7 and the output:
 
-<img src="images/StaticWebsiteImage.png" alt="App Screenshot" width="70%">
+<img src="images/UploadFilestoS3usingCLI.png" alt="App Screenshot" width="70%">
 <br>
 In the **AWS Management Console**:
 
@@ -217,7 +217,7 @@ In the **AWS Management Console**:
 
 Finally, the **Bucket website endpoint** URL was opened in a browser, confirming that the static website was successfully deployed and publicly accessible as shown in the following screenshot:
 
-
+<img src="images/StaticWebsiteImage.png" alt="App Screenshot" width="70%">
 
 ---
 
