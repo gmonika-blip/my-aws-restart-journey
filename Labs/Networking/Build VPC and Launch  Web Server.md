@@ -85,7 +85,6 @@ A **NAT gateway**, enables instances in private subnets to access the internet s
    - Private subnets: 1  
   ```
 
-  Then, customized subnet CIDR blocks
 
   ```
    - Public subnet (us-west-2a): `10.0.0.0/24`  
