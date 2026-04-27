@@ -293,7 +293,7 @@ service httpd start
 - A new web browser tab was opened.  
 - The copied DNS value was pasted into the address bar and entered.  
 
-It was successful, the web server page was displayed in the browser.
+It was successful, the web server page was displayed in the browser as shown in the following screenshot:
 
 <img src="images/SuccessPage.png" alt="App Screenshot" width="100%">
 
