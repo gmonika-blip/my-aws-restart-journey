@@ -167,7 +167,7 @@ The following screenshot shows the two subnets created in this task:
 
 ---
 
-### Task 3: Associated the subnets and added routes
+### Task 3: Associate the subnets and add routes
 
 1. In the left navigation pane, I chose `Route Tables`
 
@@ -197,7 +197,7 @@ The following screenshot shows the two subnets created in this task:
 
 ---
 
-### Task 4: Created a VPC Security Group
+### Task 4: Create a VPC Security Group
 
 In this task, a VPC security group was created to act as a virtual firewall for the instance. When an instance is launched, one or more security groups can be associated with it. Rules can be added to control inbound and outbound traffic for the associated instances.
 
@@ -227,7 +227,7 @@ This security group was then used in the next task when launching an Amazon EC2 
 
 ---
 
-### Task 5: Launched a Web Server Instance
+### Task 5: Launch a Web Server Instance
 
 In this task, an Amazon EC2 instance was launched into the new VPC and configured to act as a web server.
 
