@@ -126,22 +126,11 @@ the Linux instance SG security group and retested the Apache server using its pu
 <img src="images/TestPageSuccess.png" alt="App Screenshot" width="100%">
 
 
-
-
-
 ## Conclusion
-- I analyzed the customer scenario.
-- I investigated and fixed the issue.
+In this lab, I troubleshot the customer's networking issue and found that the customer had an issue with their security ports in the security group. After fixing the issue, I was able to successfully load the Apache server.
+
 
 ## Additional resources
 - [What is Amazon VPC?](https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html)
-### Conclusion
 
-This lab demonstrated how to effectively troubleshoot cloud networking issues using a combination of AWS VPC features, EC2 diagnostics, and VPC Flow Logs.
 
-By the end of the exercise, connectivity to the web server was restored, and flow logs were successfully used to trace and analyze both allowed and denied traffic.
-
-Overall, the lab reinforced practical skills in:
-- Cloud network troubleshooting  
-- Traffic flow analysis  
-- Secure VPC architecture validation  
