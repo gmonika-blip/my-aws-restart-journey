@@ -36,9 +36,9 @@ A CLI-based approach was used extensively to diagnose issues, including:
 Email from the customer
 >Hello, Cloud Support!
 
->When I create an Apache server through the command line, I cannot ping it. I also get an error when I enter the IP address in the >browser. Can you please help figure out what is blocking my connection?
+When I create an Apache server through the command line, I cannot ping it. I also get an error when I enter the IP address in the browser. Can you please help figure out what is blocking my connection?
 
->Thanks!
+Thanks!
 
 >Ana
 >Contractor
