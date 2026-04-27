@@ -65,7 +65,7 @@ Subnets are isolated network segments within a VPC:
 - A **public subnet** has a route to the internet gateway  
 - A **private subnet** does not have direct internet access  
 
-The wizard also created a **NAT gateway**, which enables instances in private subnets to access the internet securely.
+A **NAT gateway**, enables instances in private subnets to access the internet securely.
 
 ### Steps
 
