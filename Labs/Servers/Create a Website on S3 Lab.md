@@ -253,13 +253,16 @@ Modified Website Content
 
 - The index.html file was opened for editing:
 
-  ```vi sysops-activity-files/static-website/index.html
+  ```
+     vi sysops-activity-files/static-website/index.html
   ```
   
 - The following changes were made:
 
    bgcolor="aquamarine" was changed to bgcolor="gainsboro"
+  
    bgcolor="orange" was changed to bgcolor="cornsilk"
+  
    The second occurrence of bgcolor="aquamarine" was also changed to bgcolor="gainsboro"
 
 After saving the changes, the script was executed to update the website:
