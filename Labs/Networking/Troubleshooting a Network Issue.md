@@ -92,7 +92,7 @@ An SSH connection was established to an **Amazon Linux EC2 instance**. The steps
    http://<PUBLIC-IP-OF-INSTANCE>
    ```
    
-    <PUBLIC-IP-OF-INSTANCE> was replaced by the **Public IP address** that was recorded in Task 1.
+     <PUBLIC-IP-OF-INSTANCE> was replaced by the **Public IP address** that was recorded in Task 1.
 
 
    
