@@ -26,7 +26,8 @@ The lab environment was launched, and access to the AWS Management Console was e
 ### Task 1: Connect to an Amazon Linux EC2 Instance Using SSM
 A connection to the EC2 instance was established using AWS Systems Manager Session Manager.  
 
-- The session URL was accessed in a browser  
+- Accessed the `Details` button at the top, then chose `Show`. Copied the values of `AWS Access Key ID`, `AWS Secret Access Key`for later reference.
+- The **InstanceSessionUrl** was accessed in a browser  
 - A terminal session was opened using `ssm-user`  
 - The user context was switched to `ec2-user`  
 
