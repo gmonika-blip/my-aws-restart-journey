@@ -61,6 +61,7 @@ This opened the **AWS Management Console** in a new browser tab and automaticall
 I used the VPC Wizard to create a VPC along with an internet gateway, subnets, and a NAT gateway.
 
 An **internet gateway** allows communication between a VPC and the internet.  
+
 Subnets are isolated network segments within a VPC:
 - A **public subnet** has a route to the internet gateway  
 - A **private subnet** does not have direct internet access  
