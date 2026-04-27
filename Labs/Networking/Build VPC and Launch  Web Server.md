@@ -174,6 +174,40 @@ In this task, I created two additional subnets in a second Availability Zone.
 
 11. Chose `Save associations`
 
+`My VPC now had public and private subnets configured in two Availability Zones`
+
+---
+
+### Task 4: Created a VPC Security Group
+
+In this task, a VPC security group was created to act as a virtual firewall for the instance. When an instance is launched, one or more security groups can be associated with it. Rules can be added to control inbound and outbound traffic for the associated instances.
+
+1. In the left navigation pane, **Security Groups** was selected.  
+2. **Create security group** was chosen.  
+
+#### Security Group Configuration
+
+The security group was configured with the following settings:
+
+- **Security group name:** Web Security Group  
+- **Description:** Enable HTTP access  
+- **VPC:** Lab VPC  
+
+#### Inbound Rules
+
+1. Under **Inbound rules**, **Add rule** was selected.  
+2. The following rule was configured:
+
+- **Type:** HTTP  
+- **Source:** Anywhere IPv4  
+- **Description:** Permit web requests  
+
+3. **Create security group** was selected to finish the setup.  
+
+This security group was then used in the next task when launching an Amazon EC2 instance.
+
+
+
 
 
    
