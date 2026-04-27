@@ -273,11 +273,16 @@ service httpd start
 
 5. Connect to the Web Server
 
-   -The instance was selected using the checkbox.  
-   -The **Details** tab was opened.  
-   -The **Public IPv4 DNS** value was copied.  
-   -A new web browser tab was opened.  
-   -The copied DNS value was pasted into the address bar and entered.  
+-The instance was selected using the checkbox. 
+
+   
+-The **Details** tab was opened.  
+
+-The **Public IPv4 DNS** value was copied.  
+
+-A new web browser tab was opened.  
+
+-The copied DNS value was pasted into the address bar and entered.  
 
 If successful, the web server page was displayed in the browser.
 
