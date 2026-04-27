@@ -58,7 +58,7 @@ This opened the **AWS Management Console** in a new browser tab and automaticall
 
 ### Task 1: Create Your VPC
 
-I used the VPC Wizard to create a VPC along with an internet gateway, subnets, and a NAT gateway.
+`I used the VPC Wizard to create a VPC along with an internet gateway, subnets, and a NAT gateway.`
 
 An **internet gateway** allows communication between a VPC and the internet.  
 
