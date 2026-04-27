@@ -56,3 +56,21 @@ The following values were entered:
 - **Default region name**: `us-west-2`
 
 - **Default output format**: `json`
+
+---
+
+### Task 3: Create an S3 Bucket Using the AWS CLI
+
+The `s3api` command was used to create a new S3 bucket with the AWS credentials provided in the lab. By default, S3 buckets are created in the `us-east-1` Region.
+
+> **Tip:** In this lab, both `s3api` and `s3` commands were used. The `s3` commands were built on top of the operations provided by `s3api`.
+
+When creating a new S3 bucket, a globally unique name was required. A naming convention such as a combination of initials, last name, and random numbers was used (for example: `twhitlock256`).
+
+To create the S3 bucket in the `us-west-2` Region, the following command was executed:
+
+```bash
+aws s3api create-bucket \
+  --bucket <bucket-name> \
+  --region us-west-2 \
+  --create-bucket-configuration LocationConstraint=us-west-2
