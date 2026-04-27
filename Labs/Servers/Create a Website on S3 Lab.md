@@ -89,3 +89,19 @@ Upon successful execution, a JSON-formatted response was returned containing a L
   "Location": "http://twhitlock256.s3.amazonaws.com/"
 }
 ```
+---
+
+### Task 4: Create a New IAM User with Full Access to Amazon S3
+
+The AWS CLI command `aws iam create-user` was used to create a new IAM user for the AWS account. The `--user-name` option specified a unique username within the account.
+
+A new IAM user named `awsS3user` was created using the following command:
+
+```bash
+aws iam create-user --user-name awsS3user
+```
+A login profile for the new user was then created using the command:
+```
+</>bash
+aws iam create-login-profile --user-name awsS3user --password Training123!
+```
