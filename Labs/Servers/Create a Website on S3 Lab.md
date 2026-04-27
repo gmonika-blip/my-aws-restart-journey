@@ -35,4 +35,4 @@ sudo su -l ec2-user
 pwd
 ```
 
-> **Note:** This was the SSH terminal where commands were executed as instructed throughout the lab.
+>  This was the SSH terminal where commands were executed as instructed throughout the lab.
