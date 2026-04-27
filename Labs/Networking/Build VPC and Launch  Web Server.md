@@ -33,6 +33,8 @@ In this lab, a custom network infrastructure was built using **Amazon Virtual Pr
 The scenario represented a Fortune 100 customer requirement, where a fully configured VPC was needed to support both public-facing and private resources, along with a web server deployed on an EC2 instance.
 The following diagram depicts the complete architecture that I deployed based on the customer's request:
 
+<img src="images/FinalArchitectureDiagram.png" alt="App Screenshot" width="70%">
+
 ---
 
 **Objectives**
@@ -46,11 +48,9 @@ The following diagram depicts the complete architecture that I deployed based on
 - Deploy and configure a **web server** using user data scripts  
 - Validate connectivity by accessing the web server via its public DNS  
 
----
-
 This setup demonstrated how cloud networking, security, and compute services work together to deliver a functional and accessible web application environment in AWS.
 
-
+---
 
 ### Accessing the AWS Management Console
 
