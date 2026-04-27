@@ -261,7 +261,7 @@ service httpd start
 
 
 
-#### Launch and Connect to the Instance
+4. Launch and Connect to the Instance
 
 - **Launch instance** was selected.  
 - To view the instance, **View all instances** was chosen.  
@@ -270,7 +270,7 @@ The status of **Web Server 1** was monitored until it showed **2/2 checks passed
 - This process took a few minutes.  
 - The page was refreshed using the **refresh** button at the top if needed.  
 
-#### Connect to the Web Server
+5. Connect to the Web Server
 
 1. The instance was selected using the checkbox.  
 2. The **Details** tab was opened.  
