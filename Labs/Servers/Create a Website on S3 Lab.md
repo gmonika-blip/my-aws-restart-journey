@@ -98,10 +98,34 @@ The AWS CLI command `aws iam create-user` was used to create a new IAM user for 
 A new IAM user named `awsS3user` was created using the following command:
 
 ```bash
-aws iam create-user --user-name awsS3user
+ aws iam create-user --user-name awsS3user
 ```
 A login profile for the new user was then created using the command:
+
 ```
-</>bash
-aws iam create-login-profile --user-name awsS3user --password Training123!
+ aws iam create-login-profile --user-name awsS3user --password Training123!
 ```
+The AWS account ID was retrieved from the AWS Management Console and noted. The current session was signed out, and the console was accessed again using the newly created IAM user credentials:
+
+- IAM user name: awsS3user
+- Password: Training123!
+- Account ID: (12-digit account number)
+
+After logging in, the Amazon S3 console was opened. The previously created bucket was not immediately accessible because the new IAM user did not yet have the required permissions.
+
+To identify the appropriate AWS managed policy that grants full access to Amazon S3, the following command was executed in the terminal:
+
+```
+  aws iam list-policies --query "Policies[?contains(PolicyName,'S3')]"
+```
+
+From the results, the policy providing full S3 access was located. This policy was then attached to the `awsS3user`:
+
+```
+  aws iam attach-user-policy \
+    --policy-arn arn:aws:iam::aws:policy/<policy-name> \
+    --user-name awsS3user
+```
+
+After attaching the policy, the AWS Management Console was refreshed, and the IAM user was granted full access to Amazon S3 resources.
+
