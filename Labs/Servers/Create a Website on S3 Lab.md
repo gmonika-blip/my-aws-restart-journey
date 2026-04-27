@@ -1,6 +1,6 @@
-## Creating a Website on S3
+# Creating a Website on S3
 
-### Lab Overview
+## Lab Overview
 In this lab, AWS Command Line Interface (AWS CLI) commands were used from an Amazon Elastic Compute Cloud (Amazon EC2) instance to:
 
 - Create an Amazon Simple Storage Service (Amazon S3) bucket  
