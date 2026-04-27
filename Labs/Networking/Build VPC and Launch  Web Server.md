@@ -89,7 +89,7 @@ I set the following options:
 - Private subnets: 1  
 ```
 
-#### Customize subnet CIDR blocks
+#### Customized subnet CIDR blocks
 
 - **Public subnet (us-west-2a):** `10.0.0.0/24`  
 - **Private subnet (us-west-2a):** `10.0.1.0/24`  
@@ -99,7 +99,7 @@ I set the following options:
 
 ### Resource Naming
 
-In the preview pane, assign the following names:
+In the preview pane, assigned the following names:
 
 - **VPC:** Lab VPC  
 
@@ -113,8 +113,8 @@ In the preview pane, assign the following names:
 
 ### Finalize
 
-1. Choose **Create VPC**  
-2. Wait for the success message  
-3. Select **View VPC** to review your configuration  
+1. Chose **Create VPC**  
+2. Waited for the success message  
+3. Selected **View VPC** to review my configuration  
 
-Your **Lab VPC** is now created and ready for use.
+My **Lab VPC** was now created and ready for use.
