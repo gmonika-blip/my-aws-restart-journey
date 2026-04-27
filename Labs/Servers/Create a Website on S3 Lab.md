@@ -129,3 +129,34 @@ From the results, the policy providing full S3 access was located. This policy w
 
 After attaching the policy, the AWS Management Console was refreshed, and the IAM user was granted full access to Amazon S3 resources.
 
+---
+
+### Task 5: Adjust S3 Bucket Permissions
+
+In the AWS Management Console, the S3 bucket permissions were modified to allow public access:
+
+- The bucket was selected in the Amazon S3 console  
+- Under the **Permissions** tab, **Block public access (bucket settings)**, chose **Edit**
+- **Block all public access** was deselected  
+- Changes were saved and confirmed  
+
+Next, Object Ownership settings were updated:
+
+- Under **Object Ownership**, **Edit** was selected  
+- **ACLs enabled** was chosen  
+- The acknowledgment for restoring ACLs was confirmed  
+- Changes were saved  
+
+---
+
+### Task 6: Extract the Files for the Lab
+
+The archive containing the static website files was extracted in the SSH terminal.
+
+The following commands were executed:
+
+```bash
+cd ~/sysops-activity-files
+tar xvzf static-website-v2.tar.gz
+cd static-website
+```
