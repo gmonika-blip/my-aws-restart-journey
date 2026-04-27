@@ -1,7 +1,5 @@
 # Build a VPC and Launch a Web Server
 
-## AWS VPC (Amazon Virtual Private Cloud)
-
 An **AWS VPC** (Amazon Virtual Private Cloud) is a customizable, isolated network within AWS where you can run cloud resources like servers, databases, and applications securely. In simple terms, a VPC is your own private network in the AWS cloud.
 
 ### What you control in an AWS VPC
