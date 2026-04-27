@@ -91,7 +91,9 @@ An SSH connection was established to an **Amazon Linux EC2 instance**. The steps
    ```
    http://<PUBLIC-IP-OF-INSTANCE>
    ```
+   **The page did not load at this stage, indicating a potential networking issue.**
 
+   
    
 # Troubleshooting a Network Issue
 
