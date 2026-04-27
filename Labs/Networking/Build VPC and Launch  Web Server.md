@@ -259,35 +259,22 @@ service httpd start
 
 ```
 
-
-
 4. Launch and Connect to the Instance
 
 - **Launch instance** was selected.  
-- To view the instance, **View all instances** was chosen.  
-
-  The status of **Web Server 1** was monitored until it showed **2/2 checks passed** in the *Status check* column.
-  
+- **View all instances** was chosen to display the launched instance.  
+- The status of **Web Server 1** was monitored until it showed **2/2 checks passed** in the *Status check* column.  
 - This process took a few minutes.  
 - The page was refreshed using the **refresh** button at the top if needed.  
 
 5. Connect to the Web Server
 
--The instance was selected using the checkbox. 
-
-   
--The **Details** tab was opened.  
-
--The **Public IPv4 DNS** value was copied.  
-
--A new web browser tab was opened.  
-
--The copied DNS value was pasted into the address bar and entered.  
+- The instance was selected using the checkbox.  
+- The **Details** tab was opened.  
+- The **Public IPv4 DNS** value was copied.  
+- A new web browser tab was opened.  
+- The copied DNS value was pasted into the address bar and entered.  
 
 If successful, the web server page was displayed in the browser.
-
-
-
-   
 
 
