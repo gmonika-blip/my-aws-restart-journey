@@ -11,7 +11,7 @@ After completing this lab, the following skills were developed:
 
 ## Scenario
 
-You acted as a **Cloud Support Engineer at Amazon Web Services (AWS)**. A customer reported a networking issue within their AWS infrastructure.
+I acted as a **Cloud Support Engineer at Amazon Web Services (AWS)**. A customer reported a networking issue within their AWS infrastructure.
 
 ### Customer Email
 
