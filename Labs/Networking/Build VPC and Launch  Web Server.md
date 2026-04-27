@@ -146,6 +146,34 @@ In this task, I created two additional subnets in a second Availability Zone.
 
 `The subnet had all IP addresses starting with 10.0.3.x`
 
+---
+
+### Task 3: Associated the subnets and added routes
+
+1. In the left navigation pane, I chose `Route Tables`
+
+2. Chose `Public Route Table`
+
+3. In the lower pane, I chose the `Subnet associations` tab.
+
+4. Under `Subnets without explicit associations`, selected `Edit subnet associations`
+
+5. Selected the check boxes for Public Subnet 2
+
+6. Chose `Save associations`
+
+ I now configured the route table that is used by the private subnets.
+
+7. Chose `Private Route Table`
+
+8. In the lower pane, chose the `Subnet associations` tab.
+
+9. Under `Subnets without explicit associations`, chose `Edit subnet associations`
+
+10. Selected the check boxes for Private Subnet 2
+
+11. Chose `Save associations`
+
 
 
    
