@@ -205,6 +205,10 @@ To verify that the files were successfully uploaded, the following command was r
    aws s3 ls <bucket-name>
 ```
 
+The following screenshot shows the commands run in Task 7 and the output:
+
+<img src="images/UploadFilestoS3usingCLI.png" alt="App Screenshot" width="70%">
+<br>
 In the **AWS Management Console**:
 
 - The S3 bucket was opened
