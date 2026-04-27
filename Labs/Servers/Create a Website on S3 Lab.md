@@ -16,3 +16,9 @@ After completing this lab, the following objectives were achieved:
 - A static website was deployed to an S3 bucket  
 - A script was created to copy local files to Amazon S3  
 
+---
+
+### Accessing the AWS Management Console
+The lab environment was launched, and access to the AWS Management Console was established. The console was opened in a new browser tab, and the session was automatically authenticated.
+
+---
