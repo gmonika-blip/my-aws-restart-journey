@@ -36,7 +36,7 @@ The following diagram depicts the complete architecture that I deployed based on
 
 <img src="images/FinalArchitectureDiagram.png" alt="App Screenshot" width="100%">
 
----
+
 
 **Objectives**
 
