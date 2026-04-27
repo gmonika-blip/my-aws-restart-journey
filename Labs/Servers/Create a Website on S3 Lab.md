@@ -207,7 +207,7 @@ To verify that the files were successfully uploaded, the following command was r
 
 The following screenshot shows the commands run in Task 7 and the output:
 
-<img src="images/UploadFilestoS3usingCLI.png" alt="App Screenshot" width="70%">
+<img src="images/StaticWebsiteImage.png" alt="App Screenshot" width="70%">
 <br>
 In the **AWS Management Console**:
 
