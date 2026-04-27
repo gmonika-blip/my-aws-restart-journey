@@ -76,6 +76,17 @@ An SSH connection was established to an **Amazon Linux EC2 instance**. The steps
 
 ---
 
+## Task 2: Install and Start HTTPD
+
+The Apache HTTP server was verified and started using the following commands:
+```
+   </> Bash
+   sudo systemctl status httpd.service
+   sudo systemctl start httpd.service
+   sudo systemctl status httpd.service
+```
+
+
 # Troubleshooting a Network Issue
 
 
