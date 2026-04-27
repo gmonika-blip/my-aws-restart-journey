@@ -106,6 +106,16 @@ A **NAT gateway**, enables instances in private subnets to access the internet s
       `Success message is displayed with VPC details. 
       Lab VPC details are displayed as per configuration.`
 
+---
+
+### Task 2: Create additional subnets
+
+In this task, I created two additional subnets in a second Availability Zone. 
+
+`This option is useful for creating resources in multiple Availability Zones to provide high availability.`
+
+
+
    
 
 
