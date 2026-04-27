@@ -93,8 +93,9 @@ An SSH connection was established to an **Amazon Linux EC2 instance**. The steps
    ```
    **The page did not load at this stage, indicating a potential networking issue.**
 
+ ---
  
- ## Task 2: Investigate the customer's VPC configuration
+ ## Task 3: Investigate the customer's VPC configuration
 
 Ana, the customer requesting assistance, cannot reach her Apache server even though it is active.
 I checked each service within the VPC to confirm that each resource is configured correctly.
