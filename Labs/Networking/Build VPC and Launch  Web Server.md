@@ -120,19 +120,26 @@ In this task, I created two additional subnets in a second Availability Zone.
 
 2. To configure the second public subnet, I chose `Create subnet` and configured the following options:
 
-    VPC ID: From the dropdown list, choose Lab VPC.
-    Subnet name: Enter Public Subnet 2    
-    Availability Zone: No preference
-    IPv4 CIDR block: Enter 10.0.2.0/24
+    **VPC ID**: From the dropdown list, I chose `Lab VPC`
+   
+    **Subnet name**: `Public Subnet 2`
+   
+    **Availability Zone**: No preference
+   
+    **IPv4 CIDR block**: Enter 10.0.2.0/24
+   
     Choose Create subnet.
 
 The subnet will have all IP addresses starting with 10.0.2.x.
 
-To configure the second private subnet, choose Create subnet and configure the following options:
+To configure the second private subnet, I chose `Create subnet` and configured the following options:
 
    -**VPC ID**: From the dropdown list, choose `Lab VPC`
+   
    -**Subnet name**: `Private Subnet 2`
+   
    -**Availability Zone**: No preference
+   
    -**IPv4 CIDR block**: `10.0.3.0/24`
 
 Then, I Chose `Create subnet`
