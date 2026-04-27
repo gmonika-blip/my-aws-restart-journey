@@ -72,30 +72,28 @@ A **NAT gateway**, enables instances in private subnets to access the internet s
 
 1. Opened the **AWS Management Console**
 2. Searched for **VPC** in the top search bar and selected it
-3. In the VPC dashboard, chose **Create VPC**
+3. In the VPC dashboard, chose **Create VPC** and  configured:
 
-### Configuration
+   ```
+   - Resources to create: VPC and more  
+   - Name tag auto-generation: Uncheck *Auto-generate*  
+   - IPv4 CIDR: `10.0.0.0/16`  
+   - IPv6 CIDR block: No IPv6 CIDR block  
+   - Tenancy: Default  
+   - Availability Zones (AZs): 1  
+   - Public subnets: 1  
+   - Private subnets: 1  
+  ```
 
-I set the following options:
+  Customized subnet CIDR blocks
 
-```
-- Resources to create: VPC and more  
-- Name tag auto-generation: Uncheck *Auto-generate*  
-- IPv4 CIDR: `10.0.0.0/16`  
-- IPv6 CIDR block: No IPv6 CIDR block  
-- Tenancy: Default  
-- Availability Zones (AZs): 1  
-- Public subnets: 1  
-- Private subnets: 1  
-```
+  ```
+   - Public subnet (us-west-2a): `10.0.0.0/24`  
+   - Private subnet (us-west-2a): `10.0.1.0/24`  
 
-#### Customized subnet CIDR blocks
-
-- **Public subnet (us-west-2a):** `10.0.0.0/24`  
-- **Private subnet (us-west-2a):** `10.0.1.0/24`  
-
-- **NAT gateways:** In 1 AZ  
-- **VPC endpoints:** None  
+   - NAT gateways: In 1 AZ  
+   - VPC endpoints: None
+ ```
 
 ### Resource Naming
 
