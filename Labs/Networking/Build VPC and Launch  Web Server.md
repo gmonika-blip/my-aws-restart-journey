@@ -102,6 +102,7 @@ A **NAT gateway**, enables instances in private subnets to access the internet s
      - Private Route Table  
 
 5. Chose `Create VPC`
+   
       `Success message is displayed with VPC details. 
       Lab VPC details are displayed as per configuration.`
 
