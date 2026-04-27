@@ -160,3 +160,16 @@ cd ~/sysops-activity-files
 tar xvzf static-website-v2.tar.gz
 cd static-website
 ```
+To verify that the extraction was successful, the directory contents were listed:
+
+```
+  ls
+```
+
+The output confirmed the presence of:
+
+- index.html
+- css/ directory
+- images/ directory
+
+  
