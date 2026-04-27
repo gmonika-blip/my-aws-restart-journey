@@ -45,6 +45,8 @@ Email from the customer
 >
 >Contractor
 
+<br>
+
 <img src="images/CustomerDiagram.png" alt="App Screenshot" width="100%">
 
 ---
