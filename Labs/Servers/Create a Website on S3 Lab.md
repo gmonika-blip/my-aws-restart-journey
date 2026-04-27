@@ -22,3 +22,14 @@ After completing this lab, the following objectives were achieved:
 The lab environment was launched, and access to the AWS Management Console was established. The console was opened in a new browser tab, and the session was automatically authenticated.
 
 ---
+
+### Task 1: Connect to an Amazon Linux EC2 Instance Using SSM
+A connection to the EC2 instance was established using AWS Systems Manager Session Manager.  
+
+- The session URL was accessed in a browser  
+- A terminal session was opened using `ssm-user`  
+- The user context was switched to `ec2-user`  
+
+```bash
+sudo su -l ec2-user
+pwd
