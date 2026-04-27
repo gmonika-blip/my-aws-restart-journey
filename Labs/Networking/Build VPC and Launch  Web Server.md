@@ -206,7 +206,39 @@ The security group was configured with the following settings:
 
 This security group was then used in the next task when launching an Amazon EC2 instance.
 
+---
 
+### Task 5: Launched a Web Server Instance
+
+In this task, an Amazon EC2 instance was launched into the new VPC and configured to act as a web server.
+
+1. On the AWS Management Console, **EC2** was searched for and selected to open the EC2 Management Console.  
+2. In the left navigation pane, **Instances** was selected.  
+3. **Launch instances** was chosen and the following configurations were applied:
+
+#### Name and Tags
+- **Name:** Web Server 1  
+
+#### Application and OS Images (Amazon Machine Image)
+- **Quick Start:** Amazon Linux was selected  
+- **AMI:** Amazon Linux 2 AMI (HVM) was selected from the dropdown  
+
+#### Instance Type
+- **t3.micro** was selected  
+
+#### Key Pair (Login)
+- **vockey** was selected  
+
+#### Network Settings
+- **Edit** was selected and the following settings were configured:
+  - **VPC:** Lab VPC  
+  - **Subnet:** Public Subnet 2  
+  - **Auto-assign public IP:** Enabled  
+  - **Firewall (security groups):** Select existing security group  
+  - **Security group:** Web Security Group  
+
+#### Advanced Details
+- The **Advanced details** section was expanded for further configuration (no changes specified).
 
 
 
