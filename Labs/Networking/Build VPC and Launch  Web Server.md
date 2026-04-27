@@ -238,7 +238,24 @@ In this task, an Amazon EC2 instance was launched into the new VPC and configure
   - **Security group:** Web Security Group  
 
 #### Advanced Details
-- The **Advanced details** section was expanded for further configuration (no changes specified).
+- The **Advanced details** section was expanded for further configuration
+
+#### User Data Configuration
+
+Under **User data**, the following script was copied and pasted:
+
+```bash
+#!/bin/bash
+#Install Apache Web Server and PHP
+yum install -y httpd mysql php
+
+#Download Lab files
+wget https://aws-tc-largeobjects.s3.us-west-2.amazonaws.com/CUR-TF-100-RESTRT-1/267-lab-NF-build-vpc-web-server/s3/lab-app.zip
+unzip lab-app.zip -d /var/www/html/
+
+#Turn on web server
+chkconfig httpd on
+service httpd start
 
 
 
