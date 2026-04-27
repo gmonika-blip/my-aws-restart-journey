@@ -184,7 +184,7 @@ To configure the bucket for static website hosting, the following command was ex
    aws s3 website s3://<bucket-name>/ --index-document index.html
 ```
 
-`This step ensured that index.html was set as the default index document`
+`Thie above step ensured that index.html was set as the default index document`
 
 The website files were then uploaded to the bucket using:
 ```
@@ -192,8 +192,8 @@ The website files were then uploaded to the bucket using:
    s3://<bucket-name>/ --recursive --acl public-read
 ```
 
-   - The --recursive flag ensured that all files and directories were uploaded
-   - The --acl public-read parameter granted public read access to the uploaded files
+   - --recursive flag ensured that all files and directories were uploaded
+   - --acl public-read parameter granted public read access to the uploaded files
 
 To verify that the files were successfully uploaded, the following command was run:
 
@@ -201,12 +201,12 @@ To verify that the files were successfully uploaded, the following command was r
    aws s3 ls <bucket-name>
 ```
 
-In the AWS Management Console:
+In the **AWS Management Console**:
 
 - The S3 bucket was opened
-- The Properties tab was selected
-- It was confirmed that Static website hosting was enabled
+- The **Properties** tab was selected
+- It was confirmed that **Static website hosting** was **enabled**
 
-Finally, the Bucket website endpoint URL was opened in a browser, confirming that the static website was successfully deployed and publicly accessible.
+Finally, the **Bucket website endpoint** URL was opened in a browser, confirming that the static website was successfully deployed and publicly accessible.
 
   
