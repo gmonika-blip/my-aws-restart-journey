@@ -215,7 +215,9 @@ In the **AWS Management Console**:
 - The **Properties** tab was selected
 - It was confirmed that **Static website hosting** was **enabled**
 
-Finally, the **Bucket website endpoint** URL was opened in a browser, confirming that the static website was successfully deployed and publicly accessible.
+Finally, the **Bucket website endpoint** URL was opened in a browser, confirming that the static website was successfully deployed and publicly accessible as shown in the following screenshot:
+
+
 
 ---
 
