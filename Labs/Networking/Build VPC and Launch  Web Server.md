@@ -58,14 +58,14 @@ This opened the **AWS Management Console** in a new browser tab and automaticall
 
 ### Task 1: Create Your VPC
 
-In this task, you will use the VPC Wizard to create a VPC along with an internet gateway, subnets, and a NAT gateway.
+I used the VPC Wizard to create a VPC along with an internet gateway, subnets, and a NAT gateway.
 
-An **internet gateway** allows communication between your VPC and the internet.  
+An **internet gateway** allows communication between a VPC and the internet.  
 Subnets are isolated network segments within a VPC:
 - A **public subnet** has a route to the internet gateway  
 - A **private subnet** does not have direct internet access  
 
-The wizard also creates a **NAT gateway**, which enables instances in private subnets to access the internet securely.
+The wizard also created a **NAT gateway**, which enables instances in private subnets to access the internet securely.
 
 ### Steps
 
