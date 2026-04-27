@@ -1,4 +1,4 @@
-# Troubleshooting a Network issue
+# Troubleshooting a Network Issue
 
 ### Lab Overview
 
