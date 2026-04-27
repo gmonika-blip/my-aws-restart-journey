@@ -8,6 +8,10 @@ In this lab, AWS Command Line Interface (AWS CLI) commands were used from an Ama
 - Upload files to Amazon S3 to host a simple website for the Café & Bakery  
 - Create a batch file to update the static website when local files were modified  
 
+The following image shows the architecture diagram:
+
+<img src="images/ArchitectureDiagram-Create Website-S3" alt="App Screenshot" width="70%">
+
 **Objectives**
 
 After completing this lab, the following objectives were achieved:
