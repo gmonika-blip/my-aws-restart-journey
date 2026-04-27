@@ -45,6 +45,7 @@ Email from the customer
 >
 >Contractor
 
+<img src="images/CustomerDiagram.png" alt="App Screenshot" width="100%">
 
 ---
 # Troubleshooting a Network Issue
