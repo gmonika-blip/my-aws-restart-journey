@@ -295,6 +295,8 @@ service httpd start
 
 It was successful, the web server page was displayed in the browser.
 
+<img src="images/SuccessPage.png" alt="App Screenshot" width="100%">
+
 ---
 
 ## Conclusion
