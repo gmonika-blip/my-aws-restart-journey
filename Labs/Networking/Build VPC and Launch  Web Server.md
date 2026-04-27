@@ -89,6 +89,16 @@ A **NAT gateway**, enables instances in private subnets to access the internet s
    - NAT gateways: In 1 AZ  
    - VPC endpoints: None
 
-4. Resource Naming: 
+4. On the Preview pane, named the resources as follows:
+
+   **VPC:** `Lab VPC ` 
+
+  **Subnets (2):**
+     - Public Subnet 1  
+     - Private Subnet 1  
+
+  **Route Tables (2):**
+    - Public Route Table  
+    - Private Route Table  
 
 
