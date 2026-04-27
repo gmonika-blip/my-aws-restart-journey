@@ -93,12 +93,12 @@ A **NAT gateway**, enables instances in private subnets to access the internet s
 
    **VPC:** `Lab VPC ` 
 
-  **Subnets (2):**
-     - Public Subnet 1  
-     - Private Subnet 1  
+   **Subnets (2):**
+      - Public Subnet 1  
+      - Private Subnet 1  
 
-  **Route Tables (2):**
-    - Public Route Table  
-    - Private Route Table  
+   **Route Tables (2):**
+     - Public Route Table  
+     - Private Route Table  
 
 
