@@ -91,7 +91,7 @@ A **NAT gateway**, enables instances in private subnets to access the internet s
    - VPC endpoints: None
  ```
 
-4. Resource Naming:  In the preview pane, assigned the following names:
+4. Resource Naming: In the preview pane, assigned the following names:
 
 - **VPC:** Lab VPC  
 
@@ -105,8 +105,8 @@ A **NAT gateway**, enables instances in private subnets to access the internet s
 
 ### Finalize
 
-1. Chose **Create VPC**  
-2. Waited for the success message  
-3. Selected **View VPC** to review my configuration  
+1. Choose **Create VPC**  
+2. Wait for the success message  
+3. Select **View VPC** to review the configuration  
 
-My **Lab VPC** was now created and ready for use.
+Your **Lab VPC** is now created and ready for use.
