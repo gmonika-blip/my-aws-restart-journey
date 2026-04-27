@@ -39,6 +39,23 @@ After completing this lab, I will be able to:
 - Configure a security group  
 - Launch an Amazon EC2 instance within a VPC  
 
+### Accessing the AWS Management Console
+
+1. At the top of the lab instructions, I chose **Start Lab**  
+2. A *Start Lab* panel opened and displayed the lab status  
+
+> 💡 **Tip:** If you need more time, choose **Start Lab** again to reset the timer  
+
+3. Waited until the status shows **Lab status: ready**  
+4. Closed the panel by selecting **X**  
+5. Chose **AWS** at the top of the instructions  
+
+This opened the **AWS Management Console** in a new browser tab and automatically signed me in.
+
+> 💡 **Tip:** The new tab did not open as my browser was blocking pop-ups.  
+> I allowed pop-ups using the browser notification or icon, then I tried again.
+
+
 ### Task 1: Create Your VPC
 
 In this task, you will use the VPC Wizard to create a VPC along with an internet gateway, subnets, and a NAT gateway.
