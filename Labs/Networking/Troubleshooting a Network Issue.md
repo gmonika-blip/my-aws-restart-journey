@@ -105,6 +105,23 @@ I checked each service within the VPC to confirm that each resource is configure
 3. Internet Gateway - Is there an Internet Gateway and is it attached?
 4. Security Groups and network ACLs - Are the correct rules configured?
   
+I pinged websites such as www.amazon.com using the ping command:
+```bash
+[ec2-user@ip-10-0-10-234 ~]$ ping -c 4 www.amazon.com
+PING cf.47cf2c8c9-frontier.amazon.com (3.163.26.68) 56(84) bytes of data.
+64 bytes from server-3-163-26-68.hio52.r.cloudfront.net (3.163.26.68): icmp_seq=1 ttl=249 time=5.33 ms
+64 bytes from server-3-163-26-68.hio52.r.cloudfront.net (3.163.26.68): icmp_seq=2 ttl=249 time=5.36 ms
+64 bytes from server-3-163-26-68.hio52.r.cloudfront.net (3.163.26.68): icmp_seq=3 ttl=249 time=5.31 ms
+64 bytes from server-3-163-26-68.hio52.r.cloudfront.net (3.163.26.68): icmp_seq=4 ttl=249 time=5.32 ms
+
+--- cf.47cf2c8c9-frontier.amazon.com ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3004ms
+rtt min/avg/max/mdev = 5.314/5.334/5.362/0.075 ms
+```
+This confirmed that the internet can be reached, therefore the internet gateway and the route table were working.
+
+Instead, the security group lacked an inbound rule allowing HTTP traffic (port 80) from the internet (0.0.0.0/0). I added this rule to 
+the Linux instance SG security group and retested the Apache server using its public URL.
    
 # Troubleshooting a Network Issue
 
