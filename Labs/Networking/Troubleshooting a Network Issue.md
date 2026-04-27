@@ -22,18 +22,14 @@ I acted as a **Cloud Support Engineer at Amazon Web Services (AWS)**. A customer
 > Thanks!  
 >
 > Ana  
-> Contractor  
+> Contractor
+<img src="images/CustomerDiagram.png" alt="App Screenshot" width="100%">
+
 
 The customer’s environment included a **Virtual Private Cloud (VPC)** with:
 - An Internet Gateway  
 - A public subnet  
 - An Amazon EC2 instance running an Apache web server  
-
----
-
-## AWS Service Restrictions
-
-Access to AWS services in this lab environment was limited to only the services required to complete the tasks. Attempting to use additional services may have resulted in errors.
 
 ---
 
@@ -69,19 +65,7 @@ An SSH connection was established to an **Amazon Linux EC2 instance**.
 ```bash
 chmod 400 labsuser.pem
 
-Email from the customer
->Hello, Cloud Support!
->
->When I create an Apache server through the command line, I cannot ping it. I also get an error when I enter the IP address in the browser.
->Can you please help figure out what is blocking my connection?
->
->Thanks!
->
->Ana
->
->Contractor
 
-<br>
 
 <img src="images/CustomerDiagram.png" alt="App Screenshot" width="100%">
 
