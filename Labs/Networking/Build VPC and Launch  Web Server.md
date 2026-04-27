@@ -79,14 +79,14 @@ A **NAT gateway**, enables instances in private subnets to access the internet s
 I set the following options:
 
 ```
-- **Resources to create:** VPC and more  
-- **Name tag auto-generation:** Uncheck *Auto-generate*  
-- **IPv4 CIDR:** `10.0.0.0/16`  
-- **IPv6 CIDR block:** No IPv6 CIDR block  
-- **Tenancy:** Default  
-- **Availability Zones (AZs):** 1  
-- **Public subnets:** 1  
-- **Private subnets:** 1  
+- Resources to create: VPC and more  
+- Name tag auto-generation: Uncheck *Auto-generate*  
+- IPv4 CIDR: `10.0.0.0/16`  
+- IPv6 CIDR block: No IPv6 CIDR block  
+- Tenancy: Default  
+- Availability Zones (AZs): 1  
+- Public subnets: 1  
+- Private subnets: 1  
 ```
 
 #### Customize subnet CIDR blocks
