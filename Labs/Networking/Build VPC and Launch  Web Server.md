@@ -146,6 +146,8 @@ In this task, I created two additional subnets in a second Availability Zone.
 
 `The subnet had all IP addresses starting with 10.0.3.x`
 
+<img src="images/Subnet.png" alt="App Screenshot" width="70%">
+
 ---
 
 ### Task 3: Associated the subnets and added routes
