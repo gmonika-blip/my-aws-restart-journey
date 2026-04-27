@@ -209,4 +209,54 @@ In the **AWS Management Console**:
 
 Finally, the **Bucket website endpoint** URL was opened in a browser, confirming that the static website was successfully deployed and publicly accessible.
 
-  
+---
+
+### Task 8: Create a Batch File to Make Website Updates Repeatable
+
+To enable repeatable deployments, a batch script was created using the VI editor.
+
+The command history was first reviewed to locate the previously used `aws s3 cp` command:
+
+```bash
+history
+
+A new script file was then created in the home directory:
+
+cd ~
+touch update-website.sh
+
+The file was opened in the VI editor:
+
+vi update-website.sh
+
+Edit mode was entered, and the script was defined by adding the standard bash header along with the S3 copy command:
+
+#!/bin/bash
+aws s3 cp /home/ec2-user/sysops-activity-files/static-website/ \
+s3://<bucket-name>/ --recursive --acl public-read
+
+The file was saved and closed, and execution permissions were applied:
+
+chmod +x update-website.sh
+
+Modify Website Content
+
+The index.html file was opened for editing:
+
+vi sysops-activity-files/static-website/index.html
+
+The following changes were made:
+
+bgcolor="aquamarine" was changed to bgcolor="gainsboro"
+bgcolor="orange" was changed to bgcolor="cornsilk"
+The second occurrence of bgcolor="aquamarine" was also changed to bgcolor="gainsboro"
+
+After saving the changes, the script was executed to update the website:
+
+./update-website.sh
+
+The command output confirmed that the updated files were copied to Amazon S3.
+
+The website was refreshed in the browser, and the changes were successfully reflected.
+
+A reusable deployment script was now available to efficiently push future updates from local files to the S3-hosted website.
